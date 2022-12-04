@@ -1,0 +1,1953 @@
+QS 'R_NonBoundary' { "*+*" }
+QS 'R_Stop' { "*+g","*+kd","*+k","*+dd","*+d","*+td","*+t","*+b","*+pd","*+p" }
+QS 'R_Nasal' { "*+ng","*+en","*+n","*+m" }
+QS 'R_Fricative' { "*+dh","*+th","*+jh","*+ch","*+v","*+f","*+z","*+sh","*+s" }
+QS 'R_Liquid' { "*+hh","*+y","*+w","*+r","*+el","*+l" }
+QS 'R_Vowel' { "*+ow","*+iy","*+ey","*+oy","*+ay","*+ur","*+ir","*+ar","*+er","*+ax","*+ah","*+uw","*+aa","*+ao","*+ih","*+eh" }
+QS 'R_C-Front' { "*+w","*+v","*+f","*+m","*+b","*+pd","*+p" }
+QS 'R_C-Central' { "*+r","*+el","*+l","*+dh","*+th","*+sh","*+z","*+s","*+n","*+en","*+dd","*+d","*+td","*+t" }
+QS 'R_C-Back' { "*+hh","*+ng","*+g","*+kd","*+k","*+y","*+jh","*+ch","*+sh" }
+QS 'R_V-Front' { "*+eh","*+ih","*+iy" }
+QS 'R_V-Central' { "*+ao","*+ur","*+ir","*+ar","*+er","*+aa","*+eh" }
+QS 'R_V-Back' { "*+uh","*+ax","*+aa","*+uw" }
+QS 'R_Front' { "*+eh","*+ih","*+iy","*+w","*+v","*+f","*+m","*+b","*+pd","*+p" }
+QS 'R_Central' { "*+ao","*+ur","*+ir","*+ar","*+er","*+aa","*+eh","*+r","*+el","*+l","*+dh","*+th","*+sh","*+z","*+s","*+n","*+en","*+dd","*+d","*+td","*+t" }
+QS 'R_Back' { "*+uh","*+ax","*+uw","*+aa","*+hh","*+ng","*+g","*+kd","*+k","*+y","*+jh","*+ch","*+sh" }
+QS 'R_Fortis' { "*+ch","*+sh","*+s","*+th","*+f","*+kd","*+k","*+td","*+t","*+pd","*+p" }
+QS 'R_Lenis' { "*+jh","*+sh","*+z","*+dh","*+v","*+g","*+dd","*+d","*+b" }
+QS 'R_UnFortLenis' { "*+w","*+y","*+r","*+el","*+l","*+hh","*+ng","*+en","*+n","*+m" }
+QS 'R_Coronal' { "*+r","*+el","*+l","*+jh","*+ch","*+sh","*+z","*+s","*+dh","*+th","*+en","*+n","*+dd","*+d","*+td","*+t" }
+QS 'R_NonCoronal' { "*+w","*+y","*+hh","*+v","*+f","*+ng","*+g","*+kd","*+k","*+m","*+b","*+pd","*+p" }
+QS 'R_Anterior' { "*+w","*+el","*+l","*+z","*+s","*+dh","*+th","*+v","*+f","*+en","*+n","*+dd","*+d","*+td","*+t","*+m","*+b","*+pd","*+p" }
+QS 'R_NonAnterior' { "*+y","*+r","*+jh","*+ch","*+hh","*+sh","*+ng","*+g","*+kd","*+k" }
+QS 'R_Continuent' { "*+w","*+y","*+r","*+el","*+l","*+hh","*+sh","*+z","*+s","*+dh","*+th","*+v","*+f","*+ng","*+en","*+n","*+m" }
+QS 'R_NonContinuent' { "*+jh","*+ch","*+g","*+kd","*+k","*+dd","*+d","*+td","*+t","*+b","*+pd","*+p" }
+QS 'R_Strident' { "*+jh","*+ch","*+sh","*+z","*+s" }
+QS 'R_UnStrident' { "*+w","*+y","*+r","*+el","*+l","*+ng","*+g","*+kd","*+k","*+en","*+n","*+dd","*+d","*+td","*+t","*+m","*+b","*+pd","*+p" }
+QS 'R_Glide' { "*+w","*+y","*+r","*+el","*+l","*+hh" }
+QS 'R_Syllabic' { "*+ur","*+ir","*+ar","*+er","*+el","*+l","*+m","*+en" }
+QS 'R_Unvoiced-Cons' { "*+ch","*+hh","*+th","*+f","*+sh","*+s","*+kd","*+k","*+td","*+t","*+pd","*+p" }
+QS 'R_Voiced-Cons' { "*+z","*+w","*+v","*+r","*+ng","*+en","*+n","*+m","*+el","*+l","*+y","*+g","*+dh","*+dd","*+d","*+b","*+jh" }
+QS 'R_Unvoiced-All' { "*+sil","*+ch","*+hh","*+th","*+f","*+sh","*+s","*+kd","*+k","*+td","*+t","*+pd","*+p" }
+QS 'R_Long' { "*+el","*+l","*+m","*+en","*+uw","*+ao","*+ow","*+aa","*+iy" }
+QS 'R_Short' { "*+uh","*+ax","*+ah","*+oy","*+ay","*+ih","*+aa","*+ey","*+eh" }
+QS 'R_Dipthong' { "*+el","*+l","*+m","*+en","*+ur","*+ir","*+ar","*+er","*+aa","*+oy","*+ay","*+ey" }
+QS 'R_Front-Start' { "*+ur","*+ir","*+ar","*+er","*+aa","*+ey" }
+QS 'R_Medium' { "*+el","*+l","*+m","*+en","*+eh","*+ax","*+aa","*+ur","*+ir","*+ar","*+er","*+ey" }
+QS 'R_Low' { "*+oy","*+ao","*+aw","*+aa","*+ay","*+eh" }
+QS 'R_Unrounded' { "*+y","*+r","*+el","*+l","*+hh","*+m","*+en","*+ax","*+ah","*+aw","*+iy","*+ey","*+ay","*+ur","*+ir","*+ar","*+er","*+aa","*+ih","*+eh" }
+QS 'R_NonAffricate' { "*+dh","*+th","*+v","*+f","*+z","*+sh","*+s" }
+QS 'R_EVowel' { "*+ey","*+eh" }
+QS 'R_AVowel' { "*+aw","*+ay","*+ur","*+ir","*+ar","*+er","*+aa","*+eh" }
+QS 'R_UVowel' { "*+uw","*+el","*+l","*+m","*+en","*+ax","*+aa" }
+QS 'R_Voiced-Stop' { "*+g","*+dd","*+d","*+b" }
+QS 'R_Unvoiced-Stop' { "*+kd","*+k","*+td","*+t","*+pd","*+p" }
+QS 'R_Front-Stop' { "*+b","*+pd","*+p" }
+QS 'R_Central-Stop' { "*+dd","*+d","*+td","*+t" }
+QS 'R_Back-Stop' { "*+g","*+kd","*+k" }
+QS 'R_Unvoiced-Fric' { "*+ch","*+f","*+th","*+sh","*+s" }
+QS 'R_Central-Fric' { "*+dh","*+th","*+z","*+s" }
+QS 'R_ah' { "*+ah" }
+QS 'R_b' { "*+b" }
+QS 'R_eh' { "*+eh" }
+QS 'R_ar' { "*+ar" }
+QS 'R_ir' { "*+ir" }
+QS 'R_k' { "*+k" }
+QS 'R_l' { "*+l" }
+QS 'R_m' { "*+m" }
+QS 'R_n' { "*+n" }
+QS 'R_ng' { "*+ng" }
+QS 'R_p' { "*+p" }
+QS 'R_r' { "*+r" }
+QS 'R_s' { "*+s" }
+QS 'R_t' { "*+t" }
+QS 'R_uh' { "*+uh" }
+QS 'L_NonBoundary' { "*-*" }
+QS 'L_Stop' { "g-*","kd-*","k-*","dd-*","d-*","td-*","t-*","b-*","pd-*","p-*" }
+QS 'L_Nasal' { "ng-*","en-*","n-*","m-*" }
+QS 'L_Fricative' { "dh-*","th-*","jh-*","ch-*","v-*","f-*","z-*","sh-*","s-*" }
+QS 'L_Liquid' { "hh-*","y-*","w-*","r-*","el-*","l-*" }
+QS 'L_Vowel' { "ow-*","iy-*","ey-*","oy-*","ay-*","ur-*","ir-*","ar-*","er-*","ax-*","ah-*","uw-*","aa-*","ao-*","ih-*","eh-*" }
+QS 'L_C-Front' { "w-*","v-*","f-*","m-*","b-*","pd-*","p-*" }
+QS 'L_C-Central' { "r-*","el-*","l-*","dh-*","th-*","sh-*","z-*","s-*","n-*","en-*","dd-*","d-*","td-*","t-*" }
+QS 'L_C-Back' { "hh-*","ng-*","g-*","kd-*","k-*","y-*","jh-*","ch-*","sh-*" }
+QS 'L_V-Front' { "eh-*","ih-*","iy-*" }
+QS 'L_V-Central' { "ao-*","ur-*","ir-*","ar-*","er-*","aa-*","eh-*" }
+QS 'L_V-Back' { "uh-*","ax-*","aa-*","uw-*" }
+QS 'L_Front' { "eh-*","ih-*","iy-*","w-*","v-*","f-*","m-*","b-*","pd-*","p-*" }
+QS 'L_Central' { "ao-*","ur-*","ir-*","ar-*","er-*","aa-*","eh-*","r-*","el-*","l-*","dh-*","th-*","sh-*","z-*","s-*","n-*","en-*","dd-*","d-*","td-*","t-*" }
+QS 'L_Back' { "uh-*","ax-*","uw-*","aa-*","hh-*","ng-*","g-*","kd-*","k-*","y-*","jh-*","ch-*","sh-*" }
+QS 'L_Fortis' { "ch-*","sh-*","s-*","th-*","f-*","kd-*","k-*","td-*","t-*","pd-*","p-*" }
+QS 'L_Lenis' { "jh-*","sh-*","z-*","dh-*","v-*","g-*","dd-*","d-*","b-*" }
+QS 'L_UnFortLenis' { "w-*","y-*","r-*","el-*","l-*","hh-*","ng-*","en-*","n-*","m-*" }
+QS 'L_Coronal' { "r-*","el-*","l-*","jh-*","ch-*","sh-*","z-*","s-*","dh-*","th-*","en-*","n-*","dd-*","d-*","td-*","t-*" }
+QS 'L_NonCoronal' { "w-*","y-*","hh-*","v-*","f-*","ng-*","g-*","kd-*","k-*","m-*","b-*","pd-*","p-*" }
+QS 'L_Anterior' { "w-*","el-*","l-*","z-*","s-*","dh-*","th-*","v-*","f-*","en-*","n-*","dd-*","d-*","td-*","t-*","m-*","b-*","pd-*","p-*" }
+QS 'L_NonAnterior' { "y-*","r-*","jh-*","ch-*","hh-*","sh-*","ng-*","g-*","kd-*","k-*" }
+QS 'L_Continuent' { "w-*","y-*","r-*","el-*","l-*","hh-*","sh-*","z-*","s-*","dh-*","th-*","v-*","f-*","ng-*","en-*","n-*","m-*" }
+QS 'L_NonContinuent' { "jh-*","ch-*","g-*","kd-*","k-*","dd-*","d-*","td-*","t-*","b-*","pd-*","p-*" }
+QS 'L_Strident' { "jh-*","ch-*","sh-*","z-*","s-*" }
+QS 'L_UnStrident' { "w-*","y-*","r-*","el-*","l-*","ng-*","g-*","kd-*","k-*","en-*","n-*","dd-*","d-*","td-*","t-*","m-*","b-*","pd-*","p-*" }
+QS 'L_Glide' { "w-*","y-*","r-*","el-*","l-*","hh-*" }
+QS 'L_Syllabic' { "ur-*","ir-*","ar-*","er-*","el-*","l-*","m-*","en-*" }
+QS 'L_Unvoiced-Cons' { "ch-*","hh-*","th-*","f-*","sh-*","s-*","kd-*","k-*","td-*","t-*","pd-*","p-*" }
+QS 'L_Voiced-Cons' { "z-*","w-*","v-*","r-*","ng-*","en-*","n-*","m-*","el-*","l-*","y-*","g-*","dh-*","dd-*","d-*","b-*","jh-*" }
+QS 'L_Unvoiced-All' { "sil-*","ch-*","hh-*","th-*","f-*","sh-*","s-*","kd-*","k-*","td-*","t-*","pd-*","p-*" }
+QS 'L_Long' { "el-*","l-*","m-*","en-*","uw-*","ao-*","ow-*","aa-*","iy-*" }
+QS 'L_Short' { "uh-*","ax-*","ah-*","oy-*","ay-*","ih-*","aa-*","ey-*","eh-*" }
+QS 'L_Dipthong' { "el-*","l-*","m-*","en-*","ur-*","ir-*","ar-*","er-*","aa-*","oy-*","ay-*","ey-*" }
+QS 'L_Front-Start' { "ur-*","ir-*","ar-*","er-*","aa-*","ey-*" }
+QS 'L_Medium' { "el-*","l-*","m-*","en-*","eh-*","ax-*","aa-*","ur-*","ir-*","ar-*","er-*","ey-*" }
+QS 'L_Low' { "oy-*","ao-*","aw-*","aa-*","ay-*","eh-*" }
+QS 'L_Unrounded' { "y-*","r-*","el-*","l-*","hh-*","m-*","en-*","ax-*","ah-*","aw-*","iy-*","ey-*","ay-*","ur-*","ir-*","ar-*","er-*","aa-*","ih-*","eh-*" }
+QS 'L_NonAffricate' { "dh-*","th-*","v-*","f-*","z-*","sh-*","s-*" }
+QS 'L_EVowel' { "ey-*","eh-*" }
+QS 'L_AVowel' { "aw-*","ay-*","ur-*","ir-*","ar-*","er-*","aa-*","eh-*" }
+QS 'L_UVowel' { "uw-*","el-*","l-*","m-*","en-*","ax-*","aa-*" }
+QS 'L_Voiced-Stop' { "g-*","dd-*","d-*","b-*" }
+QS 'L_Unvoiced-Stop' { "kd-*","k-*","td-*","t-*","pd-*","p-*" }
+QS 'L_Front-Stop' { "b-*","pd-*","p-*" }
+QS 'L_Central-Stop' { "dd-*","d-*","td-*","t-*" }
+QS 'L_Back-Stop' { "g-*","kd-*","k-*" }
+QS 'L_Unvoiced-Fric' { "ch-*","f-*","th-*","sh-*","s-*" }
+QS 'L_Central-Fric' { "dh-*","th-*","z-*","s-*" }
+QS 'L_ah' { "ah-*" }
+QS 'L_b' { "b-*" }
+QS 'L_eh' { "eh-*" }
+QS 'L_ar' { "ar-*" }
+QS 'L_ir' { "ir-*" }
+QS 'L_k' { "k-*" }
+QS 'L_l' { "l-*" }
+QS 'L_m' { "m-*" }
+QS 'L_n' { "n-*" }
+QS 'L_ng' { "ng-*" }
+QS 'L_p' { "p-*" }
+QS 'L_r' { "r-*" }
+QS 'L_s' { "s-*" }
+QS 'L_t' { "t-*" }
+QS 'L_uh' { "uh-*" }
+
+a[2]
+   "ST_a_2_1"
+
+se[2]
+   "ST_se_2_1"
+
+ta[2]
+   "ST_ta_2_1"
+
+mi[2]
+   "ST_mi_2_1"
+
+no[2]
+   "ST_no_2_1"
+
+fen[2]
+   "ST_fen_2_1"
+
+da[2]
+   "ST_da_2_1"
+
+ah[2]
+   "ST_ah_2_1"
+
+mad[2]
+   "ST_mad_2_1"
+
+ir[2]
+   "ST_ir_2_1"
+
+ja[2]
+   "ST_ja_2_1"
+
+ka[2]
+   "ST_ka_2_1"
+
+n[2]
+   "ST_n_2_1"
+
+ler[2]
+   "ST_ler_2_1"
+
+gi[2]
+   "ST_gi_2_1"
+
+al[2]
+   "ST_al_2_1"
+
+ko[2]
+   "ST_ko_2_1"
+
+ho[2]
+   "ST_ho_2_1"
+
+l[2]
+   "ST_l_2_1"
+
+neh[2]
+   "ST_neh_2_1"
+
+ng[2]
+   "ST_ng_2_1"
+
+an[2]
+   "ST_an_2_1"
+
+ti[2]
+   "ST_ti_2_1"
+
+de[2]
+   "ST_de_2_1"
+
+pre[2]
+   "ST_pre_2_1"
+
+san[2]
+   "ST_san_2_1"
+
+nu[2]
+   "ST_nu_2_1"
+
+pa[2]
+   "ST_pa_2_1"
+
+in[2]
+   "ST_in_2_1"
+
+kah[2]
+   "ST_kah_2_1"
+
+la[2]
+   "ST_la_2_1"
+
+pel[2]
+   "ST_pel_2_1"
+
+po[2]
+   "ST_po_2_1"
+
+te[2]
+   "ST_te_2_1"
+
+k[2]
+   "ST_k_2_1"
+
+ar[2]
+   "ST_ar_2_1"
+
+ri[2]
+   "ST_ri_2_1"
+
+u[2]
+   "ST_u_2_1"
+
+wa[2]
+   "ST_wa_2_1"
+
+yah[2]
+   "ST_yah_2_1"
+
+ba[2]
+   "ST_ba_2_1"
+
+gu[2]
+   "ST_gu_2_1"
+
+s[2]
+   "ST_s_2_1"
+
+ik[2]
+   "ST_ik_2_1"
+
+li[2]
+   "ST_li_2_1"
+
+lu[2]
+   "ST_lu_2_1"
+
+un[2]
+   "ST_un_2_1"
+
+tu[2]
+{
+   0          'R_NonBoundary'  "ST_tu_2_1"  "ST_tu_2_2" 
+}
+
+nyak[2]
+   "ST_nyak_2_1"
+
+pak[2]
+   "ST_pak_2_1"
+
+be[2]
+   "ST_be_2_1"
+
+ra[2]
+   "ST_ra_2_1"
+
+kak[2]
+   "ST_kak_2_1"
+
+t[2]
+   "ST_t_2_1"
+
+ber[2]
+   "ST_ber_2_1"
+
+nya[2]
+   "ST_nya_2_1"
+
+pe[2]
+   "ST_pe_2_1"
+
+ruh[2]
+   "ST_ruh_2_1"
+
+bi[2]
+   "ST_bi_2_1"
+
+rin[2]
+   "ST_rin_2_1"
+
+sa[2]
+   "ST_sa_2_1"
+
+us[2]
+   "ST_us_2_1"
+
+bo[2]
+   "ST_bo_2_1"
+
+leh[2]
+   "ST_leh_2_1"
+
+bu[2]
+   "ST_bu_2_1"
+
+at[2]
+   "ST_at_2_1"
+
+re[2]
+   "ST_re_2_1"
+
+m[2]
+   "ST_m_2_1"
+
+pek[2]
+   "ST_pek_2_1"
+
+ca[2]
+   "ST_ca_2_1"
+
+cek[2]
+   "ST_cek_2_1"
+
+sel[2]
+   "ST_sel_2_1"
+
+si[2]
+   "ST_si_2_1"
+
+sil[2]
+   "ST_sil_2_1"
+
+ce[2]
+   "ST_ce_2_1"
+
+pat[2]
+   "ST_pat_2_1"
+
+co[2]
+   "ST_co_2_1"
+
+cu[2]
+   "ST_cu_2_1"
+
+ku[2]
+   "ST_ku_2_1"
+
+p[2]
+   "ST_p_2_1"
+
+ma[2]
+   "ST_ma_2_1"
+
+dan[2]
+   "ST_dan_2_1"
+
+rah[2]
+   "ST_rah_2_1"
+
+deh[2]
+   "ST_deh_2_1"
+
+di[2]
+   "ST_di_2_1"
+
+per[2]
+   "ST_per_2_1"
+
+je[2]
+   "ST_je_2_1"
+
+su[2]
+   "ST_su_2_1"
+
+do[2]
+   "ST_do_2_1"
+
+dok[2]
+   "ST_dok_2_1"
+
+ter[2]
+   "ST_ter_2_1"
+
+r[2]
+   "ST_r_2_1"
+
+du[2]
+   "ST_du_2_1"
+
+eeh[2]
+   "ST_eeh_2_1"
+
+eh[2]
+   "ST_eh_2_1"
+
+em[2]
+   "ST_em_2_1"
+
+e[2]
+   "ST_e_2_1"
+
+nak[2]
+   "ST_nak_2_1"
+
+na[2]
+   "ST_na_2_1"
+
+flu[2]
+   "ST_flu_2_1"
+
+for[2]
+   "ST_for_2_1"
+
+ga[2]
+   "ST_ga_2_1"
+
+gas[2]
+   "ST_gas_2_1"
+
+tri[2]
+   "ST_tri_2_1"
+
+tis[2]
+   "ST_tis_2_1"
+
+ge[2]
+   "ST_ge_2_1"
+
+ni[2]
+   "ST_ni_2_1"
+
+ha[2]
+   "ST_ha_2_1"
+
+bis[2]
+   "ST_bis_2_1"
+
+i[2]
+   "ST_i_2_1"
+
+hal[2]
+   "ST_hal_2_1"
+
+lo[2]
+   "ST_lo_2_1"
+
+hi[2]
+   "ST_hi_2_1"
+
+pro[2]
+   "ST_pro_2_1"
+
+so[2]
+   "ST_so_2_1"
+
+is[2]
+   "ST_is_2_1"
+
+ya[2]
+   "ST_ya_2_1"
+
+hit[2]
+   "ST_hit_2_1"
+
+ju[2]
+   "ST_ju_2_1"
+
+ki[2]
+   "ST_ki_2_1"
+
+mu[2]
+   "ST_mu_2_1"
+
+h[2]
+   "ST_h_2_1"
+
+yu[2]
+   "ST_yu_2_1"
+
+ke[2]
+   "ST_ke_2_1"
+
+ker[2]
+   "ST_ker_2_1"
+
+pi[2]
+   "ST_pi_2_1"
+
+ram[2]
+   "ST_ram_2_1"
+
+le[2]
+   "ST_le_2_1"
+
+kas[2]
+   "ST_kas_2_1"
+
+bur[2]
+   "ST_bur_2_1"
+
+me[2]
+   "ST_me_2_1"
+
+lis[2]
+   "ST_lis_2_1"
+
+kal[2]
+   "ST_kal_2_1"
+
+kan[2]
+   "ST_kan_2_1"
+
+mak[2]
+   "ST_mak_2_1"
+
+sud[2]
+   "ST_sud_2_1"
+
+lah[2]
+   "ST_lah_2_1"
+
+sih[2]
+   "ST_sih_2_1"
+
+suk[2]
+   "ST_suk_2_1"
+
+mas[2]
+   "ST_mas_2_1"
+
+ban[2]
+   "ST_ban_2_1"
+
+ru[2]
+   "ST_ru_2_1"
+
+sal[2]
+   "ST_sal_2_1"
+
+cul[2]
+   "ST_cul_2_1"
+
+naf[2]
+   "ST_naf_2_1"
+
+ral[2]
+   "ST_ral_2_1"
+
+nge[2]
+   "ST_nge_2_1"
+
+ro[2]
+   "ST_ro_2_1"
+
+kok[2]
+   "ST_kok_2_1"
+
+nih[2]
+   "ST_nih_2_1"
+
+nor[2]
+   "ST_nor_2_1"
+
+mal[2]
+   "ST_mal_2_1"
+
+tar[2]
+   "ST_tar_2_1"
+
+kut[2]
+   "ST_kut_2_1"
+
+nye[2]
+   "ST_nye_2_1"
+
+o[2]
+   "ST_o_2_1"
+
+tot[2]
+   "ST_tot_2_1"
+
+mol[2]
+   "ST_mol_2_1"
+
+cah[2]
+   "ST_cah_2_1"
+
+das[2]
+   "ST_das_2_1"
+
+kit[2]
+   "ST_kit_2_1"
+
+rih[2]
+   "ST_rih_2_1"
+
+rik[2]
+   "ST_rik_2_1"
+
+fa[2]
+   "ST_fa_2_1"
+
+nah[2]
+   "ST_nah_2_1"
+
+rut[2]
+   "ST_rut_2_1"
+
+lek[2]
+   "ST_lek_2_1"
+
+pu[2]
+   "ST_pu_2_1"
+
+luh[2]
+   "ST_luh_2_1"
+
+tih[2]
+   "ST_tih_2_1"
+
+han[2]
+   "ST_han_2_1"
+
+leks[2]
+   "ST_leks_2_1"
+
+yat[2]
+   "ST_yat_2_1"
+
+mah[2]
+   "ST_mah_2_1"
+
+dar[2]
+   "ST_dar_2_1"
+
+bil[2]
+   "ST_bil_2_1"
+
+ran[2]
+   "ST_ran_2_1"
+
+ken[2]
+   "ST_ken_2_1"
+
+b[2]
+   "ST_b_2_1"
+
+ben[2]
+   "ST_ben_2_1"
+
+uh[2]
+   "ST_uh_2_1"
+
+mat[2]
+   "ST_mat_2_1"
+
+lan[2]
+   "ST_lan_2_1"
+
+buh[2]
+   "ST_buh_2_1"
+
+mo[2]
+   "ST_mo_2_1"
+
+pet[2]
+   "ST_pet_2_1"
+
+sen[2]
+   "ST_sen_2_1"
+
+hu[2]
+   "ST_hu_2_1"
+
+tro[2]
+   "ST_tro_2_1"
+
+dah[2]
+   "ST_dah_2_1"
+
+bah[2]
+   "ST_bah_2_1"
+
+gak[2]
+   "ST_gak_2_1"
+
+go[2]
+   "ST_go_2_1"
+
+ten[2]
+   "ST_ten_2_1"
+
+rak[2]
+   "ST_rak_2_1"
+
+hir[2]
+   "ST_hir_2_1"
+
+dur[2]
+   "ST_dur_2_1"
+
+to[2]
+   "ST_to_2_1"
+
+juh[2]
+   "ST_juh_2_1"
+
+mur[2]
+   "ST_mur_2_1"
+
+tuk[2]
+   "ST_tuk_2_1"
+
+wak[2]
+   "ST_wak_2_1"
+
+a[3]
+   "ST_a_3_1"
+
+se[3]
+   "ST_se_3_1"
+
+ta[3]
+   "ST_ta_3_1"
+
+mi[3]
+   "ST_mi_3_1"
+
+no[3]
+   "ST_no_3_1"
+
+fen[3]
+   "ST_fen_3_1"
+
+da[3]
+   "ST_da_3_1"
+
+ah[3]
+   "ST_ah_3_1"
+
+mad[3]
+   "ST_mad_3_1"
+
+ir[3]
+   "ST_ir_3_1"
+
+ja[3]
+   "ST_ja_3_1"
+
+ka[3]
+   "ST_ka_3_1"
+
+n[3]
+   "ST_n_3_1"
+
+ler[3]
+   "ST_ler_3_1"
+
+gi[3]
+   "ST_gi_3_1"
+
+al[3]
+   "ST_al_3_1"
+
+ko[3]
+   "ST_ko_3_1"
+
+ho[3]
+   "ST_ho_3_1"
+
+l[3]
+   "ST_l_3_1"
+
+neh[3]
+   "ST_neh_3_1"
+
+ng[3]
+   "ST_ng_3_1"
+
+an[3]
+   "ST_an_3_1"
+
+ti[3]
+   "ST_ti_3_1"
+
+de[3]
+   "ST_de_3_1"
+
+pre[3]
+   "ST_pre_3_1"
+
+san[3]
+   "ST_san_3_1"
+
+nu[3]
+   "ST_nu_3_1"
+
+pa[3]
+   "ST_pa_3_1"
+
+in[3]
+   "ST_in_3_1"
+
+kah[3]
+   "ST_kah_3_1"
+
+la[3]
+   "ST_la_3_1"
+
+pel[3]
+   "ST_pel_3_1"
+
+po[3]
+   "ST_po_3_1"
+
+te[3]
+   "ST_te_3_1"
+
+k[3]
+   "ST_k_3_1"
+
+ar[3]
+   "ST_ar_3_1"
+
+ri[3]
+   "ST_ri_3_1"
+
+u[3]
+   "ST_u_3_1"
+
+wa[3]
+   "ST_wa_3_1"
+
+yah[3]
+   "ST_yah_3_1"
+
+ba[3]
+   "ST_ba_3_1"
+
+gu[3]
+   "ST_gu_3_1"
+
+s[3]
+   "ST_s_3_1"
+
+ik[3]
+   "ST_ik_3_1"
+
+li[3]
+   "ST_li_3_1"
+
+lu[3]
+   "ST_lu_3_1"
+
+un[3]
+   "ST_un_3_1"
+
+tu[3]
+   "ST_tu_3_1"
+
+nyak[3]
+   "ST_nyak_3_1"
+
+pak[3]
+   "ST_pak_3_1"
+
+be[3]
+   "ST_be_3_1"
+
+ra[3]
+   "ST_ra_3_1"
+
+kak[3]
+   "ST_kak_3_1"
+
+t[3]
+   "ST_t_3_1"
+
+ber[3]
+   "ST_ber_3_1"
+
+nya[3]
+   "ST_nya_3_1"
+
+pe[3]
+   "ST_pe_3_1"
+
+ruh[3]
+   "ST_ruh_3_1"
+
+bi[3]
+   "ST_bi_3_1"
+
+rin[3]
+   "ST_rin_3_1"
+
+sa[3]
+   "ST_sa_3_1"
+
+us[3]
+   "ST_us_3_1"
+
+bo[3]
+   "ST_bo_3_1"
+
+leh[3]
+   "ST_leh_3_1"
+
+bu[3]
+   "ST_bu_3_1"
+
+at[3]
+   "ST_at_3_1"
+
+re[3]
+   "ST_re_3_1"
+
+m[3]
+   "ST_m_3_1"
+
+pek[3]
+   "ST_pek_3_1"
+
+ca[3]
+   "ST_ca_3_1"
+
+cek[3]
+   "ST_cek_3_1"
+
+sel[3]
+   "ST_sel_3_1"
+
+si[3]
+   "ST_si_3_1"
+
+sil[3]
+   "ST_sil_3_1"
+
+ce[3]
+   "ST_ce_3_1"
+
+pat[3]
+   "ST_pat_3_1"
+
+co[3]
+   "ST_co_3_1"
+
+cu[3]
+   "ST_cu_3_1"
+
+ku[3]
+   "ST_ku_3_1"
+
+p[3]
+   "ST_p_3_1"
+
+ma[3]
+   "ST_ma_3_1"
+
+dan[3]
+   "ST_dan_3_1"
+
+rah[3]
+   "ST_rah_3_1"
+
+deh[3]
+   "ST_deh_3_1"
+
+di[3]
+   "ST_di_3_1"
+
+per[3]
+   "ST_per_3_1"
+
+je[3]
+   "ST_je_3_1"
+
+su[3]
+   "ST_su_3_1"
+
+do[3]
+   "ST_do_3_1"
+
+dok[3]
+   "ST_dok_3_1"
+
+ter[3]
+   "ST_ter_3_1"
+
+r[3]
+   "ST_r_3_1"
+
+du[3]
+   "ST_du_3_1"
+
+eeh[3]
+   "ST_eeh_3_1"
+
+eh[3]
+   "ST_eh_3_1"
+
+em[3]
+   "ST_em_3_1"
+
+e[3]
+   "ST_e_3_1"
+
+nak[3]
+   "ST_nak_3_1"
+
+na[3]
+   "ST_na_3_1"
+
+flu[3]
+   "ST_flu_3_1"
+
+for[3]
+   "ST_for_3_1"
+
+ga[3]
+   "ST_ga_3_1"
+
+gas[3]
+   "ST_gas_3_1"
+
+tri[3]
+   "ST_tri_3_1"
+
+tis[3]
+   "ST_tis_3_1"
+
+ge[3]
+   "ST_ge_3_1"
+
+ni[3]
+   "ST_ni_3_1"
+
+ha[3]
+   "ST_ha_3_1"
+
+bis[3]
+   "ST_bis_3_1"
+
+i[3]
+   "ST_i_3_1"
+
+hal[3]
+   "ST_hal_3_1"
+
+lo[3]
+   "ST_lo_3_1"
+
+hi[3]
+   "ST_hi_3_1"
+
+pro[3]
+   "ST_pro_3_1"
+
+so[3]
+   "ST_so_3_1"
+
+is[3]
+   "ST_is_3_1"
+
+ya[3]
+   "ST_ya_3_1"
+
+hit[3]
+   "ST_hit_3_1"
+
+ju[3]
+   "ST_ju_3_1"
+
+ki[3]
+   "ST_ki_3_1"
+
+mu[3]
+   "ST_mu_3_1"
+
+h[3]
+   "ST_h_3_1"
+
+yu[3]
+   "ST_yu_3_1"
+
+ke[3]
+   "ST_ke_3_1"
+
+ker[3]
+   "ST_ker_3_1"
+
+pi[3]
+   "ST_pi_3_1"
+
+ram[3]
+   "ST_ram_3_1"
+
+le[3]
+   "ST_le_3_1"
+
+kas[3]
+   "ST_kas_3_1"
+
+bur[3]
+   "ST_bur_3_1"
+
+me[3]
+   "ST_me_3_1"
+
+lis[3]
+   "ST_lis_3_1"
+
+kal[3]
+   "ST_kal_3_1"
+
+kan[3]
+   "ST_kan_3_1"
+
+mak[3]
+   "ST_mak_3_1"
+
+sud[3]
+   "ST_sud_3_1"
+
+lah[3]
+   "ST_lah_3_1"
+
+sih[3]
+   "ST_sih_3_1"
+
+suk[3]
+   "ST_suk_3_1"
+
+mas[3]
+   "ST_mas_3_1"
+
+ban[3]
+   "ST_ban_3_1"
+
+ru[3]
+   "ST_ru_3_1"
+
+sal[3]
+   "ST_sal_3_1"
+
+cul[3]
+   "ST_cul_3_1"
+
+naf[3]
+   "ST_naf_3_1"
+
+ral[3]
+   "ST_ral_3_1"
+
+nge[3]
+   "ST_nge_3_1"
+
+ro[3]
+   "ST_ro_3_1"
+
+kok[3]
+   "ST_kok_3_1"
+
+nih[3]
+   "ST_nih_3_1"
+
+nor[3]
+   "ST_nor_3_1"
+
+mal[3]
+   "ST_mal_3_1"
+
+tar[3]
+   "ST_tar_3_1"
+
+kut[3]
+   "ST_kut_3_1"
+
+nye[3]
+   "ST_nye_3_1"
+
+o[3]
+   "ST_o_3_1"
+
+tot[3]
+   "ST_tot_3_1"
+
+mol[3]
+   "ST_mol_3_1"
+
+cah[3]
+   "ST_cah_3_1"
+
+das[3]
+   "ST_das_3_1"
+
+kit[3]
+   "ST_kit_3_1"
+
+rih[3]
+   "ST_rih_3_1"
+
+rik[3]
+   "ST_rik_3_1"
+
+fa[3]
+   "ST_fa_3_1"
+
+nah[3]
+   "ST_nah_3_1"
+
+rut[3]
+   "ST_rut_3_1"
+
+lek[3]
+   "ST_lek_3_1"
+
+pu[3]
+   "ST_pu_3_1"
+
+luh[3]
+   "ST_luh_3_1"
+
+tih[3]
+   "ST_tih_3_1"
+
+han[3]
+   "ST_han_3_1"
+
+leks[3]
+   "ST_leks_3_1"
+
+yat[3]
+   "ST_yat_3_1"
+
+mah[3]
+   "ST_mah_3_1"
+
+dar[3]
+   "ST_dar_3_1"
+
+bil[3]
+   "ST_bil_3_1"
+
+ran[3]
+   "ST_ran_3_1"
+
+ken[3]
+   "ST_ken_3_1"
+
+b[3]
+   "ST_b_3_1"
+
+ben[3]
+   "ST_ben_3_1"
+
+uh[3]
+   "ST_uh_3_1"
+
+mat[3]
+   "ST_mat_3_1"
+
+lan[3]
+   "ST_lan_3_1"
+
+buh[3]
+   "ST_buh_3_1"
+
+mo[3]
+   "ST_mo_3_1"
+
+pet[3]
+   "ST_pet_3_1"
+
+sen[3]
+   "ST_sen_3_1"
+
+hu[3]
+   "ST_hu_3_1"
+
+tro[3]
+   "ST_tro_3_1"
+
+dah[3]
+   "ST_dah_3_1"
+
+bah[3]
+   "ST_bah_3_1"
+
+gak[3]
+   "ST_gak_3_1"
+
+go[3]
+   "ST_go_3_1"
+
+ten[3]
+   "ST_ten_3_1"
+
+rak[3]
+   "ST_rak_3_1"
+
+hir[3]
+   "ST_hir_3_1"
+
+dur[3]
+   "ST_dur_3_1"
+
+to[3]
+   "ST_to_3_1"
+
+juh[3]
+   "ST_juh_3_1"
+
+mur[3]
+   "ST_mur_3_1"
+
+tuk[3]
+   "ST_tuk_3_1"
+
+wak[3]
+   "ST_wak_3_1"
+
+a[4]
+   "ST_a_4_1"
+
+se[4]
+   "ST_se_4_1"
+
+ta[4]
+   "ST_ta_4_1"
+
+mi[4]
+   "ST_mi_4_1"
+
+no[4]
+   "ST_no_4_1"
+
+fen[4]
+   "ST_fen_4_1"
+
+da[4]
+   "ST_da_4_1"
+
+ah[4]
+   "ST_ah_4_1"
+
+mad[4]
+   "ST_mad_4_1"
+
+ir[4]
+   "ST_ir_4_1"
+
+ja[4]
+   "ST_ja_4_1"
+
+ka[4]
+   "ST_ka_4_1"
+
+n[4]
+   "ST_n_4_1"
+
+ler[4]
+   "ST_ler_4_1"
+
+gi[4]
+   "ST_gi_4_1"
+
+al[4]
+   "ST_al_4_1"
+
+ko[4]
+   "ST_ko_4_1"
+
+ho[4]
+   "ST_ho_4_1"
+
+l[4]
+   "ST_l_4_1"
+
+neh[4]
+   "ST_neh_4_1"
+
+ng[4]
+   "ST_ng_4_1"
+
+an[4]
+   "ST_an_4_1"
+
+ti[4]
+   "ST_ti_4_1"
+
+de[4]
+   "ST_de_4_1"
+
+pre[4]
+   "ST_pre_4_1"
+
+san[4]
+   "ST_san_4_1"
+
+nu[4]
+   "ST_nu_4_1"
+
+pa[4]
+   "ST_pa_4_1"
+
+in[4]
+   "ST_in_4_1"
+
+kah[4]
+   "ST_kah_4_1"
+
+la[4]
+   "ST_la_4_1"
+
+pel[4]
+   "ST_pel_4_1"
+
+po[4]
+   "ST_po_4_1"
+
+te[4]
+   "ST_te_4_1"
+
+k[4]
+   "ST_k_4_1"
+
+ar[4]
+   "ST_ar_4_1"
+
+ri[4]
+   "ST_ri_4_1"
+
+u[4]
+   "ST_u_4_1"
+
+wa[4]
+   "ST_wa_4_1"
+
+yah[4]
+   "ST_yah_4_1"
+
+ba[4]
+{
+   0            'R_C-Central'  "ST_ba_4_1"  "ST_ba_4_2" 
+}
+
+gu[4]
+   "ST_gu_4_1"
+
+s[4]
+   "ST_s_4_1"
+
+ik[4]
+   "ST_ik_4_1"
+
+li[4]
+   "ST_li_4_1"
+
+lu[4]
+   "ST_lu_4_1"
+
+un[4]
+   "ST_un_4_1"
+
+tu[4]
+   "ST_tu_4_1"
+
+nyak[4]
+   "ST_nyak_4_1"
+
+pak[4]
+   "ST_pak_4_1"
+
+be[4]
+   "ST_be_4_1"
+
+ra[4]
+   "ST_ra_4_1"
+
+kak[4]
+   "ST_kak_4_1"
+
+t[4]
+   "ST_t_4_1"
+
+ber[4]
+   "ST_ber_4_1"
+
+nya[4]
+   "ST_nya_4_1"
+
+pe[4]
+   "ST_pe_4_1"
+
+ruh[4]
+   "ST_ruh_4_1"
+
+bi[4]
+   "ST_bi_4_1"
+
+rin[4]
+   "ST_rin_4_1"
+
+sa[4]
+   "ST_sa_4_1"
+
+us[4]
+   "ST_us_4_1"
+
+bo[4]
+   "ST_bo_4_1"
+
+leh[4]
+   "ST_leh_4_1"
+
+bu[4]
+   "ST_bu_4_1"
+
+at[4]
+   "ST_at_4_1"
+
+re[4]
+   "ST_re_4_1"
+
+m[4]
+   "ST_m_4_1"
+
+pek[4]
+   "ST_pek_4_1"
+
+ca[4]
+   "ST_ca_4_1"
+
+cek[4]
+   "ST_cek_4_1"
+
+sel[4]
+   "ST_sel_4_1"
+
+si[4]
+   "ST_si_4_1"
+
+sil[4]
+   "ST_sil_4_1"
+
+ce[4]
+   "ST_ce_4_1"
+
+pat[4]
+   "ST_pat_4_1"
+
+co[4]
+   "ST_co_4_1"
+
+cu[4]
+   "ST_cu_4_1"
+
+ku[4]
+   "ST_ku_4_1"
+
+p[4]
+   "ST_p_4_1"
+
+ma[4]
+   "ST_ma_4_1"
+
+dan[4]
+   "ST_dan_4_1"
+
+rah[4]
+   "ST_rah_4_1"
+
+deh[4]
+   "ST_deh_4_1"
+
+di[4]
+   "ST_di_4_1"
+
+per[4]
+   "ST_per_4_1"
+
+je[4]
+   "ST_je_4_1"
+
+su[4]
+   "ST_su_4_1"
+
+do[4]
+   "ST_do_4_1"
+
+dok[4]
+   "ST_dok_4_1"
+
+ter[4]
+   "ST_ter_4_1"
+
+r[4]
+   "ST_r_4_1"
+
+du[4]
+   "ST_du_4_1"
+
+eeh[4]
+   "ST_eeh_4_1"
+
+eh[4]
+   "ST_eh_4_1"
+
+em[4]
+   "ST_em_4_1"
+
+e[4]
+   "ST_e_4_1"
+
+nak[4]
+   "ST_nak_4_1"
+
+na[4]
+   "ST_na_4_1"
+
+flu[4]
+   "ST_flu_4_1"
+
+for[4]
+   "ST_for_4_1"
+
+ga[4]
+   "ST_ga_4_1"
+
+gas[4]
+   "ST_gas_4_1"
+
+tri[4]
+   "ST_tri_4_1"
+
+tis[4]
+   "ST_tis_4_1"
+
+ge[4]
+   "ST_ge_4_1"
+
+ni[4]
+   "ST_ni_4_1"
+
+ha[4]
+   "ST_ha_4_1"
+
+bis[4]
+   "ST_bis_4_1"
+
+i[4]
+{
+   0          'L_NonBoundary'  "ST_i_4_1"  "ST_i_4_2" 
+}
+
+hal[4]
+   "ST_hal_4_1"
+
+lo[4]
+   "ST_lo_4_1"
+
+hi[4]
+   "ST_hi_4_1"
+
+pro[4]
+   "ST_pro_4_1"
+
+so[4]
+   "ST_so_4_1"
+
+is[4]
+   "ST_is_4_1"
+
+ya[4]
+   "ST_ya_4_1"
+
+hit[4]
+   "ST_hit_4_1"
+
+ju[4]
+   "ST_ju_4_1"
+
+ki[4]
+   "ST_ki_4_1"
+
+mu[4]
+   "ST_mu_4_1"
+
+h[4]
+   "ST_h_4_1"
+
+yu[4]
+   "ST_yu_4_1"
+
+ke[4]
+   "ST_ke_4_1"
+
+ker[4]
+   "ST_ker_4_1"
+
+pi[4]
+   "ST_pi_4_1"
+
+ram[4]
+   "ST_ram_4_1"
+
+le[4]
+   "ST_le_4_1"
+
+kas[4]
+   "ST_kas_4_1"
+
+bur[4]
+   "ST_bur_4_1"
+
+me[4]
+   "ST_me_4_1"
+
+lis[4]
+   "ST_lis_4_1"
+
+kal[4]
+   "ST_kal_4_1"
+
+kan[4]
+   "ST_kan_4_1"
+
+mak[4]
+   "ST_mak_4_1"
+
+sud[4]
+   "ST_sud_4_1"
+
+lah[4]
+   "ST_lah_4_1"
+
+sih[4]
+   "ST_sih_4_1"
+
+suk[4]
+   "ST_suk_4_1"
+
+mas[4]
+   "ST_mas_4_1"
+
+ban[4]
+   "ST_ban_4_1"
+
+ru[4]
+   "ST_ru_4_1"
+
+sal[4]
+   "ST_sal_4_1"
+
+cul[4]
+   "ST_cul_4_1"
+
+naf[4]
+   "ST_naf_4_1"
+
+ral[4]
+   "ST_ral_4_1"
+
+nge[4]
+   "ST_nge_4_1"
+
+ro[4]
+   "ST_ro_4_1"
+
+kok[4]
+   "ST_kok_4_1"
+
+nih[4]
+   "ST_nih_4_1"
+
+nor[4]
+   "ST_nor_4_1"
+
+mal[4]
+   "ST_mal_4_1"
+
+tar[4]
+   "ST_tar_4_1"
+
+kut[4]
+   "ST_kut_4_1"
+
+nye[4]
+   "ST_nye_4_1"
+
+o[4]
+   "ST_o_4_1"
+
+tot[4]
+   "ST_tot_4_1"
+
+mol[4]
+   "ST_mol_4_1"
+
+cah[4]
+   "ST_cah_4_1"
+
+das[4]
+   "ST_das_4_1"
+
+kit[4]
+   "ST_kit_4_1"
+
+rih[4]
+   "ST_rih_4_1"
+
+rik[4]
+   "ST_rik_4_1"
+
+fa[4]
+   "ST_fa_4_1"
+
+nah[4]
+   "ST_nah_4_1"
+
+rut[4]
+   "ST_rut_4_1"
+
+lek[4]
+   "ST_lek_4_1"
+
+pu[4]
+   "ST_pu_4_1"
+
+luh[4]
+   "ST_luh_4_1"
+
+tih[4]
+   "ST_tih_4_1"
+
+han[4]
+   "ST_han_4_1"
+
+leks[4]
+   "ST_leks_4_1"
+
+yat[4]
+   "ST_yat_4_1"
+
+mah[4]
+   "ST_mah_4_1"
+
+dar[4]
+   "ST_dar_4_1"
+
+bil[4]
+   "ST_bil_4_1"
+
+ran[4]
+   "ST_ran_4_1"
+
+ken[4]
+   "ST_ken_4_1"
+
+b[4]
+   "ST_b_4_1"
+
+ben[4]
+   "ST_ben_4_1"
+
+uh[4]
+   "ST_uh_4_1"
+
+mat[4]
+   "ST_mat_4_1"
+
+lan[4]
+   "ST_lan_4_1"
+
+buh[4]
+   "ST_buh_4_1"
+
+mo[4]
+   "ST_mo_4_1"
+
+pet[4]
+   "ST_pet_4_1"
+
+sen[4]
+   "ST_sen_4_1"
+
+hu[4]
+   "ST_hu_4_1"
+
+tro[4]
+   "ST_tro_4_1"
+
+dah[4]
+   "ST_dah_4_1"
+
+bah[4]
+   "ST_bah_4_1"
+
+gak[4]
+   "ST_gak_4_1"
+
+go[4]
+   "ST_go_4_1"
+
+ten[4]
+   "ST_ten_4_1"
+
+rak[4]
+   "ST_rak_4_1"
+
+hir[4]
+   "ST_hir_4_1"
+
+dur[4]
+   "ST_dur_4_1"
+
+to[4]
+   "ST_to_4_1"
+
+juh[4]
+   "ST_juh_4_1"
+
+mur[4]
+   "ST_mur_4_1"
+
+tuk[4]
+   "ST_tuk_4_1"
+
+wak[4]
+   "ST_wak_4_1"
+
