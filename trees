@@ -7,7 +7,6 @@ QS 'R_Vowel' { "*+ow","*+iy","*+ey","*+oy","*+ay","*+ur","*+ir","*+ar","*+er","*
 QS 'R_C-Front' { "*+w","*+v","*+f","*+m","*+b","*+pd","*+p" }
 QS 'R_C-Central' { "*+r","*+el","*+l","*+dh","*+th","*+sh","*+z","*+s","*+n","*+en","*+dd","*+d","*+td","*+t" }
 QS 'R_C-Back' { "*+hh","*+ng","*+g","*+kd","*+k","*+y","*+jh","*+ch","*+sh" }
-QS 'R_V-Front' { "*+eh","*+ih","*+iy" }
 QS 'R_V-Central' { "*+ao","*+ur","*+ir","*+ar","*+er","*+aa","*+eh" }
 QS 'R_V-Back' { "*+uh","*+ax","*+aa","*+uw" }
 QS 'R_Front' { "*+eh","*+ih","*+iy","*+w","*+v","*+f","*+m","*+b","*+pd","*+p" }
@@ -34,10 +33,8 @@ QS 'R_Short' { "*+uh","*+ax","*+ah","*+oy","*+ay","*+ih","*+aa","*+ey","*+eh" }
 QS 'R_Dipthong' { "*+el","*+l","*+m","*+en","*+ur","*+ir","*+ar","*+er","*+aa","*+oy","*+ay","*+ey" }
 QS 'R_Front-Start' { "*+ur","*+ir","*+ar","*+er","*+aa","*+ey" }
 QS 'R_Medium' { "*+el","*+l","*+m","*+en","*+eh","*+ax","*+aa","*+ur","*+ir","*+ar","*+er","*+ey" }
-QS 'R_Low' { "*+oy","*+ao","*+aw","*+aa","*+ay","*+eh" }
 QS 'R_Unrounded' { "*+y","*+r","*+el","*+l","*+hh","*+m","*+en","*+ax","*+ah","*+aw","*+iy","*+ey","*+ay","*+ur","*+ir","*+ar","*+er","*+aa","*+ih","*+eh" }
 QS 'R_NonAffricate' { "*+dh","*+th","*+v","*+f","*+z","*+sh","*+s" }
-QS 'R_EVowel' { "*+ey","*+eh" }
 QS 'R_AVowel' { "*+aw","*+ay","*+ur","*+ir","*+ar","*+er","*+aa","*+eh" }
 QS 'R_UVowel' { "*+uw","*+el","*+l","*+m","*+en","*+ax","*+aa" }
 QS 'R_Voiced-Stop' { "*+g","*+dd","*+d","*+b" }
@@ -49,7 +46,6 @@ QS 'R_Unvoiced-Fric' { "*+ch","*+f","*+th","*+sh","*+s" }
 QS 'R_Central-Fric' { "*+dh","*+th","*+z","*+s" }
 QS 'R_ah' { "*+ah" }
 QS 'R_b' { "*+b" }
-QS 'R_eh' { "*+eh" }
 QS 'R_ar' { "*+ar" }
 QS 'R_ir' { "*+ir" }
 QS 'R_k' { "*+k" }
@@ -71,9 +67,7 @@ QS 'L_Vowel' { "ow-*","iy-*","ey-*","oy-*","ay-*","ur-*","ir-*","ar-*","er-*","a
 QS 'L_C-Front' { "w-*","v-*","f-*","m-*","b-*","pd-*","p-*" }
 QS 'L_C-Central' { "r-*","el-*","l-*","dh-*","th-*","sh-*","z-*","s-*","n-*","en-*","dd-*","d-*","td-*","t-*" }
 QS 'L_C-Back' { "hh-*","ng-*","g-*","kd-*","k-*","y-*","jh-*","ch-*","sh-*" }
-QS 'L_V-Front' { "eh-*","ih-*","iy-*" }
 QS 'L_V-Central' { "ao-*","ur-*","ir-*","ar-*","er-*","aa-*","eh-*" }
-QS 'L_V-Back' { "uh-*","ax-*","aa-*","uw-*" }
 QS 'L_Front' { "eh-*","ih-*","iy-*","w-*","v-*","f-*","m-*","b-*","pd-*","p-*" }
 QS 'L_Central' { "ao-*","ur-*","ir-*","ar-*","er-*","aa-*","eh-*","r-*","el-*","l-*","dh-*","th-*","sh-*","z-*","s-*","n-*","en-*","dd-*","d-*","td-*","t-*" }
 QS 'L_Back' { "uh-*","ax-*","uw-*","aa-*","hh-*","ng-*","g-*","kd-*","k-*","y-*","jh-*","ch-*","sh-*" }
@@ -98,34 +92,26 @@ QS 'L_Short' { "uh-*","ax-*","ah-*","oy-*","ay-*","ih-*","aa-*","ey-*","eh-*" }
 QS 'L_Dipthong' { "el-*","l-*","m-*","en-*","ur-*","ir-*","ar-*","er-*","aa-*","oy-*","ay-*","ey-*" }
 QS 'L_Front-Start' { "ur-*","ir-*","ar-*","er-*","aa-*","ey-*" }
 QS 'L_Medium' { "el-*","l-*","m-*","en-*","eh-*","ax-*","aa-*","ur-*","ir-*","ar-*","er-*","ey-*" }
-QS 'L_Low' { "oy-*","ao-*","aw-*","aa-*","ay-*","eh-*" }
 QS 'L_Unrounded' { "y-*","r-*","el-*","l-*","hh-*","m-*","en-*","ax-*","ah-*","aw-*","iy-*","ey-*","ay-*","ur-*","ir-*","ar-*","er-*","aa-*","ih-*","eh-*" }
 QS 'L_NonAffricate' { "dh-*","th-*","v-*","f-*","z-*","sh-*","s-*" }
-QS 'L_EVowel' { "ey-*","eh-*" }
 QS 'L_AVowel' { "aw-*","ay-*","ur-*","ir-*","ar-*","er-*","aa-*","eh-*" }
 QS 'L_UVowel' { "uw-*","el-*","l-*","m-*","en-*","ax-*","aa-*" }
 QS 'L_Voiced-Stop' { "g-*","dd-*","d-*","b-*" }
 QS 'L_Unvoiced-Stop' { "kd-*","k-*","td-*","t-*","pd-*","p-*" }
 QS 'L_Front-Stop' { "b-*","pd-*","p-*" }
 QS 'L_Central-Stop' { "dd-*","d-*","td-*","t-*" }
-QS 'L_Back-Stop' { "g-*","kd-*","k-*" }
 QS 'L_Unvoiced-Fric' { "ch-*","f-*","th-*","sh-*","s-*" }
 QS 'L_Central-Fric' { "dh-*","th-*","z-*","s-*" }
 QS 'L_ah' { "ah-*" }
 QS 'L_b' { "b-*" }
-QS 'L_eh' { "eh-*" }
 QS 'L_ar' { "ar-*" }
-QS 'L_ir' { "ir-*" }
-QS 'L_k' { "k-*" }
 QS 'L_l' { "l-*" }
 QS 'L_m' { "m-*" }
 QS 'L_n' { "n-*" }
 QS 'L_ng' { "ng-*" }
-QS 'L_p' { "p-*" }
 QS 'L_r' { "r-*" }
 QS 'L_s' { "s-*" }
 QS 'L_t' { "t-*" }
-QS 'L_uh' { "uh-*" }
 
 a[2]
    "ST_a_2_1"
@@ -161,7 +147,9 @@ ja[2]
    "ST_ja_2_1"
 
 ka[2]
-   "ST_ka_2_1"
+{
+   0          'L_NonBoundary'  "ST_ka_2_1"  "ST_ka_2_2" 
+}
 
 n[2]
    "ST_n_2_1"
@@ -270,7 +258,7 @@ un[2]
 
 tu[2]
 {
-   0          'R_NonBoundary'  "ST_tu_2_1"  "ST_tu_2_2" 
+   0                'L_Nasal'  "ST_tu_2_1"  "ST_tu_2_2" 
 }
 
 nyak[2]
@@ -478,7 +466,9 @@ is[2]
    "ST_is_2_1"
 
 ya[2]
-   "ST_ya_2_1"
+{
+   0          'L_NonBoundary'  "ST_ya_2_1"  "ST_ya_2_2" 
+}
 
 hit[2]
    "ST_hit_2_1"
@@ -499,7 +489,9 @@ yu[2]
    "ST_yu_2_1"
 
 ke[2]
-   "ST_ke_2_1"
+{
+   0          'L_NonBoundary'  "ST_ke_2_1"  "ST_ke_2_2" 
+}
 
 ker[2]
    "ST_ker_2_1"
@@ -796,7 +788,9 @@ neh[3]
    "ST_neh_3_1"
 
 ng[3]
-   "ST_ng_3_1"
+{
+   0          'L_NonBoundary'  "ST_ng_3_1"  "ST_ng_3_2" 
+}
 
 an[3]
    "ST_an_3_1"
@@ -1084,7 +1078,9 @@ is[3]
    "ST_is_3_1"
 
 ya[3]
-   "ST_ya_3_1"
+{
+   0          'L_NonBoundary'  "ST_ya_3_1"  "ST_ya_3_2" 
+}
 
 hit[3]
    "ST_hit_3_1"
@@ -1372,19 +1368,25 @@ ir[4]
    "ST_ir_4_1"
 
 ja[4]
-   "ST_ja_4_1"
+{
+   0          'R_NonBoundary'  "ST_ja_4_1"  "ST_ja_4_2" 
+}
 
 ka[4]
    "ST_ka_4_1"
 
 n[4]
-   "ST_n_4_1"
+{
+   0          'R_NonBoundary'  "ST_n_4_1"  "ST_n_4_2" 
+}
 
 ler[4]
    "ST_ler_4_1"
 
 gi[4]
-   "ST_gi_4_1"
+{
+   0          'R_NonBoundary'  "ST_gi_4_1"  "ST_gi_4_2" 
+}
 
 al[4]
    "ST_al_4_1"
@@ -1402,7 +1404,9 @@ neh[4]
    "ST_neh_4_1"
 
 ng[4]
-   "ST_ng_4_1"
+{
+   0          'L_NonBoundary'  "ST_ng_4_1"  "ST_ng_4_2" 
+}
 
 an[4]
    "ST_an_4_1"
@@ -1524,7 +1528,9 @@ rin[4]
    "ST_rin_4_1"
 
 sa[4]
-   "ST_sa_4_1"
+{
+   0          'R_NonBoundary'  "ST_sa_4_1"  "ST_sa_4_2" 
+}
 
 us[4]
    "ST_us_4_1"
@@ -1584,7 +1590,9 @@ p[4]
    "ST_p_4_1"
 
 ma[4]
-   "ST_ma_4_1"
+{
+   0          'L_NonBoundary'  "ST_ma_4_1"  "ST_ma_4_2" 
+}
 
 dan[4]
    "ST_dan_4_1"
@@ -1671,9 +1679,7 @@ bis[4]
    "ST_bis_4_1"
 
 i[4]
-{
-   0          'L_NonBoundary'  "ST_i_4_1"  "ST_i_4_2" 
-}
+   "ST_i_4_1"
 
 hal[4]
    "ST_hal_4_1"
@@ -1694,7 +1700,9 @@ is[4]
    "ST_is_4_1"
 
 ya[4]
-   "ST_ya_4_1"
+{
+   0          'L_NonBoundary'  "ST_ya_4_1"  "ST_ya_4_2" 
+}
 
 hit[4]
    "ST_hit_4_1"
@@ -1715,7 +1723,9 @@ yu[4]
    "ST_yu_4_1"
 
 ke[4]
-   "ST_ke_4_1"
+{
+   0          'L_NonBoundary'  "ST_ke_4_1"  "ST_ke_4_2" 
+}
 
 ker[4]
    "ST_ker_4_1"
