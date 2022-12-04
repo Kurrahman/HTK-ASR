@@ -378,3 +378,5 @@ wajar
 waktu
 ya
 yang
+SENT-END
+SENT-START 
