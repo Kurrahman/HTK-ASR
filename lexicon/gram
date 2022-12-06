@@ -377,16 +377,9 @@ seminggu |
 semua;
 
 ( 
-        { silence } 
-        ( { silence } [$kataImbuhan] { silence } ) 
-        ( { silence } $kataBenda { silence } ) 
-        ( { silence } [$kataImbuhan] { silence } ) 
-        ( { silence } $kataKerja { silence } ) 
-        ( { silence } [$kataImbuhan] { silence } ) 
-        ( { silence } [$kataNumerik] { silence } ) 
-        ( { silence } $kataBenda { silence } ) 
-        ( { silence } [$kataImbuhan] { silence } ) 
-        ( { silence } ($kataSifat | $kataImbuhan) { silence } ) 
-        ( { silence } [$kataImbuhan] { silence } ) 
-        { silence }  
+        ( $kataBenda ) 
+        ( $kataKerja ) 
+        ( $kataBenda ) 
+        ( ($kataSifat | $kataImbuhan) ) 
+        ( [$kataImbuhan]  ) 
 )

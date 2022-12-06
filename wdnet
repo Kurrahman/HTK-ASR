@@ -1,4380 +1,1679 @@
 VERSION=1.0
-N=769  L=3609 
-I=0    W=silence             
-I=1    W=silence             
-I=2    W=!NULL               
-I=3    W=yang                
-I=4    W=ya                  
-I=5    W=untuk               
-I=6    W=tentang             
-I=7    W=sih                 
-I=8    W=tapi                
-I=9    W=sepertinya          
-I=10   W=selain              
-I=11   W=sejak               
-I=12   W=secara              
-I=13   W=sambil              
-I=14   W=oke                 
-I=15   W=ok                  
-I=16   W=nih                 
-I=17   W=mana                
-I=18   W=kenapa              
-I=19   W=ke                  
-I=20   W=karena              
-I=21   W=kapan               
-I=22   W=kalo                
-I=23   W=kalau               
-I=24   W=kah                 
-I=25   W=iya                 
-I=26   W=itu                 
-I=27   W=ini                 
-I=28   W=halo                
-I=29   W=hai                 
-I=30   W=gimana              
-I=31   W=em                  
-I=32   W=eh                  
-I=33   W=eeh                 
-I=34   W=doang               
-I=35   W=deh                 
-I=36   W=di                  
-I=37   W=dari                
-I=38   W=dan                 
-I=39   W=biar                
-I=40   W=berapa              
-I=41   W=atau                
-I=42   W=apalagi             
-I=43   W=apakah              
-I=44   W=apa                 
-I=45   W=balurin             
-I=46   W=silence             
-I=47   W=silence             
-I=48   W=!NULL               
-I=49   W=yang                
-I=50   W=ya                  
-I=51   W=untuk               
-I=52   W=tentang             
-I=53   W=sih                 
-I=54   W=tapi                
-I=55   W=sepertinya          
-I=56   W=selain              
-I=57   W=sejak               
-I=58   W=secara              
-I=59   W=sambil              
-I=60   W=oke                 
-I=61   W=ok                  
-I=62   W=nih                 
-I=63   W=mana                
-I=64   W=kenapa              
-I=65   W=ke                  
-I=66   W=karena              
-I=67   W=kapan               
-I=68   W=kalo                
-I=69   W=kalau               
-I=70   W=kah                 
-I=71   W=iya                 
-I=72   W=itu                 
-I=73   W=ini                 
-I=74   W=halo                
-I=75   W=hai                 
-I=76   W=gimana              
-I=77   W=em                  
-I=78   W=eh                  
-I=79   W=eeh                 
-I=80   W=doang               
-I=81   W=deh                 
-I=82   W=di                  
-I=83   W=dari                
-I=84   W=dan                 
-I=85   W=biar                
-I=86   W=berapa              
-I=87   W=atau                
-I=88   W=apalagi             
-I=89   W=apakah              
-I=90   W=apa                 
-I=91   W=balurin             
-I=92   W=wajar               
-I=93   W=untung              
-I=94   W=umum                
-I=95   W=udah                
-I=96   W=tua                 
-I=97   W=tiap                
-I=98   W=tertentu            
-I=99   W=terlalu             
-I=100  W=tinggi              
-I=101  W=tepat               
-I=102  W=tegang              
-I=103  W=tegak               
-I=104  W=susah               
-I=105  W=sulit               
-I=106  W=sesering            
-I=107  W=seringnya           
-I=108  W=sering              
-I=109  W=sendiri             
-I=110  W=senang              
-I=111  W=semoga              
-I=112  W=selamat             
-I=113  W=selama              
-I=114  W=sekali              
-I=115  W=sejauh              
-I=116  W=segera              
-I=117  W=sedikit             
-I=118  W=sebenernya          
-I=119  W=sebelumnya          
-I=120  W=sebelum             
-I=121  W=sama                
-I=122  W=salah               
-I=123  W=saja                
-I=124  W=sadarnya            
-I=125  W=perlu               
-I=126  W=perihnya            
-I=127  W=pernah              
-I=128  W=sakitnya            
-I=129  W=sakit               
-I=130  W=perih               
-I=131  W=penuh               
-I=132  W=pembengkakannya     
-I=133  W=pembengkakan        
-I=134  W=nyeri               
-I=135  W=ngga                
-I=136  W=mungkin             
-I=137  W=muda                
-I=138  W=masih               
-I=139  W=malah               
-I=140  W=lemes               
-I=141  W=lekas               
-I=142  W=lebih               
-I=143  W=laper               
-I=144  W=lama                
-I=145  W=lain                
-I=146  W=lagi                
-I=147  W=mual                
-I=148  W=kram                
-I=149  W=kesumbat            
-I=150  W=kenyang             
-I=151  W=kemungkinan         
-I=152  W=kayanya             
-I=153  W=kaya                
-I=154  W=kadang              
-I=155  W=juga                
-I=156  W=jarang              
-I=157  W=hangat              
-I=158  W=gaenak              
-I=159  W=enak                
-I=160  W=demam               
-I=161  W=cuma                
-I=162  W=cukup               
-I=163  W=capek               
-I=164  W=burem               
-I=165  W=biasa               
-I=166  W=berat               
-I=167  W=bengkak             
-I=168  W=banyak              
-I=169  W=baik                
-I=170  W=bagus               
-I=171  W=aneh                
-I=172  W=akan                
-I=173  W=silence             
-I=174  W=silence             
-I=175  W=!NULL               
-I=176  W=yang                
-I=177  W=ya                  
-I=178  W=untuk               
-I=179  W=tentang             
-I=180  W=sih                 
-I=181  W=tapi                
-I=182  W=sepertinya          
-I=183  W=selain              
-I=184  W=sejak               
-I=185  W=secara              
-I=186  W=sambil              
-I=187  W=oke                 
-I=188  W=ok                  
-I=189  W=nih                 
-I=190  W=mana                
-I=191  W=kenapa              
-I=192  W=ke                  
-I=193  W=karena              
-I=194  W=kapan               
-I=195  W=kalo                
-I=196  W=kalau               
-I=197  W=kah                 
-I=198  W=iya                 
-I=199  W=itu                 
-I=200  W=ini                 
-I=201  W=halo                
-I=202  W=hai                 
-I=203  W=gimana              
-I=204  W=em                  
-I=205  W=eh                  
-I=206  W=eeh                 
-I=207  W=doang               
-I=208  W=deh                 
-I=209  W=di                  
-I=210  W=dari                
-I=211  W=dan                 
-I=212  W=biar                
-I=213  W=berapa              
-I=214  W=atau                
-I=215  W=apalagi             
-I=216  W=apakah              
-I=217  W=apa                 
-I=218  W=balurin             
-I=219  W=silence             
-I=220  W=silence             
-I=221  W=!NULL               
-I=222  W=saya                
-I=223  W=kita                
-I=224  W=kamu                
-I=225  W=waktu               
-I=226  W=umur                
-I=227  W=tulisin             
-I=228  W=terakhir            
-I=229  W=tanda               
-I=230  W=suhu                
-I=231  W=sudah               
-I=232  W=stroke              
-I=233  W=sma                 
-I=234  W=serangan            
-I=235  W=semisal             
-I=236  W=sekitar             
-I=237  W=seharian            
-I=238  W=sehari              
-I=239  W=sebentar            
-I=240  W=satu                
-I=241  W=riwayat             
-I=242  W=rasanya             
-I=243  W=rasa                
-I=244  W=posisinya           
-I=245  W=pilek               
-I=246  W=pereda              
-I=247  W=penglihatanmu       
-I=248  W=pedas               
-I=249  W=pandangannya        
-I=250  W=pandangan           
-I=251  W=pagi                
-I=252  W=pak                 
-I=253  W=paracetamol         
-I=254  W=ototmu              
-I=255  W=putih               
-I=256  W=perutnya            
-I=257  W=perut               
-I=258  W=pernafasan          
-I=259  W=punggung            
-I=260  W=rumah               
-I=261  W=sembilan            
-I=262  W=tenggorokan         
-I=263  W=ubin                
-I=264  W=penyakit            
-I=265  W=normal              
-I=266  W=natural             
-I=267  W=nanti               
-I=268  W=nafsu               
-I=269  W=misal               
-I=270  W=minggu              
-I=271  W=mimpi               
-I=272  W=merah               
-I=273  W=masalah             
-I=274  W=malem               
-I=275  W=malam               
-I=276  W=maksudnya           
-I=277  W=makanan             
-I=278  W=lokal               
-I=279  W=lukanya             
-I=280  W=lambung             
-I=281  W=kesehatan           
-I=282  W=list                
-I=283  W=layar               
-I=284  W=kopi                
-I=285  W=koma                
-I=286  W=kiri                
-I=287  W=kemarin             
-I=288  W=keluhannya          
-I=289  W=keluhan             
-I=290  W=keluarga            
-I=291  W=kasih               
-I=292  W=kanan               
-I=293  W=jantungnya          
-I=294  W=insomnia            
-I=295  W=ibuprofen           
-I=296  W=ibu                 
-I=297  W=hal                 
-I=298  W=hijau               
-I=299  W=hari                
-I=300  W=gelas               
-I=301  W=gejalanya           
-I=302  W=gejala              
-I=303  W=form                
-I=304  W=flu                 
-I=305  W=empat               
-I=306  W=dulu                
-I=307  W=enam                
-I=308  W=donor               
-I=309  W=kaki                
-I=310  W=jam                 
-I=311  W=kepala              
-I=312  W=lima                
-I=313  W=sayurannya          
-I=314  W=sayuran             
-I=315  W=sepuluh             
-I=316  W=tiga                
-I=317  W=tujuh               
-I=318  W=dua                 
-I=319  W=obatnya             
-I=320  W=kayu                
-I=321  W=minyak              
-I=322  W=minuman             
-I=323  W=obat                
-I=324  W=obatan              
-I=325  W=otot                
-I=326  W=orang               
-I=327  W=pepaya              
-I=328  W=pisang              
-I=329  W=sendi               
-I=330  W=wajah               
-I=331  W=jantung             
-I=332  W=gastritis           
-I=333  W=garam               
-I=334  W=dokter              
-I=335  W=dok                 
-I=336  W=derajat             
-I=337  W=depan               
-I=338  W=darahnya            
-I=339  W=darah               
-I=340  W=dada                
-I=341  W=ct                  
-I=342  W=celcius             
-I=343  W=bulan               
-I=344  W=buah                
-I=345  W=bu                  
-I=346  W=bius                
-I=347  W=berpengaruh         
-I=348  W=belakangan          
-I=349  W=batuk               
-I=350  W=bapak               
-I=351  W=balik               
-I=352  W=bagian              
-I=353  W=badan               
-I=354  W=ayah                
-I=355  W=awal                
-I=356  W=arteri              
-I=357  W=apotek              
-I=358  W=apel                
-I=359  W=anu                 
-I=360  W=antidepressan       
-I=361  W=angka               
-I=362  W=alkohol             
-I=363  W=alergi              
-I=364  W=aja                 
-I=365  W=air                 
-I=366  W=ahmad               
-I=367  W=acetaminofen        
-I=368  W=silence             
-I=369  W=silence             
-I=370  W=!NULL               
-I=371  W=semua               
-I=372  W=seminggu            
-I=373  W=sejam               
-I=374  W=secangkir           
-I=375  W=seberapa            
-I=376  W=beberapa            
-I=377  W=silence             
-I=378  W=silence             
-I=379  W=!NULL               
-I=380  W=yang                
-I=381  W=ya                  
-I=382  W=untuk               
-I=383  W=tentang             
-I=384  W=sih                 
-I=385  W=tapi                
-I=386  W=sepertinya          
-I=387  W=selain              
-I=388  W=sejak               
-I=389  W=secara              
-I=390  W=sambil              
-I=391  W=oke                 
-I=392  W=ok                  
-I=393  W=nih                 
-I=394  W=mana                
-I=395  W=kenapa              
-I=396  W=ke                  
-I=397  W=karena              
-I=398  W=kapan               
-I=399  W=kalo                
-I=400  W=kalau               
-I=401  W=kah                 
-I=402  W=iya                 
-I=403  W=itu                 
-I=404  W=ini                 
-I=405  W=halo                
-I=406  W=hai                 
-I=407  W=gimana              
-I=408  W=em                  
-I=409  W=eh                  
-I=410  W=eeh                 
-I=411  W=doang               
-I=412  W=deh                 
-I=413  W=di                  
-I=414  W=dari                
-I=415  W=dan                 
-I=416  W=biar                
-I=417  W=berapa              
-I=418  W=atau                
-I=419  W=apalagi             
-I=420  W=apakah              
-I=421  W=apa                 
-I=422  W=balurin             
-I=423  W=silence             
-I=424  W=silence             
-I=425  W=!NULL               
-I=426  W=tusuk               
-I=427  W=turun               
-I=428  W=terima              
-I=429  W=terasa              
-I=430  W=terapi              
-I=431  W=tolong              
-I=432  W=tidurnya            
-I=433  W=tidur               
-I=434  W=terus               
-I=435  W=tertusuk            
-I=436  W=tahu                
-I=437  W=situ                
-I=438  W=sini                
-I=439  W=silakan             
-I=440  W=silahkan            
-I=441  W=setahu              
-I=442  W=sempet              
-I=443  W=sempat              
-I=444  W=sembuhnya           
-I=445  W=sembuh              
-I=446  W=sampai              
-I=447  W=rada                
-I=448  W=pusing              
-I=449  W=pulang              
-I=450  W=sarannya            
-I=451  W=sarankan            
-I=452  W=saran               
-I=453  W=scan                
-I=454  W=rileks              
-I=455  W=rebahan             
-I=456  W=perhatian           
-I=457  W=perbanyak           
-I=458  W=pecah               
-I=459  W=parah               
-I=460  W=paling              
-I=461  W=nyangkut            
-I=462  W=ntar                
-I=463  W=naik                
-I=464  W=muncul              
-I=465  W=merasa              
-I=466  W=menurun             
-I=467  W=lembur              
-I=468  W=makan               
-I=469  W=langsung            
-I=470  W=minum               
-I=471  W=ngurangin           
-I=472  W=ngerokok            
-I=473  W=periksa             
-I=474  W=pijat               
-I=475  W=kurang              
-I=476  W=kesini              
-I=477  W=kerja               
-I=478  W=kerasanya           
-I=479  W=kerasa              
-I=480  W=kepecah             
-I=481  W=kelihatannya        
-I=482  W=keliatan            
-I=483  W=kejadian            
-I=484  W=kebangun            
-I=485  W=jangan              
-I=486  W=jahit               
-I=487  W=jadi                
-I=488  W=isi                 
-I=489  W=ilang               
-I=490  W=ikut                
-I=491  W=habis               
-I=492  W=gitu                
-I=493  W=gini                
-I=494  W=gerak               
-I=495  W=gatau               
-I=496  W=tanya               
-I=497  W=tambah              
-I=498  W=membantu            
-I=499  W=melemaskan          
-I=500  W=kurangi             
-I=501  W=jalan               
-I=502  W=istirahat           
-I=503  W=duduk               
-I=504  W=mau                 
-I=505  W=masuk               
-I=506  W=ditusuk             
-I=507  W=diperjelas          
-I=508  W=diminum             
-I=509  W=diambil             
-I=510  W=coba                
-I=511  W=cepat               
-I=512  W=cek                 
-I=513  W=cari                
-I=514  W=buat                
-I=515  W=boleh               
-I=516  W=bisa                
-I=517  W=bilang              
-I=518  W=biasanya            
-I=519  W=berminyak           
-I=520  W=bantu               
-I=521  W=bangun              
-I=522  W=ada                 
-I=523  W=silence             
-I=524  W=silence             
-I=525  W=!NULL               
-I=526  W=yang                
-I=527  W=ya                  
-I=528  W=untuk               
-I=529  W=tentang             
-I=530  W=sih                 
-I=531  W=tapi                
-I=532  W=sepertinya          
-I=533  W=selain              
-I=534  W=sejak               
-I=535  W=secara              
-I=536  W=sambil              
-I=537  W=oke                 
-I=538  W=ok                  
-I=539  W=nih                 
-I=540  W=mana                
-I=541  W=kenapa              
-I=542  W=ke                  
-I=543  W=karena              
-I=544  W=kapan               
-I=545  W=kalo                
-I=546  W=kalau               
-I=547  W=kah                 
-I=548  W=iya                 
-I=549  W=itu                 
-I=550  W=ini                 
-I=551  W=halo                
-I=552  W=hai                 
-I=553  W=gimana              
-I=554  W=em                  
-I=555  W=eh                  
-I=556  W=eeh                 
-I=557  W=doang               
-I=558  W=deh                 
-I=559  W=di                  
-I=560  W=dari                
-I=561  W=dan                 
-I=562  W=biar                
-I=563  W=berapa              
-I=564  W=atau                
-I=565  W=apalagi             
-I=566  W=apakah              
-I=567  W=apa                 
-I=568  W=balurin             
-I=569  W=silence             
-I=570  W=silence             
-I=571  W=!NULL               
-I=572  W=saya                
-I=573  W=kita                
-I=574  W=kamu                
-I=575  W=waktu               
-I=576  W=umur                
-I=577  W=tulisin             
-I=578  W=terakhir            
-I=579  W=tanda               
-I=580  W=suhu                
-I=581  W=sudah               
-I=582  W=stroke              
-I=583  W=sma                 
-I=584  W=serangan            
-I=585  W=semisal             
-I=586  W=sekitar             
-I=587  W=seharian            
-I=588  W=sehari              
-I=589  W=sebentar            
-I=590  W=satu                
-I=591  W=riwayat             
-I=592  W=rasanya             
-I=593  W=rasa                
-I=594  W=posisinya           
-I=595  W=pilek               
-I=596  W=pereda              
-I=597  W=penglihatanmu       
-I=598  W=pedas               
-I=599  W=pandangannya        
-I=600  W=pandangan           
-I=601  W=pagi                
-I=602  W=pak                 
-I=603  W=paracetamol         
-I=604  W=ototmu              
-I=605  W=putih               
-I=606  W=perutnya            
-I=607  W=perut               
-I=608  W=pernafasan          
-I=609  W=punggung            
-I=610  W=rumah               
-I=611  W=sembilan            
-I=612  W=tenggorokan         
-I=613  W=ubin                
-I=614  W=penyakit            
-I=615  W=normal              
-I=616  W=natural             
-I=617  W=nanti               
-I=618  W=nafsu               
-I=619  W=misal               
-I=620  W=minggu              
-I=621  W=mimpi               
-I=622  W=merah               
-I=623  W=masalah             
-I=624  W=malem               
-I=625  W=malam               
-I=626  W=maksudnya           
-I=627  W=makanan             
-I=628  W=lokal               
-I=629  W=lukanya             
-I=630  W=lambung             
-I=631  W=kesehatan           
-I=632  W=list                
-I=633  W=layar               
-I=634  W=kopi                
-I=635  W=koma                
-I=636  W=kiri                
-I=637  W=kemarin             
-I=638  W=keluhannya          
-I=639  W=keluhan             
-I=640  W=keluarga            
-I=641  W=kasih               
-I=642  W=kanan               
-I=643  W=jantungnya          
-I=644  W=insomnia            
-I=645  W=ibuprofen           
-I=646  W=ibu                 
-I=647  W=hal                 
-I=648  W=hijau               
-I=649  W=hari                
-I=650  W=gelas               
-I=651  W=gejalanya           
-I=652  W=gejala              
-I=653  W=form                
-I=654  W=flu                 
-I=655  W=empat               
-I=656  W=dulu                
-I=657  W=enam                
-I=658  W=donor               
-I=659  W=kaki                
-I=660  W=jam                 
-I=661  W=kepala              
-I=662  W=lima                
-I=663  W=sayurannya          
-I=664  W=sayuran             
-I=665  W=sepuluh             
-I=666  W=tiga                
-I=667  W=tujuh               
-I=668  W=dua                 
-I=669  W=obatnya             
-I=670  W=kayu                
-I=671  W=minyak              
-I=672  W=minuman             
-I=673  W=obat                
-I=674  W=obatan              
-I=675  W=otot                
-I=676  W=orang               
-I=677  W=pepaya              
-I=678  W=pisang              
-I=679  W=sendi               
-I=680  W=wajah               
-I=681  W=jantung             
-I=682  W=gastritis           
-I=683  W=garam               
-I=684  W=dokter              
-I=685  W=dok                 
-I=686  W=derajat             
-I=687  W=depan               
-I=688  W=darahnya            
-I=689  W=darah               
-I=690  W=dada                
-I=691  W=ct                  
-I=692  W=celcius             
-I=693  W=bulan               
-I=694  W=buah                
-I=695  W=bu                  
-I=696  W=bius                
-I=697  W=berpengaruh         
-I=698  W=belakangan          
-I=699  W=batuk               
-I=700  W=bapak               
-I=701  W=balik               
-I=702  W=bagian              
-I=703  W=badan               
-I=704  W=ayah                
-I=705  W=awal                
-I=706  W=arteri              
-I=707  W=apotek              
-I=708  W=apel                
-I=709  W=anu                 
-I=710  W=antidepressan       
-I=711  W=angka               
-I=712  W=alkohol             
-I=713  W=alergi              
-I=714  W=aja                 
-I=715  W=air                 
-I=716  W=ahmad               
-I=717  W=acetaminofen        
-I=718  W=silence             
-I=719  W=silence             
-I=720  W=!NULL               
-I=721  W=yang                
-I=722  W=ya                  
-I=723  W=untuk               
-I=724  W=tentang             
-I=725  W=sih                 
-I=726  W=tapi                
-I=727  W=sepertinya          
-I=728  W=selain              
-I=729  W=sejak               
-I=730  W=secara              
-I=731  W=sambil              
-I=732  W=oke                 
-I=733  W=ok                  
-I=734  W=nih                 
-I=735  W=mana                
-I=736  W=kenapa              
-I=737  W=ke                  
-I=738  W=karena              
-I=739  W=kapan               
-I=740  W=kalo                
-I=741  W=kalau               
-I=742  W=kah                 
-I=743  W=iya                 
-I=744  W=itu                 
-I=745  W=ini                 
-I=746  W=halo                
-I=747  W=hai                 
-I=748  W=gimana              
-I=749  W=em                  
-I=750  W=eh                  
-I=751  W=eeh                 
-I=752  W=doang               
-I=753  W=deh                 
-I=754  W=di                  
-I=755  W=dari                
-I=756  W=dan                 
-I=757  W=biar                
-I=758  W=berapa              
-I=759  W=atau                
-I=760  W=apalagi             
-I=761  W=apakah              
-I=762  W=apa                 
-I=763  W=balurin             
-I=764  W=silence             
-I=765  W=silence             
-I=766  W=!NULL               
-I=767  W=!NULL               
-I=768  W=!NULL               
-J=0     S=0    E=0    
-J=1     S=2    E=0    
-J=2     S=46   E=0    
-J=3     S=48   E=0    
-J=4     S=2    E=1    
-J=5     S=46   E=1    
-J=6     S=48   E=1    
-J=7     S=1    E=2    
-J=8     S=3    E=2    
-J=9     S=4    E=2    
-J=10    S=5    E=2    
-J=11    S=6    E=2    
-J=12    S=7    E=2    
-J=13    S=8    E=2    
-J=14    S=9    E=2    
-J=15    S=10   E=2    
-J=16    S=11   E=2    
-J=17    S=12   E=2    
-J=18    S=13   E=2    
-J=19    S=14   E=2    
-J=20    S=15   E=2    
-J=21    S=16   E=2    
-J=22    S=17   E=2    
-J=23    S=18   E=2    
-J=24    S=19   E=2    
-J=25    S=20   E=2    
-J=26    S=21   E=2    
-J=27    S=22   E=2    
-J=28    S=23   E=2    
-J=29    S=24   E=2    
-J=30    S=25   E=2    
-J=31    S=26   E=2    
-J=32    S=27   E=2    
-J=33    S=28   E=2    
-J=34    S=29   E=2    
-J=35    S=30   E=2    
-J=36    S=31   E=2    
-J=37    S=32   E=2    
-J=38    S=33   E=2    
-J=39    S=34   E=2    
-J=40    S=35   E=2    
-J=41    S=36   E=2    
-J=42    S=37   E=2    
-J=43    S=38   E=2    
-J=44    S=39   E=2    
-J=45    S=40   E=2    
-J=46    S=41   E=2    
-J=47    S=42   E=2    
-J=48    S=43   E=2    
-J=49    S=44   E=2    
-J=50    S=45   E=2    
-J=51    S=46   E=3    
-J=52    S=48   E=3    
-J=53    S=46   E=4    
-J=54    S=48   E=4    
-J=55    S=46   E=5    
-J=56    S=48   E=5    
-J=57    S=46   E=6    
-J=58    S=48   E=6    
-J=59    S=46   E=7    
-J=60    S=48   E=7    
-J=61    S=46   E=8    
-J=62    S=48   E=8    
-J=63    S=46   E=9    
-J=64    S=48   E=9    
-J=65    S=46   E=10   
-J=66    S=48   E=10   
-J=67    S=46   E=11   
-J=68    S=48   E=11   
-J=69    S=46   E=12   
-J=70    S=48   E=12   
-J=71    S=46   E=13   
-J=72    S=48   E=13   
-J=73    S=46   E=14   
-J=74    S=48   E=14   
-J=75    S=46   E=15   
-J=76    S=48   E=15   
-J=77    S=46   E=16   
-J=78    S=48   E=16   
-J=79    S=46   E=17   
-J=80    S=48   E=17   
-J=81    S=46   E=18   
-J=82    S=48   E=18   
-J=83    S=46   E=19   
-J=84    S=48   E=19   
-J=85    S=46   E=20   
-J=86    S=48   E=20   
-J=87    S=46   E=21   
-J=88    S=48   E=21   
-J=89    S=46   E=22   
-J=90    S=48   E=22   
-J=91    S=46   E=23   
-J=92    S=48   E=23   
-J=93    S=46   E=24   
-J=94    S=48   E=24   
-J=95    S=46   E=25   
-J=96    S=48   E=25   
-J=97    S=46   E=26   
-J=98    S=48   E=26   
-J=99    S=46   E=27   
-J=100   S=48   E=27   
-J=101   S=46   E=28   
-J=102   S=48   E=28   
-J=103   S=46   E=29   
-J=104   S=48   E=29   
-J=105   S=46   E=30   
-J=106   S=48   E=30   
-J=107   S=46   E=31   
-J=108   S=48   E=31   
-J=109   S=46   E=32   
-J=110   S=48   E=32   
-J=111   S=46   E=33   
-J=112   S=48   E=33   
-J=113   S=46   E=34   
-J=114   S=48   E=34   
-J=115   S=46   E=35   
-J=116   S=48   E=35   
-J=117   S=46   E=36   
-J=118   S=48   E=36   
-J=119   S=46   E=37   
-J=120   S=48   E=37   
-J=121   S=46   E=38   
-J=122   S=48   E=38   
-J=123   S=46   E=39   
-J=124   S=48   E=39   
-J=125   S=46   E=40   
-J=126   S=48   E=40   
-J=127   S=46   E=41   
-J=128   S=48   E=41   
-J=129   S=46   E=42   
-J=130   S=48   E=42   
-J=131   S=46   E=43   
-J=132   S=48   E=43   
-J=133   S=46   E=44   
-J=134   S=48   E=44   
-J=135   S=46   E=45   
-J=136   S=48   E=45   
-J=137   S=46   E=46   
-J=138   S=48   E=46   
-J=139   S=48   E=47   
-J=140   S=47   E=48   
-J=141   S=49   E=48   
-J=142   S=50   E=48   
-J=143   S=51   E=48   
-J=144   S=52   E=48   
-J=145   S=53   E=48   
-J=146   S=54   E=48   
-J=147   S=55   E=48   
-J=148   S=56   E=48   
-J=149   S=57   E=48   
-J=150   S=58   E=48   
-J=151   S=59   E=48   
-J=152   S=60   E=48   
-J=153   S=61   E=48   
-J=154   S=62   E=48   
-J=155   S=63   E=48   
-J=156   S=64   E=48   
-J=157   S=65   E=48   
-J=158   S=66   E=48   
-J=159   S=67   E=48   
-J=160   S=68   E=48   
-J=161   S=69   E=48   
-J=162   S=70   E=48   
-J=163   S=71   E=48   
-J=164   S=72   E=48   
-J=165   S=73   E=48   
-J=166   S=74   E=48   
-J=167   S=75   E=48   
-J=168   S=76   E=48   
-J=169   S=77   E=48   
-J=170   S=78   E=48   
-J=171   S=79   E=48   
-J=172   S=80   E=48   
-J=173   S=81   E=48   
-J=174   S=82   E=48   
-J=175   S=83   E=48   
-J=176   S=84   E=48   
-J=177   S=85   E=48   
-J=178   S=86   E=48   
-J=179   S=87   E=48   
-J=180   S=88   E=48   
-J=181   S=89   E=48   
-J=182   S=90   E=48   
-J=183   S=91   E=48   
-J=184   S=92   E=48   
-J=185   S=93   E=48   
-J=186   S=94   E=48   
-J=187   S=95   E=48   
-J=188   S=96   E=48   
-J=189   S=97   E=48   
-J=190   S=98   E=48   
-J=191   S=99   E=48   
-J=192   S=100  E=48   
-J=193   S=101  E=48   
-J=194   S=102  E=48   
-J=195   S=103  E=48   
-J=196   S=104  E=48   
-J=197   S=105  E=48   
-J=198   S=106  E=48   
-J=199   S=107  E=48   
-J=200   S=108  E=48   
-J=201   S=109  E=48   
-J=202   S=110  E=48   
-J=203   S=111  E=48   
-J=204   S=112  E=48   
-J=205   S=113  E=48   
-J=206   S=114  E=48   
-J=207   S=115  E=48   
-J=208   S=116  E=48   
-J=209   S=117  E=48   
-J=210   S=118  E=48   
-J=211   S=119  E=48   
-J=212   S=120  E=48   
-J=213   S=121  E=48   
-J=214   S=122  E=48   
-J=215   S=123  E=48   
-J=216   S=124  E=48   
-J=217   S=125  E=48   
-J=218   S=126  E=48   
-J=219   S=127  E=48   
-J=220   S=128  E=48   
-J=221   S=129  E=48   
-J=222   S=130  E=48   
-J=223   S=131  E=48   
-J=224   S=132  E=48   
-J=225   S=133  E=48   
-J=226   S=134  E=48   
-J=227   S=135  E=48   
-J=228   S=136  E=48   
-J=229   S=137  E=48   
-J=230   S=138  E=48   
-J=231   S=139  E=48   
-J=232   S=140  E=48   
-J=233   S=141  E=48   
-J=234   S=142  E=48   
-J=235   S=143  E=48   
-J=236   S=144  E=48   
-J=237   S=145  E=48   
-J=238   S=146  E=48   
-J=239   S=147  E=48   
-J=240   S=148  E=48   
-J=241   S=149  E=48   
-J=242   S=150  E=48   
-J=243   S=151  E=48   
-J=244   S=152  E=48   
-J=245   S=153  E=48   
-J=246   S=154  E=48   
-J=247   S=155  E=48   
-J=248   S=156  E=48   
-J=249   S=157  E=48   
-J=250   S=158  E=48   
-J=251   S=159  E=48   
-J=252   S=160  E=48   
-J=253   S=161  E=48   
-J=254   S=162  E=48   
-J=255   S=163  E=48   
-J=256   S=164  E=48   
-J=257   S=165  E=48   
-J=258   S=166  E=48   
-J=259   S=167  E=48   
-J=260   S=168  E=48   
-J=261   S=169  E=48   
-J=262   S=170  E=48   
-J=263   S=171  E=48   
-J=264   S=172  E=48   
-J=265   S=173  E=49   
-J=266   S=175  E=49   
-J=267   S=219  E=49   
-J=268   S=221  E=49   
-J=269   S=173  E=50   
-J=270   S=175  E=50   
-J=271   S=219  E=50   
-J=272   S=221  E=50   
-J=273   S=173  E=51   
-J=274   S=175  E=51   
-J=275   S=219  E=51   
-J=276   S=221  E=51   
-J=277   S=173  E=52   
-J=278   S=175  E=52   
-J=279   S=219  E=52   
-J=280   S=221  E=52   
-J=281   S=173  E=53   
-J=282   S=175  E=53   
-J=283   S=219  E=53   
-J=284   S=221  E=53   
-J=285   S=173  E=54   
-J=286   S=175  E=54   
-J=287   S=219  E=54   
-J=288   S=221  E=54   
-J=289   S=173  E=55   
-J=290   S=175  E=55   
-J=291   S=219  E=55   
-J=292   S=221  E=55   
-J=293   S=173  E=56   
-J=294   S=175  E=56   
-J=295   S=219  E=56   
-J=296   S=221  E=56   
-J=297   S=173  E=57   
-J=298   S=175  E=57   
-J=299   S=219  E=57   
-J=300   S=221  E=57   
-J=301   S=173  E=58   
-J=302   S=175  E=58   
-J=303   S=219  E=58   
-J=304   S=221  E=58   
-J=305   S=173  E=59   
-J=306   S=175  E=59   
-J=307   S=219  E=59   
-J=308   S=221  E=59   
-J=309   S=173  E=60   
-J=310   S=175  E=60   
-J=311   S=219  E=60   
-J=312   S=221  E=60   
-J=313   S=173  E=61   
-J=314   S=175  E=61   
-J=315   S=219  E=61   
-J=316   S=221  E=61   
-J=317   S=173  E=62   
-J=318   S=175  E=62   
-J=319   S=219  E=62   
-J=320   S=221  E=62   
-J=321   S=173  E=63   
-J=322   S=175  E=63   
-J=323   S=219  E=63   
-J=324   S=221  E=63   
-J=325   S=173  E=64   
-J=326   S=175  E=64   
-J=327   S=219  E=64   
-J=328   S=221  E=64   
-J=329   S=173  E=65   
-J=330   S=175  E=65   
-J=331   S=219  E=65   
-J=332   S=221  E=65   
-J=333   S=173  E=66   
-J=334   S=175  E=66   
-J=335   S=219  E=66   
-J=336   S=221  E=66   
-J=337   S=173  E=67   
-J=338   S=175  E=67   
-J=339   S=219  E=67   
-J=340   S=221  E=67   
-J=341   S=173  E=68   
-J=342   S=175  E=68   
-J=343   S=219  E=68   
-J=344   S=221  E=68   
-J=345   S=173  E=69   
-J=346   S=175  E=69   
-J=347   S=219  E=69   
-J=348   S=221  E=69   
-J=349   S=173  E=70   
-J=350   S=175  E=70   
-J=351   S=219  E=70   
-J=352   S=221  E=70   
-J=353   S=173  E=71   
-J=354   S=175  E=71   
-J=355   S=219  E=71   
-J=356   S=221  E=71   
-J=357   S=173  E=72   
-J=358   S=175  E=72   
-J=359   S=219  E=72   
-J=360   S=221  E=72   
-J=361   S=173  E=73   
-J=362   S=175  E=73   
-J=363   S=219  E=73   
-J=364   S=221  E=73   
-J=365   S=173  E=74   
-J=366   S=175  E=74   
-J=367   S=219  E=74   
-J=368   S=221  E=74   
-J=369   S=173  E=75   
-J=370   S=175  E=75   
-J=371   S=219  E=75   
-J=372   S=221  E=75   
-J=373   S=173  E=76   
-J=374   S=175  E=76   
-J=375   S=219  E=76   
-J=376   S=221  E=76   
-J=377   S=173  E=77   
-J=378   S=175  E=77   
-J=379   S=219  E=77   
-J=380   S=221  E=77   
-J=381   S=173  E=78   
-J=382   S=175  E=78   
-J=383   S=219  E=78   
-J=384   S=221  E=78   
-J=385   S=173  E=79   
-J=386   S=175  E=79   
-J=387   S=219  E=79   
-J=388   S=221  E=79   
-J=389   S=173  E=80   
-J=390   S=175  E=80   
-J=391   S=219  E=80   
-J=392   S=221  E=80   
-J=393   S=173  E=81   
-J=394   S=175  E=81   
-J=395   S=219  E=81   
-J=396   S=221  E=81   
-J=397   S=173  E=82   
-J=398   S=175  E=82   
-J=399   S=219  E=82   
-J=400   S=221  E=82   
-J=401   S=173  E=83   
-J=402   S=175  E=83   
-J=403   S=219  E=83   
-J=404   S=221  E=83   
-J=405   S=173  E=84   
-J=406   S=175  E=84   
-J=407   S=219  E=84   
-J=408   S=221  E=84   
-J=409   S=173  E=85   
-J=410   S=175  E=85   
-J=411   S=219  E=85   
-J=412   S=221  E=85   
-J=413   S=173  E=86   
-J=414   S=175  E=86   
-J=415   S=219  E=86   
-J=416   S=221  E=86   
-J=417   S=173  E=87   
-J=418   S=175  E=87   
-J=419   S=219  E=87   
-J=420   S=221  E=87   
-J=421   S=173  E=88   
-J=422   S=175  E=88   
-J=423   S=219  E=88   
-J=424   S=221  E=88   
-J=425   S=173  E=89   
-J=426   S=175  E=89   
-J=427   S=219  E=89   
-J=428   S=221  E=89   
-J=429   S=173  E=90   
-J=430   S=175  E=90   
-J=431   S=219  E=90   
-J=432   S=221  E=90   
-J=433   S=173  E=91   
-J=434   S=175  E=91   
-J=435   S=219  E=91   
-J=436   S=221  E=91   
-J=437   S=173  E=92   
-J=438   S=175  E=92   
-J=439   S=219  E=92   
-J=440   S=221  E=92   
-J=441   S=173  E=93   
-J=442   S=175  E=93   
-J=443   S=219  E=93   
-J=444   S=221  E=93   
-J=445   S=173  E=94   
-J=446   S=175  E=94   
-J=447   S=219  E=94   
-J=448   S=221  E=94   
-J=449   S=173  E=95   
-J=450   S=175  E=95   
-J=451   S=219  E=95   
-J=452   S=221  E=95   
-J=453   S=173  E=96   
-J=454   S=175  E=96   
-J=455   S=219  E=96   
-J=456   S=221  E=96   
-J=457   S=173  E=97   
-J=458   S=175  E=97   
-J=459   S=219  E=97   
-J=460   S=221  E=97   
-J=461   S=173  E=98   
-J=462   S=175  E=98   
-J=463   S=219  E=98   
-J=464   S=221  E=98   
-J=465   S=173  E=99   
-J=466   S=175  E=99   
-J=467   S=219  E=99   
-J=468   S=221  E=99   
-J=469   S=173  E=100  
-J=470   S=175  E=100  
-J=471   S=219  E=100  
-J=472   S=221  E=100  
-J=473   S=173  E=101  
-J=474   S=175  E=101  
-J=475   S=219  E=101  
-J=476   S=221  E=101  
-J=477   S=173  E=102  
-J=478   S=175  E=102  
-J=479   S=219  E=102  
-J=480   S=221  E=102  
-J=481   S=173  E=103  
-J=482   S=175  E=103  
-J=483   S=219  E=103  
-J=484   S=221  E=103  
-J=485   S=173  E=104  
-J=486   S=175  E=104  
-J=487   S=219  E=104  
-J=488   S=221  E=104  
-J=489   S=173  E=105  
-J=490   S=175  E=105  
-J=491   S=219  E=105  
-J=492   S=221  E=105  
-J=493   S=173  E=106  
-J=494   S=175  E=106  
-J=495   S=219  E=106  
-J=496   S=221  E=106  
-J=497   S=173  E=107  
-J=498   S=175  E=107  
-J=499   S=219  E=107  
-J=500   S=221  E=107  
-J=501   S=173  E=108  
-J=502   S=175  E=108  
-J=503   S=219  E=108  
-J=504   S=221  E=108  
-J=505   S=173  E=109  
-J=506   S=175  E=109  
-J=507   S=219  E=109  
-J=508   S=221  E=109  
-J=509   S=173  E=110  
-J=510   S=175  E=110  
-J=511   S=219  E=110  
-J=512   S=221  E=110  
-J=513   S=173  E=111  
-J=514   S=175  E=111  
-J=515   S=219  E=111  
-J=516   S=221  E=111  
-J=517   S=173  E=112  
-J=518   S=175  E=112  
-J=519   S=219  E=112  
-J=520   S=221  E=112  
-J=521   S=173  E=113  
-J=522   S=175  E=113  
-J=523   S=219  E=113  
-J=524   S=221  E=113  
-J=525   S=173  E=114  
-J=526   S=175  E=114  
-J=527   S=219  E=114  
-J=528   S=221  E=114  
-J=529   S=173  E=115  
-J=530   S=175  E=115  
-J=531   S=219  E=115  
-J=532   S=221  E=115  
-J=533   S=173  E=116  
-J=534   S=175  E=116  
-J=535   S=219  E=116  
-J=536   S=221  E=116  
-J=537   S=173  E=117  
-J=538   S=175  E=117  
-J=539   S=219  E=117  
-J=540   S=221  E=117  
-J=541   S=173  E=118  
-J=542   S=175  E=118  
-J=543   S=219  E=118  
-J=544   S=221  E=118  
-J=545   S=173  E=119  
-J=546   S=175  E=119  
-J=547   S=219  E=119  
-J=548   S=221  E=119  
-J=549   S=173  E=120  
-J=550   S=175  E=120  
-J=551   S=219  E=120  
-J=552   S=221  E=120  
-J=553   S=173  E=121  
-J=554   S=175  E=121  
-J=555   S=219  E=121  
-J=556   S=221  E=121  
-J=557   S=173  E=122  
-J=558   S=175  E=122  
-J=559   S=219  E=122  
-J=560   S=221  E=122  
-J=561   S=173  E=123  
-J=562   S=175  E=123  
-J=563   S=219  E=123  
-J=564   S=221  E=123  
-J=565   S=173  E=124  
-J=566   S=175  E=124  
-J=567   S=219  E=124  
-J=568   S=221  E=124  
-J=569   S=173  E=125  
-J=570   S=175  E=125  
-J=571   S=219  E=125  
-J=572   S=221  E=125  
-J=573   S=173  E=126  
-J=574   S=175  E=126  
-J=575   S=219  E=126  
-J=576   S=221  E=126  
-J=577   S=173  E=127  
-J=578   S=175  E=127  
-J=579   S=219  E=127  
-J=580   S=221  E=127  
-J=581   S=173  E=128  
-J=582   S=175  E=128  
-J=583   S=219  E=128  
-J=584   S=221  E=128  
-J=585   S=173  E=129  
-J=586   S=175  E=129  
-J=587   S=219  E=129  
-J=588   S=221  E=129  
-J=589   S=173  E=130  
-J=590   S=175  E=130  
-J=591   S=219  E=130  
-J=592   S=221  E=130  
-J=593   S=173  E=131  
-J=594   S=175  E=131  
-J=595   S=219  E=131  
-J=596   S=221  E=131  
-J=597   S=173  E=132  
-J=598   S=175  E=132  
-J=599   S=219  E=132  
-J=600   S=221  E=132  
-J=601   S=173  E=133  
-J=602   S=175  E=133  
-J=603   S=219  E=133  
-J=604   S=221  E=133  
-J=605   S=173  E=134  
-J=606   S=175  E=134  
-J=607   S=219  E=134  
-J=608   S=221  E=134  
-J=609   S=173  E=135  
-J=610   S=175  E=135  
-J=611   S=219  E=135  
-J=612   S=221  E=135  
-J=613   S=173  E=136  
-J=614   S=175  E=136  
-J=615   S=219  E=136  
-J=616   S=221  E=136  
-J=617   S=173  E=137  
-J=618   S=175  E=137  
-J=619   S=219  E=137  
-J=620   S=221  E=137  
-J=621   S=173  E=138  
-J=622   S=175  E=138  
-J=623   S=219  E=138  
-J=624   S=221  E=138  
-J=625   S=173  E=139  
-J=626   S=175  E=139  
-J=627   S=219  E=139  
-J=628   S=221  E=139  
-J=629   S=173  E=140  
-J=630   S=175  E=140  
-J=631   S=219  E=140  
-J=632   S=221  E=140  
-J=633   S=173  E=141  
-J=634   S=175  E=141  
-J=635   S=219  E=141  
-J=636   S=221  E=141  
-J=637   S=173  E=142  
-J=638   S=175  E=142  
-J=639   S=219  E=142  
-J=640   S=221  E=142  
-J=641   S=173  E=143  
-J=642   S=175  E=143  
-J=643   S=219  E=143  
-J=644   S=221  E=143  
-J=645   S=173  E=144  
-J=646   S=175  E=144  
-J=647   S=219  E=144  
-J=648   S=221  E=144  
-J=649   S=173  E=145  
-J=650   S=175  E=145  
-J=651   S=219  E=145  
-J=652   S=221  E=145  
-J=653   S=173  E=146  
-J=654   S=175  E=146  
-J=655   S=219  E=146  
-J=656   S=221  E=146  
-J=657   S=173  E=147  
-J=658   S=175  E=147  
-J=659   S=219  E=147  
-J=660   S=221  E=147  
-J=661   S=173  E=148  
-J=662   S=175  E=148  
-J=663   S=219  E=148  
-J=664   S=221  E=148  
-J=665   S=173  E=149  
-J=666   S=175  E=149  
-J=667   S=219  E=149  
-J=668   S=221  E=149  
-J=669   S=173  E=150  
-J=670   S=175  E=150  
-J=671   S=219  E=150  
-J=672   S=221  E=150  
-J=673   S=173  E=151  
-J=674   S=175  E=151  
-J=675   S=219  E=151  
-J=676   S=221  E=151  
-J=677   S=173  E=152  
-J=678   S=175  E=152  
-J=679   S=219  E=152  
-J=680   S=221  E=152  
-J=681   S=173  E=153  
-J=682   S=175  E=153  
-J=683   S=219  E=153  
-J=684   S=221  E=153  
-J=685   S=173  E=154  
-J=686   S=175  E=154  
-J=687   S=219  E=154  
-J=688   S=221  E=154  
-J=689   S=173  E=155  
-J=690   S=175  E=155  
-J=691   S=219  E=155  
-J=692   S=221  E=155  
-J=693   S=173  E=156  
-J=694   S=175  E=156  
-J=695   S=219  E=156  
-J=696   S=221  E=156  
-J=697   S=173  E=157  
-J=698   S=175  E=157  
-J=699   S=219  E=157  
-J=700   S=221  E=157  
-J=701   S=173  E=158  
-J=702   S=175  E=158  
-J=703   S=219  E=158  
-J=704   S=221  E=158  
-J=705   S=173  E=159  
-J=706   S=175  E=159  
-J=707   S=219  E=159  
-J=708   S=221  E=159  
-J=709   S=173  E=160  
-J=710   S=175  E=160  
-J=711   S=219  E=160  
-J=712   S=221  E=160  
-J=713   S=173  E=161  
-J=714   S=175  E=161  
-J=715   S=219  E=161  
-J=716   S=221  E=161  
-J=717   S=173  E=162  
-J=718   S=175  E=162  
-J=719   S=219  E=162  
-J=720   S=221  E=162  
-J=721   S=173  E=163  
-J=722   S=175  E=163  
-J=723   S=219  E=163  
-J=724   S=221  E=163  
-J=725   S=173  E=164  
-J=726   S=175  E=164  
-J=727   S=219  E=164  
-J=728   S=221  E=164  
-J=729   S=173  E=165  
-J=730   S=175  E=165  
-J=731   S=219  E=165  
-J=732   S=221  E=165  
-J=733   S=173  E=166  
-J=734   S=175  E=166  
-J=735   S=219  E=166  
-J=736   S=221  E=166  
-J=737   S=173  E=167  
-J=738   S=175  E=167  
-J=739   S=219  E=167  
-J=740   S=221  E=167  
-J=741   S=173  E=168  
-J=742   S=175  E=168  
-J=743   S=219  E=168  
-J=744   S=221  E=168  
-J=745   S=173  E=169  
-J=746   S=175  E=169  
-J=747   S=219  E=169  
-J=748   S=221  E=169  
-J=749   S=173  E=170  
-J=750   S=175  E=170  
-J=751   S=219  E=170  
-J=752   S=221  E=170  
-J=753   S=173  E=171  
-J=754   S=175  E=171  
-J=755   S=219  E=171  
-J=756   S=221  E=171  
-J=757   S=173  E=172  
-J=758   S=175  E=172  
-J=759   S=219  E=172  
-J=760   S=221  E=172  
-J=761   S=173  E=173  
-J=762   S=175  E=173  
-J=763   S=219  E=173  
-J=764   S=221  E=173  
-J=765   S=175  E=174  
-J=766   S=219  E=174  
-J=767   S=221  E=174  
-J=768   S=174  E=175  
-J=769   S=176  E=175  
-J=770   S=177  E=175  
-J=771   S=178  E=175  
-J=772   S=179  E=175  
-J=773   S=180  E=175  
-J=774   S=181  E=175  
-J=775   S=182  E=175  
-J=776   S=183  E=175  
-J=777   S=184  E=175  
-J=778   S=185  E=175  
-J=779   S=186  E=175  
-J=780   S=187  E=175  
-J=781   S=188  E=175  
-J=782   S=189  E=175  
-J=783   S=190  E=175  
-J=784   S=191  E=175  
-J=785   S=192  E=175  
-J=786   S=193  E=175  
-J=787   S=194  E=175  
-J=788   S=195  E=175  
-J=789   S=196  E=175  
-J=790   S=197  E=175  
-J=791   S=198  E=175  
-J=792   S=199  E=175  
-J=793   S=200  E=175  
-J=794   S=201  E=175  
-J=795   S=202  E=175  
-J=796   S=203  E=175  
-J=797   S=204  E=175  
-J=798   S=205  E=175  
-J=799   S=206  E=175  
-J=800   S=207  E=175  
-J=801   S=208  E=175  
-J=802   S=209  E=175  
-J=803   S=210  E=175  
-J=804   S=211  E=175  
-J=805   S=212  E=175  
-J=806   S=213  E=175  
-J=807   S=214  E=175  
-J=808   S=215  E=175  
-J=809   S=216  E=175  
-J=810   S=217  E=175  
-J=811   S=218  E=175  
-J=812   S=219  E=176  
-J=813   S=221  E=176  
-J=814   S=219  E=177  
-J=815   S=221  E=177  
-J=816   S=219  E=178  
-J=817   S=221  E=178  
-J=818   S=219  E=179  
-J=819   S=221  E=179  
-J=820   S=219  E=180  
-J=821   S=221  E=180  
-J=822   S=219  E=181  
-J=823   S=221  E=181  
-J=824   S=219  E=182  
-J=825   S=221  E=182  
-J=826   S=219  E=183  
-J=827   S=221  E=183  
-J=828   S=219  E=184  
-J=829   S=221  E=184  
-J=830   S=219  E=185  
-J=831   S=221  E=185  
-J=832   S=219  E=186  
-J=833   S=221  E=186  
-J=834   S=219  E=187  
-J=835   S=221  E=187  
-J=836   S=219  E=188  
-J=837   S=221  E=188  
-J=838   S=219  E=189  
-J=839   S=221  E=189  
-J=840   S=219  E=190  
-J=841   S=221  E=190  
-J=842   S=219  E=191  
-J=843   S=221  E=191  
-J=844   S=219  E=192  
-J=845   S=221  E=192  
-J=846   S=219  E=193  
-J=847   S=221  E=193  
-J=848   S=219  E=194  
-J=849   S=221  E=194  
-J=850   S=219  E=195  
-J=851   S=221  E=195  
-J=852   S=219  E=196  
-J=853   S=221  E=196  
-J=854   S=219  E=197  
-J=855   S=221  E=197  
-J=856   S=219  E=198  
-J=857   S=221  E=198  
-J=858   S=219  E=199  
-J=859   S=221  E=199  
-J=860   S=219  E=200  
-J=861   S=221  E=200  
-J=862   S=219  E=201  
-J=863   S=221  E=201  
-J=864   S=219  E=202  
-J=865   S=221  E=202  
-J=866   S=219  E=203  
-J=867   S=221  E=203  
-J=868   S=219  E=204  
-J=869   S=221  E=204  
-J=870   S=219  E=205  
-J=871   S=221  E=205  
-J=872   S=219  E=206  
-J=873   S=221  E=206  
-J=874   S=219  E=207  
-J=875   S=221  E=207  
-J=876   S=219  E=208  
-J=877   S=221  E=208  
-J=878   S=219  E=209  
-J=879   S=221  E=209  
-J=880   S=219  E=210  
-J=881   S=221  E=210  
-J=882   S=219  E=211  
-J=883   S=221  E=211  
-J=884   S=219  E=212  
-J=885   S=221  E=212  
-J=886   S=219  E=213  
-J=887   S=221  E=213  
-J=888   S=219  E=214  
-J=889   S=221  E=214  
-J=890   S=219  E=215  
-J=891   S=221  E=215  
-J=892   S=219  E=216  
-J=893   S=221  E=216  
-J=894   S=219  E=217  
-J=895   S=221  E=217  
-J=896   S=219  E=218  
-J=897   S=221  E=218  
-J=898   S=219  E=219  
-J=899   S=221  E=219  
-J=900   S=221  E=220  
-J=901   S=220  E=221  
-J=902   S=222  E=221  
-J=903   S=223  E=221  
-J=904   S=224  E=221  
-J=905   S=225  E=221  
-J=906   S=226  E=221  
-J=907   S=227  E=221  
-J=908   S=228  E=221  
-J=909   S=229  E=221  
-J=910   S=230  E=221  
-J=911   S=231  E=221  
-J=912   S=232  E=221  
-J=913   S=233  E=221  
-J=914   S=234  E=221  
-J=915   S=235  E=221  
-J=916   S=236  E=221  
-J=917   S=237  E=221  
-J=918   S=238  E=221  
-J=919   S=239  E=221  
-J=920   S=240  E=221  
-J=921   S=241  E=221  
-J=922   S=242  E=221  
-J=923   S=243  E=221  
-J=924   S=244  E=221  
-J=925   S=245  E=221  
-J=926   S=246  E=221  
-J=927   S=247  E=221  
-J=928   S=248  E=221  
-J=929   S=249  E=221  
-J=930   S=250  E=221  
-J=931   S=251  E=221  
-J=932   S=252  E=221  
-J=933   S=253  E=221  
-J=934   S=254  E=221  
-J=935   S=255  E=221  
-J=936   S=256  E=221  
-J=937   S=257  E=221  
-J=938   S=258  E=221  
-J=939   S=259  E=221  
-J=940   S=260  E=221  
-J=941   S=261  E=221  
-J=942   S=262  E=221  
-J=943   S=263  E=221  
-J=944   S=264  E=221  
-J=945   S=265  E=221  
-J=946   S=266  E=221  
-J=947   S=267  E=221  
-J=948   S=268  E=221  
-J=949   S=269  E=221  
-J=950   S=270  E=221  
-J=951   S=271  E=221  
-J=952   S=272  E=221  
-J=953   S=273  E=221  
-J=954   S=274  E=221  
-J=955   S=275  E=221  
-J=956   S=276  E=221  
-J=957   S=277  E=221  
-J=958   S=278  E=221  
-J=959   S=279  E=221  
-J=960   S=280  E=221  
-J=961   S=281  E=221  
-J=962   S=282  E=221  
-J=963   S=283  E=221  
-J=964   S=284  E=221  
-J=965   S=285  E=221  
-J=966   S=286  E=221  
-J=967   S=287  E=221  
-J=968   S=288  E=221  
-J=969   S=289  E=221  
-J=970   S=290  E=221  
-J=971   S=291  E=221  
-J=972   S=292  E=221  
-J=973   S=293  E=221  
-J=974   S=294  E=221  
-J=975   S=295  E=221  
-J=976   S=296  E=221  
-J=977   S=297  E=221  
-J=978   S=298  E=221  
-J=979   S=299  E=221  
-J=980   S=300  E=221  
-J=981   S=301  E=221  
-J=982   S=302  E=221  
-J=983   S=303  E=221  
-J=984   S=304  E=221  
-J=985   S=305  E=221  
-J=986   S=306  E=221  
-J=987   S=307  E=221  
-J=988   S=308  E=221  
-J=989   S=309  E=221  
-J=990   S=310  E=221  
-J=991   S=311  E=221  
-J=992   S=312  E=221  
-J=993   S=313  E=221  
-J=994   S=314  E=221  
-J=995   S=315  E=221  
-J=996   S=316  E=221  
-J=997   S=317  E=221  
-J=998   S=318  E=221  
-J=999   S=319  E=221  
-J=1000  S=320  E=221  
-J=1001  S=321  E=221  
-J=1002  S=322  E=221  
-J=1003  S=323  E=221  
-J=1004  S=324  E=221  
-J=1005  S=325  E=221  
-J=1006  S=326  E=221  
-J=1007  S=327  E=221  
-J=1008  S=328  E=221  
-J=1009  S=329  E=221  
-J=1010  S=330  E=221  
-J=1011  S=331  E=221  
-J=1012  S=332  E=221  
-J=1013  S=333  E=221  
-J=1014  S=334  E=221  
-J=1015  S=335  E=221  
-J=1016  S=336  E=221  
-J=1017  S=337  E=221  
-J=1018  S=338  E=221  
-J=1019  S=339  E=221  
-J=1020  S=340  E=221  
-J=1021  S=341  E=221  
-J=1022  S=342  E=221  
-J=1023  S=343  E=221  
-J=1024  S=344  E=221  
-J=1025  S=345  E=221  
-J=1026  S=346  E=221  
-J=1027  S=347  E=221  
-J=1028  S=348  E=221  
-J=1029  S=349  E=221  
-J=1030  S=350  E=221  
-J=1031  S=351  E=221  
-J=1032  S=352  E=221  
-J=1033  S=353  E=221  
-J=1034  S=354  E=221  
-J=1035  S=355  E=221  
-J=1036  S=356  E=221  
-J=1037  S=357  E=221  
-J=1038  S=358  E=221  
-J=1039  S=359  E=221  
-J=1040  S=360  E=221  
-J=1041  S=361  E=221  
-J=1042  S=362  E=221  
-J=1043  S=363  E=221  
-J=1044  S=364  E=221  
-J=1045  S=365  E=221  
-J=1046  S=366  E=221  
-J=1047  S=367  E=221  
-J=1048  S=368  E=222  
-J=1049  S=370  E=222  
-J=1050  S=377  E=222  
-J=1051  S=379  E=222  
-J=1052  S=423  E=222  
-J=1053  S=425  E=222  
-J=1054  S=368  E=223  
-J=1055  S=370  E=223  
-J=1056  S=377  E=223  
-J=1057  S=379  E=223  
-J=1058  S=423  E=223  
-J=1059  S=425  E=223  
-J=1060  S=368  E=224  
-J=1061  S=370  E=224  
-J=1062  S=377  E=224  
-J=1063  S=379  E=224  
-J=1064  S=423  E=224  
-J=1065  S=425  E=224  
-J=1066  S=368  E=225  
-J=1067  S=370  E=225  
-J=1068  S=377  E=225  
-J=1069  S=379  E=225  
-J=1070  S=423  E=225  
-J=1071  S=425  E=225  
-J=1072  S=368  E=226  
-J=1073  S=370  E=226  
-J=1074  S=377  E=226  
-J=1075  S=379  E=226  
-J=1076  S=423  E=226  
-J=1077  S=425  E=226  
-J=1078  S=368  E=227  
-J=1079  S=370  E=227  
-J=1080  S=377  E=227  
-J=1081  S=379  E=227  
-J=1082  S=423  E=227  
-J=1083  S=425  E=227  
-J=1084  S=368  E=228  
-J=1085  S=370  E=228  
-J=1086  S=377  E=228  
-J=1087  S=379  E=228  
-J=1088  S=423  E=228  
-J=1089  S=425  E=228  
-J=1090  S=368  E=229  
-J=1091  S=370  E=229  
-J=1092  S=377  E=229  
-J=1093  S=379  E=229  
-J=1094  S=423  E=229  
-J=1095  S=425  E=229  
-J=1096  S=368  E=230  
-J=1097  S=370  E=230  
-J=1098  S=377  E=230  
-J=1099  S=379  E=230  
-J=1100  S=423  E=230  
-J=1101  S=425  E=230  
-J=1102  S=368  E=231  
-J=1103  S=370  E=231  
-J=1104  S=377  E=231  
-J=1105  S=379  E=231  
-J=1106  S=423  E=231  
-J=1107  S=425  E=231  
-J=1108  S=368  E=232  
-J=1109  S=370  E=232  
-J=1110  S=377  E=232  
-J=1111  S=379  E=232  
-J=1112  S=423  E=232  
-J=1113  S=425  E=232  
-J=1114  S=368  E=233  
-J=1115  S=370  E=233  
-J=1116  S=377  E=233  
-J=1117  S=379  E=233  
-J=1118  S=423  E=233  
-J=1119  S=425  E=233  
-J=1120  S=368  E=234  
-J=1121  S=370  E=234  
-J=1122  S=377  E=234  
-J=1123  S=379  E=234  
-J=1124  S=423  E=234  
-J=1125  S=425  E=234  
-J=1126  S=368  E=235  
-J=1127  S=370  E=235  
-J=1128  S=377  E=235  
-J=1129  S=379  E=235  
-J=1130  S=423  E=235  
-J=1131  S=425  E=235  
-J=1132  S=368  E=236  
-J=1133  S=370  E=236  
-J=1134  S=377  E=236  
-J=1135  S=379  E=236  
-J=1136  S=423  E=236  
-J=1137  S=425  E=236  
-J=1138  S=368  E=237  
-J=1139  S=370  E=237  
-J=1140  S=377  E=237  
-J=1141  S=379  E=237  
-J=1142  S=423  E=237  
-J=1143  S=425  E=237  
-J=1144  S=368  E=238  
-J=1145  S=370  E=238  
-J=1146  S=377  E=238  
-J=1147  S=379  E=238  
-J=1148  S=423  E=238  
-J=1149  S=425  E=238  
-J=1150  S=368  E=239  
-J=1151  S=370  E=239  
-J=1152  S=377  E=239  
-J=1153  S=379  E=239  
-J=1154  S=423  E=239  
-J=1155  S=425  E=239  
-J=1156  S=368  E=240  
-J=1157  S=370  E=240  
-J=1158  S=377  E=240  
-J=1159  S=379  E=240  
-J=1160  S=423  E=240  
-J=1161  S=425  E=240  
-J=1162  S=368  E=241  
-J=1163  S=370  E=241  
-J=1164  S=377  E=241  
-J=1165  S=379  E=241  
-J=1166  S=423  E=241  
-J=1167  S=425  E=241  
-J=1168  S=368  E=242  
-J=1169  S=370  E=242  
-J=1170  S=377  E=242  
-J=1171  S=379  E=242  
-J=1172  S=423  E=242  
-J=1173  S=425  E=242  
-J=1174  S=368  E=243  
-J=1175  S=370  E=243  
-J=1176  S=377  E=243  
-J=1177  S=379  E=243  
-J=1178  S=423  E=243  
-J=1179  S=425  E=243  
-J=1180  S=368  E=244  
-J=1181  S=370  E=244  
-J=1182  S=377  E=244  
-J=1183  S=379  E=244  
-J=1184  S=423  E=244  
-J=1185  S=425  E=244  
-J=1186  S=368  E=245  
-J=1187  S=370  E=245  
-J=1188  S=377  E=245  
-J=1189  S=379  E=245  
-J=1190  S=423  E=245  
-J=1191  S=425  E=245  
-J=1192  S=368  E=246  
-J=1193  S=370  E=246  
-J=1194  S=377  E=246  
-J=1195  S=379  E=246  
-J=1196  S=423  E=246  
-J=1197  S=425  E=246  
-J=1198  S=368  E=247  
-J=1199  S=370  E=247  
-J=1200  S=377  E=247  
-J=1201  S=379  E=247  
-J=1202  S=423  E=247  
-J=1203  S=425  E=247  
-J=1204  S=368  E=248  
-J=1205  S=370  E=248  
-J=1206  S=377  E=248  
-J=1207  S=379  E=248  
-J=1208  S=423  E=248  
-J=1209  S=425  E=248  
-J=1210  S=368  E=249  
-J=1211  S=370  E=249  
-J=1212  S=377  E=249  
-J=1213  S=379  E=249  
-J=1214  S=423  E=249  
-J=1215  S=425  E=249  
-J=1216  S=368  E=250  
-J=1217  S=370  E=250  
-J=1218  S=377  E=250  
-J=1219  S=379  E=250  
-J=1220  S=423  E=250  
-J=1221  S=425  E=250  
-J=1222  S=368  E=251  
-J=1223  S=370  E=251  
-J=1224  S=377  E=251  
-J=1225  S=379  E=251  
-J=1226  S=423  E=251  
-J=1227  S=425  E=251  
-J=1228  S=368  E=252  
-J=1229  S=370  E=252  
-J=1230  S=377  E=252  
-J=1231  S=379  E=252  
-J=1232  S=423  E=252  
-J=1233  S=425  E=252  
-J=1234  S=368  E=253  
-J=1235  S=370  E=253  
-J=1236  S=377  E=253  
-J=1237  S=379  E=253  
-J=1238  S=423  E=253  
-J=1239  S=425  E=253  
-J=1240  S=368  E=254  
-J=1241  S=370  E=254  
-J=1242  S=377  E=254  
-J=1243  S=379  E=254  
-J=1244  S=423  E=254  
-J=1245  S=425  E=254  
-J=1246  S=368  E=255  
-J=1247  S=370  E=255  
-J=1248  S=377  E=255  
-J=1249  S=379  E=255  
-J=1250  S=423  E=255  
-J=1251  S=425  E=255  
-J=1252  S=368  E=256  
-J=1253  S=370  E=256  
-J=1254  S=377  E=256  
-J=1255  S=379  E=256  
-J=1256  S=423  E=256  
-J=1257  S=425  E=256  
-J=1258  S=368  E=257  
-J=1259  S=370  E=257  
-J=1260  S=377  E=257  
-J=1261  S=379  E=257  
-J=1262  S=423  E=257  
-J=1263  S=425  E=257  
-J=1264  S=368  E=258  
-J=1265  S=370  E=258  
-J=1266  S=377  E=258  
-J=1267  S=379  E=258  
-J=1268  S=423  E=258  
-J=1269  S=425  E=258  
-J=1270  S=368  E=259  
-J=1271  S=370  E=259  
-J=1272  S=377  E=259  
-J=1273  S=379  E=259  
-J=1274  S=423  E=259  
-J=1275  S=425  E=259  
-J=1276  S=368  E=260  
-J=1277  S=370  E=260  
-J=1278  S=377  E=260  
-J=1279  S=379  E=260  
-J=1280  S=423  E=260  
-J=1281  S=425  E=260  
-J=1282  S=368  E=261  
-J=1283  S=370  E=261  
-J=1284  S=377  E=261  
-J=1285  S=379  E=261  
-J=1286  S=423  E=261  
-J=1287  S=425  E=261  
-J=1288  S=368  E=262  
-J=1289  S=370  E=262  
-J=1290  S=377  E=262  
-J=1291  S=379  E=262  
-J=1292  S=423  E=262  
-J=1293  S=425  E=262  
-J=1294  S=368  E=263  
-J=1295  S=370  E=263  
-J=1296  S=377  E=263  
-J=1297  S=379  E=263  
-J=1298  S=423  E=263  
-J=1299  S=425  E=263  
-J=1300  S=368  E=264  
-J=1301  S=370  E=264  
-J=1302  S=377  E=264  
-J=1303  S=379  E=264  
-J=1304  S=423  E=264  
-J=1305  S=425  E=264  
-J=1306  S=368  E=265  
-J=1307  S=370  E=265  
-J=1308  S=377  E=265  
-J=1309  S=379  E=265  
-J=1310  S=423  E=265  
-J=1311  S=425  E=265  
-J=1312  S=368  E=266  
-J=1313  S=370  E=266  
-J=1314  S=377  E=266  
-J=1315  S=379  E=266  
-J=1316  S=423  E=266  
-J=1317  S=425  E=266  
-J=1318  S=368  E=267  
-J=1319  S=370  E=267  
-J=1320  S=377  E=267  
-J=1321  S=379  E=267  
-J=1322  S=423  E=267  
-J=1323  S=425  E=267  
-J=1324  S=368  E=268  
-J=1325  S=370  E=268  
-J=1326  S=377  E=268  
-J=1327  S=379  E=268  
-J=1328  S=423  E=268  
-J=1329  S=425  E=268  
-J=1330  S=368  E=269  
-J=1331  S=370  E=269  
-J=1332  S=377  E=269  
-J=1333  S=379  E=269  
-J=1334  S=423  E=269  
-J=1335  S=425  E=269  
-J=1336  S=368  E=270  
-J=1337  S=370  E=270  
-J=1338  S=377  E=270  
-J=1339  S=379  E=270  
-J=1340  S=423  E=270  
-J=1341  S=425  E=270  
-J=1342  S=368  E=271  
-J=1343  S=370  E=271  
-J=1344  S=377  E=271  
-J=1345  S=379  E=271  
-J=1346  S=423  E=271  
-J=1347  S=425  E=271  
-J=1348  S=368  E=272  
-J=1349  S=370  E=272  
-J=1350  S=377  E=272  
-J=1351  S=379  E=272  
-J=1352  S=423  E=272  
-J=1353  S=425  E=272  
-J=1354  S=368  E=273  
-J=1355  S=370  E=273  
-J=1356  S=377  E=273  
-J=1357  S=379  E=273  
-J=1358  S=423  E=273  
-J=1359  S=425  E=273  
-J=1360  S=368  E=274  
-J=1361  S=370  E=274  
-J=1362  S=377  E=274  
-J=1363  S=379  E=274  
-J=1364  S=423  E=274  
-J=1365  S=425  E=274  
-J=1366  S=368  E=275  
-J=1367  S=370  E=275  
-J=1368  S=377  E=275  
-J=1369  S=379  E=275  
-J=1370  S=423  E=275  
-J=1371  S=425  E=275  
-J=1372  S=368  E=276  
-J=1373  S=370  E=276  
-J=1374  S=377  E=276  
-J=1375  S=379  E=276  
-J=1376  S=423  E=276  
-J=1377  S=425  E=276  
-J=1378  S=368  E=277  
-J=1379  S=370  E=277  
-J=1380  S=377  E=277  
-J=1381  S=379  E=277  
-J=1382  S=423  E=277  
-J=1383  S=425  E=277  
-J=1384  S=368  E=278  
-J=1385  S=370  E=278  
-J=1386  S=377  E=278  
-J=1387  S=379  E=278  
-J=1388  S=423  E=278  
-J=1389  S=425  E=278  
-J=1390  S=368  E=279  
-J=1391  S=370  E=279  
-J=1392  S=377  E=279  
-J=1393  S=379  E=279  
-J=1394  S=423  E=279  
-J=1395  S=425  E=279  
-J=1396  S=368  E=280  
-J=1397  S=370  E=280  
-J=1398  S=377  E=280  
-J=1399  S=379  E=280  
-J=1400  S=423  E=280  
-J=1401  S=425  E=280  
-J=1402  S=368  E=281  
-J=1403  S=370  E=281  
-J=1404  S=377  E=281  
-J=1405  S=379  E=281  
-J=1406  S=423  E=281  
-J=1407  S=425  E=281  
-J=1408  S=368  E=282  
-J=1409  S=370  E=282  
-J=1410  S=377  E=282  
-J=1411  S=379  E=282  
-J=1412  S=423  E=282  
-J=1413  S=425  E=282  
-J=1414  S=368  E=283  
-J=1415  S=370  E=283  
-J=1416  S=377  E=283  
-J=1417  S=379  E=283  
-J=1418  S=423  E=283  
-J=1419  S=425  E=283  
-J=1420  S=368  E=284  
-J=1421  S=370  E=284  
-J=1422  S=377  E=284  
-J=1423  S=379  E=284  
-J=1424  S=423  E=284  
-J=1425  S=425  E=284  
-J=1426  S=368  E=285  
-J=1427  S=370  E=285  
-J=1428  S=377  E=285  
-J=1429  S=379  E=285  
-J=1430  S=423  E=285  
-J=1431  S=425  E=285  
-J=1432  S=368  E=286  
-J=1433  S=370  E=286  
-J=1434  S=377  E=286  
-J=1435  S=379  E=286  
-J=1436  S=423  E=286  
-J=1437  S=425  E=286  
-J=1438  S=368  E=287  
-J=1439  S=370  E=287  
-J=1440  S=377  E=287  
-J=1441  S=379  E=287  
-J=1442  S=423  E=287  
-J=1443  S=425  E=287  
-J=1444  S=368  E=288  
-J=1445  S=370  E=288  
-J=1446  S=377  E=288  
-J=1447  S=379  E=288  
-J=1448  S=423  E=288  
-J=1449  S=425  E=288  
-J=1450  S=368  E=289  
-J=1451  S=370  E=289  
-J=1452  S=377  E=289  
-J=1453  S=379  E=289  
-J=1454  S=423  E=289  
-J=1455  S=425  E=289  
-J=1456  S=368  E=290  
-J=1457  S=370  E=290  
-J=1458  S=377  E=290  
-J=1459  S=379  E=290  
-J=1460  S=423  E=290  
-J=1461  S=425  E=290  
-J=1462  S=368  E=291  
-J=1463  S=370  E=291  
-J=1464  S=377  E=291  
-J=1465  S=379  E=291  
-J=1466  S=423  E=291  
-J=1467  S=425  E=291  
-J=1468  S=368  E=292  
-J=1469  S=370  E=292  
-J=1470  S=377  E=292  
-J=1471  S=379  E=292  
-J=1472  S=423  E=292  
-J=1473  S=425  E=292  
-J=1474  S=368  E=293  
-J=1475  S=370  E=293  
-J=1476  S=377  E=293  
-J=1477  S=379  E=293  
-J=1478  S=423  E=293  
-J=1479  S=425  E=293  
-J=1480  S=368  E=294  
-J=1481  S=370  E=294  
-J=1482  S=377  E=294  
-J=1483  S=379  E=294  
-J=1484  S=423  E=294  
-J=1485  S=425  E=294  
-J=1486  S=368  E=295  
-J=1487  S=370  E=295  
-J=1488  S=377  E=295  
-J=1489  S=379  E=295  
-J=1490  S=423  E=295  
-J=1491  S=425  E=295  
-J=1492  S=368  E=296  
-J=1493  S=370  E=296  
-J=1494  S=377  E=296  
-J=1495  S=379  E=296  
-J=1496  S=423  E=296  
-J=1497  S=425  E=296  
-J=1498  S=368  E=297  
-J=1499  S=370  E=297  
-J=1500  S=377  E=297  
-J=1501  S=379  E=297  
-J=1502  S=423  E=297  
-J=1503  S=425  E=297  
-J=1504  S=368  E=298  
-J=1505  S=370  E=298  
-J=1506  S=377  E=298  
-J=1507  S=379  E=298  
-J=1508  S=423  E=298  
-J=1509  S=425  E=298  
-J=1510  S=368  E=299  
-J=1511  S=370  E=299  
-J=1512  S=377  E=299  
-J=1513  S=379  E=299  
-J=1514  S=423  E=299  
-J=1515  S=425  E=299  
-J=1516  S=368  E=300  
-J=1517  S=370  E=300  
-J=1518  S=377  E=300  
-J=1519  S=379  E=300  
-J=1520  S=423  E=300  
-J=1521  S=425  E=300  
-J=1522  S=368  E=301  
-J=1523  S=370  E=301  
-J=1524  S=377  E=301  
-J=1525  S=379  E=301  
-J=1526  S=423  E=301  
-J=1527  S=425  E=301  
-J=1528  S=368  E=302  
-J=1529  S=370  E=302  
-J=1530  S=377  E=302  
-J=1531  S=379  E=302  
-J=1532  S=423  E=302  
-J=1533  S=425  E=302  
-J=1534  S=368  E=303  
-J=1535  S=370  E=303  
-J=1536  S=377  E=303  
-J=1537  S=379  E=303  
-J=1538  S=423  E=303  
-J=1539  S=425  E=303  
-J=1540  S=368  E=304  
-J=1541  S=370  E=304  
-J=1542  S=377  E=304  
-J=1543  S=379  E=304  
-J=1544  S=423  E=304  
-J=1545  S=425  E=304  
-J=1546  S=368  E=305  
-J=1547  S=370  E=305  
-J=1548  S=377  E=305  
-J=1549  S=379  E=305  
-J=1550  S=423  E=305  
-J=1551  S=425  E=305  
-J=1552  S=368  E=306  
-J=1553  S=370  E=306  
-J=1554  S=377  E=306  
-J=1555  S=379  E=306  
-J=1556  S=423  E=306  
-J=1557  S=425  E=306  
-J=1558  S=368  E=307  
-J=1559  S=370  E=307  
-J=1560  S=377  E=307  
-J=1561  S=379  E=307  
-J=1562  S=423  E=307  
-J=1563  S=425  E=307  
-J=1564  S=368  E=308  
-J=1565  S=370  E=308  
-J=1566  S=377  E=308  
-J=1567  S=379  E=308  
-J=1568  S=423  E=308  
-J=1569  S=425  E=308  
-J=1570  S=368  E=309  
-J=1571  S=370  E=309  
-J=1572  S=377  E=309  
-J=1573  S=379  E=309  
-J=1574  S=423  E=309  
-J=1575  S=425  E=309  
-J=1576  S=368  E=310  
-J=1577  S=370  E=310  
-J=1578  S=377  E=310  
-J=1579  S=379  E=310  
-J=1580  S=423  E=310  
-J=1581  S=425  E=310  
-J=1582  S=368  E=311  
-J=1583  S=370  E=311  
-J=1584  S=377  E=311  
-J=1585  S=379  E=311  
-J=1586  S=423  E=311  
-J=1587  S=425  E=311  
-J=1588  S=368  E=312  
-J=1589  S=370  E=312  
-J=1590  S=377  E=312  
-J=1591  S=379  E=312  
-J=1592  S=423  E=312  
-J=1593  S=425  E=312  
-J=1594  S=368  E=313  
-J=1595  S=370  E=313  
-J=1596  S=377  E=313  
-J=1597  S=379  E=313  
-J=1598  S=423  E=313  
-J=1599  S=425  E=313  
-J=1600  S=368  E=314  
-J=1601  S=370  E=314  
-J=1602  S=377  E=314  
-J=1603  S=379  E=314  
-J=1604  S=423  E=314  
-J=1605  S=425  E=314  
-J=1606  S=368  E=315  
-J=1607  S=370  E=315  
-J=1608  S=377  E=315  
-J=1609  S=379  E=315  
-J=1610  S=423  E=315  
-J=1611  S=425  E=315  
-J=1612  S=368  E=316  
-J=1613  S=370  E=316  
-J=1614  S=377  E=316  
-J=1615  S=379  E=316  
-J=1616  S=423  E=316  
-J=1617  S=425  E=316  
-J=1618  S=368  E=317  
-J=1619  S=370  E=317  
-J=1620  S=377  E=317  
-J=1621  S=379  E=317  
-J=1622  S=423  E=317  
-J=1623  S=425  E=317  
-J=1624  S=368  E=318  
-J=1625  S=370  E=318  
-J=1626  S=377  E=318  
-J=1627  S=379  E=318  
-J=1628  S=423  E=318  
-J=1629  S=425  E=318  
-J=1630  S=368  E=319  
-J=1631  S=370  E=319  
-J=1632  S=377  E=319  
-J=1633  S=379  E=319  
-J=1634  S=423  E=319  
-J=1635  S=425  E=319  
-J=1636  S=368  E=320  
-J=1637  S=370  E=320  
-J=1638  S=377  E=320  
-J=1639  S=379  E=320  
-J=1640  S=423  E=320  
-J=1641  S=425  E=320  
-J=1642  S=368  E=321  
-J=1643  S=370  E=321  
-J=1644  S=377  E=321  
-J=1645  S=379  E=321  
-J=1646  S=423  E=321  
-J=1647  S=425  E=321  
-J=1648  S=368  E=322  
-J=1649  S=370  E=322  
-J=1650  S=377  E=322  
-J=1651  S=379  E=322  
-J=1652  S=423  E=322  
-J=1653  S=425  E=322  
-J=1654  S=368  E=323  
-J=1655  S=370  E=323  
-J=1656  S=377  E=323  
-J=1657  S=379  E=323  
-J=1658  S=423  E=323  
-J=1659  S=425  E=323  
-J=1660  S=368  E=324  
-J=1661  S=370  E=324  
-J=1662  S=377  E=324  
-J=1663  S=379  E=324  
-J=1664  S=423  E=324  
-J=1665  S=425  E=324  
-J=1666  S=368  E=325  
-J=1667  S=370  E=325  
-J=1668  S=377  E=325  
-J=1669  S=379  E=325  
-J=1670  S=423  E=325  
-J=1671  S=425  E=325  
-J=1672  S=368  E=326  
-J=1673  S=370  E=326  
-J=1674  S=377  E=326  
-J=1675  S=379  E=326  
-J=1676  S=423  E=326  
-J=1677  S=425  E=326  
-J=1678  S=368  E=327  
-J=1679  S=370  E=327  
-J=1680  S=377  E=327  
-J=1681  S=379  E=327  
-J=1682  S=423  E=327  
-J=1683  S=425  E=327  
-J=1684  S=368  E=328  
-J=1685  S=370  E=328  
-J=1686  S=377  E=328  
-J=1687  S=379  E=328  
-J=1688  S=423  E=328  
-J=1689  S=425  E=328  
-J=1690  S=368  E=329  
-J=1691  S=370  E=329  
-J=1692  S=377  E=329  
-J=1693  S=379  E=329  
-J=1694  S=423  E=329  
-J=1695  S=425  E=329  
-J=1696  S=368  E=330  
-J=1697  S=370  E=330  
-J=1698  S=377  E=330  
-J=1699  S=379  E=330  
-J=1700  S=423  E=330  
-J=1701  S=425  E=330  
-J=1702  S=368  E=331  
-J=1703  S=370  E=331  
-J=1704  S=377  E=331  
-J=1705  S=379  E=331  
-J=1706  S=423  E=331  
-J=1707  S=425  E=331  
-J=1708  S=368  E=332  
-J=1709  S=370  E=332  
-J=1710  S=377  E=332  
-J=1711  S=379  E=332  
-J=1712  S=423  E=332  
-J=1713  S=425  E=332  
-J=1714  S=368  E=333  
-J=1715  S=370  E=333  
-J=1716  S=377  E=333  
-J=1717  S=379  E=333  
-J=1718  S=423  E=333  
-J=1719  S=425  E=333  
-J=1720  S=368  E=334  
-J=1721  S=370  E=334  
-J=1722  S=377  E=334  
-J=1723  S=379  E=334  
-J=1724  S=423  E=334  
-J=1725  S=425  E=334  
-J=1726  S=368  E=335  
-J=1727  S=370  E=335  
-J=1728  S=377  E=335  
-J=1729  S=379  E=335  
-J=1730  S=423  E=335  
-J=1731  S=425  E=335  
-J=1732  S=368  E=336  
-J=1733  S=370  E=336  
-J=1734  S=377  E=336  
-J=1735  S=379  E=336  
-J=1736  S=423  E=336  
-J=1737  S=425  E=336  
-J=1738  S=368  E=337  
-J=1739  S=370  E=337  
-J=1740  S=377  E=337  
-J=1741  S=379  E=337  
-J=1742  S=423  E=337  
-J=1743  S=425  E=337  
-J=1744  S=368  E=338  
-J=1745  S=370  E=338  
-J=1746  S=377  E=338  
-J=1747  S=379  E=338  
-J=1748  S=423  E=338  
-J=1749  S=425  E=338  
-J=1750  S=368  E=339  
-J=1751  S=370  E=339  
-J=1752  S=377  E=339  
-J=1753  S=379  E=339  
-J=1754  S=423  E=339  
-J=1755  S=425  E=339  
-J=1756  S=368  E=340  
-J=1757  S=370  E=340  
-J=1758  S=377  E=340  
-J=1759  S=379  E=340  
-J=1760  S=423  E=340  
-J=1761  S=425  E=340  
-J=1762  S=368  E=341  
-J=1763  S=370  E=341  
-J=1764  S=377  E=341  
-J=1765  S=379  E=341  
-J=1766  S=423  E=341  
-J=1767  S=425  E=341  
-J=1768  S=368  E=342  
-J=1769  S=370  E=342  
-J=1770  S=377  E=342  
-J=1771  S=379  E=342  
-J=1772  S=423  E=342  
-J=1773  S=425  E=342  
-J=1774  S=368  E=343  
-J=1775  S=370  E=343  
-J=1776  S=377  E=343  
-J=1777  S=379  E=343  
-J=1778  S=423  E=343  
-J=1779  S=425  E=343  
-J=1780  S=368  E=344  
-J=1781  S=370  E=344  
-J=1782  S=377  E=344  
-J=1783  S=379  E=344  
-J=1784  S=423  E=344  
-J=1785  S=425  E=344  
-J=1786  S=368  E=345  
-J=1787  S=370  E=345  
-J=1788  S=377  E=345  
-J=1789  S=379  E=345  
-J=1790  S=423  E=345  
-J=1791  S=425  E=345  
-J=1792  S=368  E=346  
-J=1793  S=370  E=346  
-J=1794  S=377  E=346  
-J=1795  S=379  E=346  
-J=1796  S=423  E=346  
-J=1797  S=425  E=346  
-J=1798  S=368  E=347  
-J=1799  S=370  E=347  
-J=1800  S=377  E=347  
-J=1801  S=379  E=347  
-J=1802  S=423  E=347  
-J=1803  S=425  E=347  
-J=1804  S=368  E=348  
-J=1805  S=370  E=348  
-J=1806  S=377  E=348  
-J=1807  S=379  E=348  
-J=1808  S=423  E=348  
-J=1809  S=425  E=348  
-J=1810  S=368  E=349  
-J=1811  S=370  E=349  
-J=1812  S=377  E=349  
-J=1813  S=379  E=349  
-J=1814  S=423  E=349  
-J=1815  S=425  E=349  
-J=1816  S=368  E=350  
-J=1817  S=370  E=350  
-J=1818  S=377  E=350  
-J=1819  S=379  E=350  
-J=1820  S=423  E=350  
-J=1821  S=425  E=350  
-J=1822  S=368  E=351  
-J=1823  S=370  E=351  
-J=1824  S=377  E=351  
-J=1825  S=379  E=351  
-J=1826  S=423  E=351  
-J=1827  S=425  E=351  
-J=1828  S=368  E=352  
-J=1829  S=370  E=352  
-J=1830  S=377  E=352  
-J=1831  S=379  E=352  
-J=1832  S=423  E=352  
-J=1833  S=425  E=352  
-J=1834  S=368  E=353  
-J=1835  S=370  E=353  
-J=1836  S=377  E=353  
-J=1837  S=379  E=353  
-J=1838  S=423  E=353  
-J=1839  S=425  E=353  
-J=1840  S=368  E=354  
-J=1841  S=370  E=354  
-J=1842  S=377  E=354  
-J=1843  S=379  E=354  
-J=1844  S=423  E=354  
-J=1845  S=425  E=354  
-J=1846  S=368  E=355  
-J=1847  S=370  E=355  
-J=1848  S=377  E=355  
-J=1849  S=379  E=355  
-J=1850  S=423  E=355  
-J=1851  S=425  E=355  
-J=1852  S=368  E=356  
-J=1853  S=370  E=356  
-J=1854  S=377  E=356  
-J=1855  S=379  E=356  
-J=1856  S=423  E=356  
-J=1857  S=425  E=356  
-J=1858  S=368  E=357  
-J=1859  S=370  E=357  
-J=1860  S=377  E=357  
-J=1861  S=379  E=357  
-J=1862  S=423  E=357  
-J=1863  S=425  E=357  
-J=1864  S=368  E=358  
-J=1865  S=370  E=358  
-J=1866  S=377  E=358  
-J=1867  S=379  E=358  
-J=1868  S=423  E=358  
-J=1869  S=425  E=358  
-J=1870  S=368  E=359  
-J=1871  S=370  E=359  
-J=1872  S=377  E=359  
-J=1873  S=379  E=359  
-J=1874  S=423  E=359  
-J=1875  S=425  E=359  
-J=1876  S=368  E=360  
-J=1877  S=370  E=360  
-J=1878  S=377  E=360  
-J=1879  S=379  E=360  
-J=1880  S=423  E=360  
-J=1881  S=425  E=360  
-J=1882  S=368  E=361  
-J=1883  S=370  E=361  
-J=1884  S=377  E=361  
-J=1885  S=379  E=361  
-J=1886  S=423  E=361  
-J=1887  S=425  E=361  
-J=1888  S=368  E=362  
-J=1889  S=370  E=362  
-J=1890  S=377  E=362  
-J=1891  S=379  E=362  
-J=1892  S=423  E=362  
-J=1893  S=425  E=362  
-J=1894  S=368  E=363  
-J=1895  S=370  E=363  
-J=1896  S=377  E=363  
-J=1897  S=379  E=363  
-J=1898  S=423  E=363  
-J=1899  S=425  E=363  
-J=1900  S=368  E=364  
-J=1901  S=370  E=364  
-J=1902  S=377  E=364  
-J=1903  S=379  E=364  
-J=1904  S=423  E=364  
-J=1905  S=425  E=364  
-J=1906  S=368  E=365  
-J=1907  S=370  E=365  
-J=1908  S=377  E=365  
-J=1909  S=379  E=365  
-J=1910  S=423  E=365  
-J=1911  S=425  E=365  
-J=1912  S=368  E=366  
-J=1913  S=370  E=366  
-J=1914  S=377  E=366  
-J=1915  S=379  E=366  
-J=1916  S=423  E=366  
-J=1917  S=425  E=366  
-J=1918  S=368  E=367  
-J=1919  S=370  E=367  
-J=1920  S=377  E=367  
-J=1921  S=379  E=367  
-J=1922  S=423  E=367  
-J=1923  S=425  E=367  
-J=1924  S=368  E=368  
-J=1925  S=370  E=368  
-J=1926  S=377  E=368  
-J=1927  S=379  E=368  
-J=1928  S=423  E=368  
-J=1929  S=425  E=368  
-J=1930  S=370  E=369  
-J=1931  S=377  E=369  
-J=1932  S=379  E=369  
-J=1933  S=423  E=369  
-J=1934  S=425  E=369  
-J=1935  S=369  E=370  
-J=1936  S=371  E=370  
-J=1937  S=372  E=370  
-J=1938  S=373  E=370  
-J=1939  S=374  E=370  
-J=1940  S=375  E=370  
-J=1941  S=376  E=370  
-J=1942  S=377  E=371  
-J=1943  S=379  E=371  
-J=1944  S=423  E=371  
-J=1945  S=425  E=371  
-J=1946  S=377  E=372  
-J=1947  S=379  E=372  
-J=1948  S=423  E=372  
-J=1949  S=425  E=372  
-J=1950  S=377  E=373  
-J=1951  S=379  E=373  
-J=1952  S=423  E=373  
-J=1953  S=425  E=373  
-J=1954  S=377  E=374  
-J=1955  S=379  E=374  
-J=1956  S=423  E=374  
-J=1957  S=425  E=374  
-J=1958  S=377  E=375  
-J=1959  S=379  E=375  
-J=1960  S=423  E=375  
-J=1961  S=425  E=375  
-J=1962  S=377  E=376  
-J=1963  S=379  E=376  
-J=1964  S=423  E=376  
-J=1965  S=425  E=376  
-J=1966  S=377  E=377  
-J=1967  S=379  E=377  
-J=1968  S=423  E=377  
-J=1969  S=425  E=377  
-J=1970  S=379  E=378  
-J=1971  S=423  E=378  
-J=1972  S=425  E=378  
-J=1973  S=378  E=379  
-J=1974  S=380  E=379  
-J=1975  S=381  E=379  
-J=1976  S=382  E=379  
-J=1977  S=383  E=379  
-J=1978  S=384  E=379  
-J=1979  S=385  E=379  
-J=1980  S=386  E=379  
-J=1981  S=387  E=379  
-J=1982  S=388  E=379  
-J=1983  S=389  E=379  
-J=1984  S=390  E=379  
-J=1985  S=391  E=379  
-J=1986  S=392  E=379  
-J=1987  S=393  E=379  
-J=1988  S=394  E=379  
-J=1989  S=395  E=379  
-J=1990  S=396  E=379  
-J=1991  S=397  E=379  
-J=1992  S=398  E=379  
-J=1993  S=399  E=379  
-J=1994  S=400  E=379  
-J=1995  S=401  E=379  
-J=1996  S=402  E=379  
-J=1997  S=403  E=379  
-J=1998  S=404  E=379  
-J=1999  S=405  E=379  
-J=2000  S=406  E=379  
-J=2001  S=407  E=379  
-J=2002  S=408  E=379  
-J=2003  S=409  E=379  
-J=2004  S=410  E=379  
-J=2005  S=411  E=379  
-J=2006  S=412  E=379  
-J=2007  S=413  E=379  
-J=2008  S=414  E=379  
-J=2009  S=415  E=379  
-J=2010  S=416  E=379  
-J=2011  S=417  E=379  
-J=2012  S=418  E=379  
-J=2013  S=419  E=379  
-J=2014  S=420  E=379  
-J=2015  S=421  E=379  
-J=2016  S=422  E=379  
-J=2017  S=423  E=380  
-J=2018  S=425  E=380  
-J=2019  S=423  E=381  
-J=2020  S=425  E=381  
-J=2021  S=423  E=382  
-J=2022  S=425  E=382  
-J=2023  S=423  E=383  
-J=2024  S=425  E=383  
-J=2025  S=423  E=384  
-J=2026  S=425  E=384  
-J=2027  S=423  E=385  
-J=2028  S=425  E=385  
-J=2029  S=423  E=386  
-J=2030  S=425  E=386  
-J=2031  S=423  E=387  
-J=2032  S=425  E=387  
-J=2033  S=423  E=388  
-J=2034  S=425  E=388  
-J=2035  S=423  E=389  
-J=2036  S=425  E=389  
-J=2037  S=423  E=390  
-J=2038  S=425  E=390  
-J=2039  S=423  E=391  
-J=2040  S=425  E=391  
-J=2041  S=423  E=392  
-J=2042  S=425  E=392  
-J=2043  S=423  E=393  
-J=2044  S=425  E=393  
-J=2045  S=423  E=394  
-J=2046  S=425  E=394  
-J=2047  S=423  E=395  
-J=2048  S=425  E=395  
-J=2049  S=423  E=396  
-J=2050  S=425  E=396  
-J=2051  S=423  E=397  
-J=2052  S=425  E=397  
-J=2053  S=423  E=398  
-J=2054  S=425  E=398  
-J=2055  S=423  E=399  
-J=2056  S=425  E=399  
-J=2057  S=423  E=400  
-J=2058  S=425  E=400  
-J=2059  S=423  E=401  
-J=2060  S=425  E=401  
-J=2061  S=423  E=402  
-J=2062  S=425  E=402  
-J=2063  S=423  E=403  
-J=2064  S=425  E=403  
-J=2065  S=423  E=404  
-J=2066  S=425  E=404  
-J=2067  S=423  E=405  
-J=2068  S=425  E=405  
-J=2069  S=423  E=406  
-J=2070  S=425  E=406  
-J=2071  S=423  E=407  
-J=2072  S=425  E=407  
-J=2073  S=423  E=408  
-J=2074  S=425  E=408  
-J=2075  S=423  E=409  
-J=2076  S=425  E=409  
-J=2077  S=423  E=410  
-J=2078  S=425  E=410  
-J=2079  S=423  E=411  
-J=2080  S=425  E=411  
-J=2081  S=423  E=412  
-J=2082  S=425  E=412  
-J=2083  S=423  E=413  
-J=2084  S=425  E=413  
-J=2085  S=423  E=414  
-J=2086  S=425  E=414  
-J=2087  S=423  E=415  
-J=2088  S=425  E=415  
-J=2089  S=423  E=416  
-J=2090  S=425  E=416  
-J=2091  S=423  E=417  
-J=2092  S=425  E=417  
-J=2093  S=423  E=418  
-J=2094  S=425  E=418  
-J=2095  S=423  E=419  
-J=2096  S=425  E=419  
-J=2097  S=423  E=420  
-J=2098  S=425  E=420  
-J=2099  S=423  E=421  
-J=2100  S=425  E=421  
-J=2101  S=423  E=422  
-J=2102  S=425  E=422  
-J=2103  S=423  E=423  
-J=2104  S=425  E=423  
-J=2105  S=425  E=424  
-J=2106  S=424  E=425  
-J=2107  S=426  E=425  
-J=2108  S=427  E=425  
-J=2109  S=428  E=425  
-J=2110  S=429  E=425  
-J=2111  S=430  E=425  
-J=2112  S=431  E=425  
-J=2113  S=432  E=425  
-J=2114  S=433  E=425  
-J=2115  S=434  E=425  
-J=2116  S=435  E=425  
-J=2117  S=436  E=425  
-J=2118  S=437  E=425  
-J=2119  S=438  E=425  
-J=2120  S=439  E=425  
-J=2121  S=440  E=425  
-J=2122  S=441  E=425  
-J=2123  S=442  E=425  
-J=2124  S=443  E=425  
-J=2125  S=444  E=425  
-J=2126  S=445  E=425  
-J=2127  S=446  E=425  
-J=2128  S=447  E=425  
-J=2129  S=448  E=425  
-J=2130  S=449  E=425  
-J=2131  S=450  E=425  
-J=2132  S=451  E=425  
-J=2133  S=452  E=425  
-J=2134  S=453  E=425  
-J=2135  S=454  E=425  
-J=2136  S=455  E=425  
-J=2137  S=456  E=425  
-J=2138  S=457  E=425  
-J=2139  S=458  E=425  
-J=2140  S=459  E=425  
-J=2141  S=460  E=425  
-J=2142  S=461  E=425  
-J=2143  S=462  E=425  
-J=2144  S=463  E=425  
-J=2145  S=464  E=425  
-J=2146  S=465  E=425  
-J=2147  S=466  E=425  
-J=2148  S=467  E=425  
-J=2149  S=468  E=425  
-J=2150  S=469  E=425  
-J=2151  S=470  E=425  
-J=2152  S=471  E=425  
-J=2153  S=472  E=425  
-J=2154  S=473  E=425  
-J=2155  S=474  E=425  
-J=2156  S=475  E=425  
-J=2157  S=476  E=425  
-J=2158  S=477  E=425  
-J=2159  S=478  E=425  
-J=2160  S=479  E=425  
-J=2161  S=480  E=425  
-J=2162  S=481  E=425  
-J=2163  S=482  E=425  
-J=2164  S=483  E=425  
-J=2165  S=484  E=425  
-J=2166  S=485  E=425  
-J=2167  S=486  E=425  
-J=2168  S=487  E=425  
-J=2169  S=488  E=425  
-J=2170  S=489  E=425  
-J=2171  S=490  E=425  
-J=2172  S=491  E=425  
-J=2173  S=492  E=425  
-J=2174  S=493  E=425  
-J=2175  S=494  E=425  
-J=2176  S=495  E=425  
-J=2177  S=496  E=425  
-J=2178  S=497  E=425  
-J=2179  S=498  E=425  
-J=2180  S=499  E=425  
-J=2181  S=500  E=425  
-J=2182  S=501  E=425  
-J=2183  S=502  E=425  
-J=2184  S=503  E=425  
-J=2185  S=504  E=425  
-J=2186  S=505  E=425  
-J=2187  S=506  E=425  
-J=2188  S=507  E=425  
-J=2189  S=508  E=425  
-J=2190  S=509  E=425  
-J=2191  S=510  E=425  
-J=2192  S=511  E=425  
-J=2193  S=512  E=425  
-J=2194  S=513  E=425  
-J=2195  S=514  E=425  
-J=2196  S=515  E=425  
-J=2197  S=516  E=425  
-J=2198  S=517  E=425  
-J=2199  S=518  E=425  
-J=2200  S=519  E=425  
-J=2201  S=520  E=425  
-J=2202  S=521  E=425  
-J=2203  S=522  E=425  
-J=2204  S=523  E=426  
-J=2205  S=525  E=426  
-J=2206  S=569  E=426  
-J=2207  S=571  E=426  
-J=2208  S=523  E=427  
-J=2209  S=525  E=427  
-J=2210  S=569  E=427  
-J=2211  S=571  E=427  
-J=2212  S=523  E=428  
-J=2213  S=525  E=428  
-J=2214  S=569  E=428  
-J=2215  S=571  E=428  
-J=2216  S=523  E=429  
-J=2217  S=525  E=429  
-J=2218  S=569  E=429  
-J=2219  S=571  E=429  
-J=2220  S=523  E=430  
-J=2221  S=525  E=430  
-J=2222  S=569  E=430  
-J=2223  S=571  E=430  
-J=2224  S=523  E=431  
-J=2225  S=525  E=431  
-J=2226  S=569  E=431  
-J=2227  S=571  E=431  
-J=2228  S=523  E=432  
-J=2229  S=525  E=432  
-J=2230  S=569  E=432  
-J=2231  S=571  E=432  
-J=2232  S=523  E=433  
-J=2233  S=525  E=433  
-J=2234  S=569  E=433  
-J=2235  S=571  E=433  
-J=2236  S=523  E=434  
-J=2237  S=525  E=434  
-J=2238  S=569  E=434  
-J=2239  S=571  E=434  
-J=2240  S=523  E=435  
-J=2241  S=525  E=435  
-J=2242  S=569  E=435  
-J=2243  S=571  E=435  
-J=2244  S=523  E=436  
-J=2245  S=525  E=436  
-J=2246  S=569  E=436  
-J=2247  S=571  E=436  
-J=2248  S=523  E=437  
-J=2249  S=525  E=437  
-J=2250  S=569  E=437  
-J=2251  S=571  E=437  
-J=2252  S=523  E=438  
-J=2253  S=525  E=438  
-J=2254  S=569  E=438  
-J=2255  S=571  E=438  
-J=2256  S=523  E=439  
-J=2257  S=525  E=439  
-J=2258  S=569  E=439  
-J=2259  S=571  E=439  
-J=2260  S=523  E=440  
-J=2261  S=525  E=440  
-J=2262  S=569  E=440  
-J=2263  S=571  E=440  
-J=2264  S=523  E=441  
-J=2265  S=525  E=441  
-J=2266  S=569  E=441  
-J=2267  S=571  E=441  
-J=2268  S=523  E=442  
-J=2269  S=525  E=442  
-J=2270  S=569  E=442  
-J=2271  S=571  E=442  
-J=2272  S=523  E=443  
-J=2273  S=525  E=443  
-J=2274  S=569  E=443  
-J=2275  S=571  E=443  
-J=2276  S=523  E=444  
-J=2277  S=525  E=444  
-J=2278  S=569  E=444  
-J=2279  S=571  E=444  
-J=2280  S=523  E=445  
-J=2281  S=525  E=445  
-J=2282  S=569  E=445  
-J=2283  S=571  E=445  
-J=2284  S=523  E=446  
-J=2285  S=525  E=446  
-J=2286  S=569  E=446  
-J=2287  S=571  E=446  
-J=2288  S=523  E=447  
-J=2289  S=525  E=447  
-J=2290  S=569  E=447  
-J=2291  S=571  E=447  
-J=2292  S=523  E=448  
-J=2293  S=525  E=448  
-J=2294  S=569  E=448  
-J=2295  S=571  E=448  
-J=2296  S=523  E=449  
-J=2297  S=525  E=449  
-J=2298  S=569  E=449  
-J=2299  S=571  E=449  
-J=2300  S=523  E=450  
-J=2301  S=525  E=450  
-J=2302  S=569  E=450  
-J=2303  S=571  E=450  
-J=2304  S=523  E=451  
-J=2305  S=525  E=451  
-J=2306  S=569  E=451  
-J=2307  S=571  E=451  
-J=2308  S=523  E=452  
-J=2309  S=525  E=452  
-J=2310  S=569  E=452  
-J=2311  S=571  E=452  
-J=2312  S=523  E=453  
-J=2313  S=525  E=453  
-J=2314  S=569  E=453  
-J=2315  S=571  E=453  
-J=2316  S=523  E=454  
-J=2317  S=525  E=454  
-J=2318  S=569  E=454  
-J=2319  S=571  E=454  
-J=2320  S=523  E=455  
-J=2321  S=525  E=455  
-J=2322  S=569  E=455  
-J=2323  S=571  E=455  
-J=2324  S=523  E=456  
-J=2325  S=525  E=456  
-J=2326  S=569  E=456  
-J=2327  S=571  E=456  
-J=2328  S=523  E=457  
-J=2329  S=525  E=457  
-J=2330  S=569  E=457  
-J=2331  S=571  E=457  
-J=2332  S=523  E=458  
-J=2333  S=525  E=458  
-J=2334  S=569  E=458  
-J=2335  S=571  E=458  
-J=2336  S=523  E=459  
-J=2337  S=525  E=459  
-J=2338  S=569  E=459  
-J=2339  S=571  E=459  
-J=2340  S=523  E=460  
-J=2341  S=525  E=460  
-J=2342  S=569  E=460  
-J=2343  S=571  E=460  
-J=2344  S=523  E=461  
-J=2345  S=525  E=461  
-J=2346  S=569  E=461  
-J=2347  S=571  E=461  
-J=2348  S=523  E=462  
-J=2349  S=525  E=462  
-J=2350  S=569  E=462  
-J=2351  S=571  E=462  
-J=2352  S=523  E=463  
-J=2353  S=525  E=463  
-J=2354  S=569  E=463  
-J=2355  S=571  E=463  
-J=2356  S=523  E=464  
-J=2357  S=525  E=464  
-J=2358  S=569  E=464  
-J=2359  S=571  E=464  
-J=2360  S=523  E=465  
-J=2361  S=525  E=465  
-J=2362  S=569  E=465  
-J=2363  S=571  E=465  
-J=2364  S=523  E=466  
-J=2365  S=525  E=466  
-J=2366  S=569  E=466  
-J=2367  S=571  E=466  
-J=2368  S=523  E=467  
-J=2369  S=525  E=467  
-J=2370  S=569  E=467  
-J=2371  S=571  E=467  
-J=2372  S=523  E=468  
-J=2373  S=525  E=468  
-J=2374  S=569  E=468  
-J=2375  S=571  E=468  
-J=2376  S=523  E=469  
-J=2377  S=525  E=469  
-J=2378  S=569  E=469  
-J=2379  S=571  E=469  
-J=2380  S=523  E=470  
-J=2381  S=525  E=470  
-J=2382  S=569  E=470  
-J=2383  S=571  E=470  
-J=2384  S=523  E=471  
-J=2385  S=525  E=471  
-J=2386  S=569  E=471  
-J=2387  S=571  E=471  
-J=2388  S=523  E=472  
-J=2389  S=525  E=472  
-J=2390  S=569  E=472  
-J=2391  S=571  E=472  
-J=2392  S=523  E=473  
-J=2393  S=525  E=473  
-J=2394  S=569  E=473  
-J=2395  S=571  E=473  
-J=2396  S=523  E=474  
-J=2397  S=525  E=474  
-J=2398  S=569  E=474  
-J=2399  S=571  E=474  
-J=2400  S=523  E=475  
-J=2401  S=525  E=475  
-J=2402  S=569  E=475  
-J=2403  S=571  E=475  
-J=2404  S=523  E=476  
-J=2405  S=525  E=476  
-J=2406  S=569  E=476  
-J=2407  S=571  E=476  
-J=2408  S=523  E=477  
-J=2409  S=525  E=477  
-J=2410  S=569  E=477  
-J=2411  S=571  E=477  
-J=2412  S=523  E=478  
-J=2413  S=525  E=478  
-J=2414  S=569  E=478  
-J=2415  S=571  E=478  
-J=2416  S=523  E=479  
-J=2417  S=525  E=479  
-J=2418  S=569  E=479  
-J=2419  S=571  E=479  
-J=2420  S=523  E=480  
-J=2421  S=525  E=480  
-J=2422  S=569  E=480  
-J=2423  S=571  E=480  
-J=2424  S=523  E=481  
-J=2425  S=525  E=481  
-J=2426  S=569  E=481  
-J=2427  S=571  E=481  
-J=2428  S=523  E=482  
-J=2429  S=525  E=482  
-J=2430  S=569  E=482  
-J=2431  S=571  E=482  
-J=2432  S=523  E=483  
-J=2433  S=525  E=483  
-J=2434  S=569  E=483  
-J=2435  S=571  E=483  
-J=2436  S=523  E=484  
-J=2437  S=525  E=484  
-J=2438  S=569  E=484  
-J=2439  S=571  E=484  
-J=2440  S=523  E=485  
-J=2441  S=525  E=485  
-J=2442  S=569  E=485  
-J=2443  S=571  E=485  
-J=2444  S=523  E=486  
-J=2445  S=525  E=486  
-J=2446  S=569  E=486  
-J=2447  S=571  E=486  
-J=2448  S=523  E=487  
-J=2449  S=525  E=487  
-J=2450  S=569  E=487  
-J=2451  S=571  E=487  
-J=2452  S=523  E=488  
-J=2453  S=525  E=488  
-J=2454  S=569  E=488  
-J=2455  S=571  E=488  
-J=2456  S=523  E=489  
-J=2457  S=525  E=489  
-J=2458  S=569  E=489  
-J=2459  S=571  E=489  
-J=2460  S=523  E=490  
-J=2461  S=525  E=490  
-J=2462  S=569  E=490  
-J=2463  S=571  E=490  
-J=2464  S=523  E=491  
-J=2465  S=525  E=491  
-J=2466  S=569  E=491  
-J=2467  S=571  E=491  
-J=2468  S=523  E=492  
-J=2469  S=525  E=492  
-J=2470  S=569  E=492  
-J=2471  S=571  E=492  
-J=2472  S=523  E=493  
-J=2473  S=525  E=493  
-J=2474  S=569  E=493  
-J=2475  S=571  E=493  
-J=2476  S=523  E=494  
-J=2477  S=525  E=494  
-J=2478  S=569  E=494  
-J=2479  S=571  E=494  
-J=2480  S=523  E=495  
-J=2481  S=525  E=495  
-J=2482  S=569  E=495  
-J=2483  S=571  E=495  
-J=2484  S=523  E=496  
-J=2485  S=525  E=496  
-J=2486  S=569  E=496  
-J=2487  S=571  E=496  
-J=2488  S=523  E=497  
-J=2489  S=525  E=497  
-J=2490  S=569  E=497  
-J=2491  S=571  E=497  
-J=2492  S=523  E=498  
-J=2493  S=525  E=498  
-J=2494  S=569  E=498  
-J=2495  S=571  E=498  
-J=2496  S=523  E=499  
-J=2497  S=525  E=499  
-J=2498  S=569  E=499  
-J=2499  S=571  E=499  
-J=2500  S=523  E=500  
-J=2501  S=525  E=500  
-J=2502  S=569  E=500  
-J=2503  S=571  E=500  
-J=2504  S=523  E=501  
-J=2505  S=525  E=501  
-J=2506  S=569  E=501  
-J=2507  S=571  E=501  
-J=2508  S=523  E=502  
-J=2509  S=525  E=502  
-J=2510  S=569  E=502  
-J=2511  S=571  E=502  
-J=2512  S=523  E=503  
-J=2513  S=525  E=503  
-J=2514  S=569  E=503  
-J=2515  S=571  E=503  
-J=2516  S=523  E=504  
-J=2517  S=525  E=504  
-J=2518  S=569  E=504  
-J=2519  S=571  E=504  
-J=2520  S=523  E=505  
-J=2521  S=525  E=505  
-J=2522  S=569  E=505  
-J=2523  S=571  E=505  
-J=2524  S=523  E=506  
-J=2525  S=525  E=506  
-J=2526  S=569  E=506  
-J=2527  S=571  E=506  
-J=2528  S=523  E=507  
-J=2529  S=525  E=507  
-J=2530  S=569  E=507  
-J=2531  S=571  E=507  
-J=2532  S=523  E=508  
-J=2533  S=525  E=508  
-J=2534  S=569  E=508  
-J=2535  S=571  E=508  
-J=2536  S=523  E=509  
-J=2537  S=525  E=509  
-J=2538  S=569  E=509  
-J=2539  S=571  E=509  
-J=2540  S=523  E=510  
-J=2541  S=525  E=510  
-J=2542  S=569  E=510  
-J=2543  S=571  E=510  
-J=2544  S=523  E=511  
-J=2545  S=525  E=511  
-J=2546  S=569  E=511  
-J=2547  S=571  E=511  
-J=2548  S=523  E=512  
-J=2549  S=525  E=512  
-J=2550  S=569  E=512  
-J=2551  S=571  E=512  
-J=2552  S=523  E=513  
-J=2553  S=525  E=513  
-J=2554  S=569  E=513  
-J=2555  S=571  E=513  
-J=2556  S=523  E=514  
-J=2557  S=525  E=514  
-J=2558  S=569  E=514  
-J=2559  S=571  E=514  
-J=2560  S=523  E=515  
-J=2561  S=525  E=515  
-J=2562  S=569  E=515  
-J=2563  S=571  E=515  
-J=2564  S=523  E=516  
-J=2565  S=525  E=516  
-J=2566  S=569  E=516  
-J=2567  S=571  E=516  
-J=2568  S=523  E=517  
-J=2569  S=525  E=517  
-J=2570  S=569  E=517  
-J=2571  S=571  E=517  
-J=2572  S=523  E=518  
-J=2573  S=525  E=518  
-J=2574  S=569  E=518  
-J=2575  S=571  E=518  
-J=2576  S=523  E=519  
-J=2577  S=525  E=519  
-J=2578  S=569  E=519  
-J=2579  S=571  E=519  
-J=2580  S=523  E=520  
-J=2581  S=525  E=520  
-J=2582  S=569  E=520  
-J=2583  S=571  E=520  
-J=2584  S=523  E=521  
-J=2585  S=525  E=521  
-J=2586  S=569  E=521  
-J=2587  S=571  E=521  
-J=2588  S=523  E=522  
-J=2589  S=525  E=522  
-J=2590  S=569  E=522  
-J=2591  S=571  E=522  
-J=2592  S=523  E=523  
-J=2593  S=525  E=523  
-J=2594  S=569  E=523  
-J=2595  S=571  E=523  
-J=2596  S=525  E=524  
-J=2597  S=569  E=524  
-J=2598  S=571  E=524  
-J=2599  S=524  E=525  
-J=2600  S=526  E=525  
-J=2601  S=527  E=525  
-J=2602  S=528  E=525  
-J=2603  S=529  E=525  
-J=2604  S=530  E=525  
-J=2605  S=531  E=525  
-J=2606  S=532  E=525  
-J=2607  S=533  E=525  
-J=2608  S=534  E=525  
-J=2609  S=535  E=525  
-J=2610  S=536  E=525  
-J=2611  S=537  E=525  
-J=2612  S=538  E=525  
-J=2613  S=539  E=525  
-J=2614  S=540  E=525  
-J=2615  S=541  E=525  
-J=2616  S=542  E=525  
-J=2617  S=543  E=525  
-J=2618  S=544  E=525  
-J=2619  S=545  E=525  
-J=2620  S=546  E=525  
-J=2621  S=547  E=525  
-J=2622  S=548  E=525  
-J=2623  S=549  E=525  
-J=2624  S=550  E=525  
-J=2625  S=551  E=525  
-J=2626  S=552  E=525  
-J=2627  S=553  E=525  
-J=2628  S=554  E=525  
-J=2629  S=555  E=525  
-J=2630  S=556  E=525  
-J=2631  S=557  E=525  
-J=2632  S=558  E=525  
-J=2633  S=559  E=525  
-J=2634  S=560  E=525  
-J=2635  S=561  E=525  
-J=2636  S=562  E=525  
-J=2637  S=563  E=525  
-J=2638  S=564  E=525  
-J=2639  S=565  E=525  
-J=2640  S=566  E=525  
-J=2641  S=567  E=525  
-J=2642  S=568  E=525  
-J=2643  S=569  E=526  
-J=2644  S=571  E=526  
-J=2645  S=569  E=527  
-J=2646  S=571  E=527  
-J=2647  S=569  E=528  
-J=2648  S=571  E=528  
-J=2649  S=569  E=529  
-J=2650  S=571  E=529  
-J=2651  S=569  E=530  
-J=2652  S=571  E=530  
-J=2653  S=569  E=531  
-J=2654  S=571  E=531  
-J=2655  S=569  E=532  
-J=2656  S=571  E=532  
-J=2657  S=569  E=533  
-J=2658  S=571  E=533  
-J=2659  S=569  E=534  
-J=2660  S=571  E=534  
-J=2661  S=569  E=535  
-J=2662  S=571  E=535  
-J=2663  S=569  E=536  
-J=2664  S=571  E=536  
-J=2665  S=569  E=537  
-J=2666  S=571  E=537  
-J=2667  S=569  E=538  
-J=2668  S=571  E=538  
-J=2669  S=569  E=539  
-J=2670  S=571  E=539  
-J=2671  S=569  E=540  
-J=2672  S=571  E=540  
-J=2673  S=569  E=541  
-J=2674  S=571  E=541  
-J=2675  S=569  E=542  
-J=2676  S=571  E=542  
-J=2677  S=569  E=543  
-J=2678  S=571  E=543  
-J=2679  S=569  E=544  
-J=2680  S=571  E=544  
-J=2681  S=569  E=545  
-J=2682  S=571  E=545  
-J=2683  S=569  E=546  
-J=2684  S=571  E=546  
-J=2685  S=569  E=547  
-J=2686  S=571  E=547  
-J=2687  S=569  E=548  
-J=2688  S=571  E=548  
-J=2689  S=569  E=549  
-J=2690  S=571  E=549  
-J=2691  S=569  E=550  
-J=2692  S=571  E=550  
-J=2693  S=569  E=551  
-J=2694  S=571  E=551  
-J=2695  S=569  E=552  
-J=2696  S=571  E=552  
-J=2697  S=569  E=553  
-J=2698  S=571  E=553  
-J=2699  S=569  E=554  
-J=2700  S=571  E=554  
-J=2701  S=569  E=555  
-J=2702  S=571  E=555  
-J=2703  S=569  E=556  
-J=2704  S=571  E=556  
-J=2705  S=569  E=557  
-J=2706  S=571  E=557  
-J=2707  S=569  E=558  
-J=2708  S=571  E=558  
-J=2709  S=569  E=559  
-J=2710  S=571  E=559  
-J=2711  S=569  E=560  
-J=2712  S=571  E=560  
-J=2713  S=569  E=561  
-J=2714  S=571  E=561  
-J=2715  S=569  E=562  
-J=2716  S=571  E=562  
-J=2717  S=569  E=563  
-J=2718  S=571  E=563  
-J=2719  S=569  E=564  
-J=2720  S=571  E=564  
-J=2721  S=569  E=565  
-J=2722  S=571  E=565  
-J=2723  S=569  E=566  
-J=2724  S=571  E=566  
-J=2725  S=569  E=567  
-J=2726  S=571  E=567  
-J=2727  S=569  E=568  
-J=2728  S=571  E=568  
-J=2729  S=569  E=569  
-J=2730  S=571  E=569  
-J=2731  S=571  E=570  
-J=2732  S=570  E=571  
-J=2733  S=572  E=571  
-J=2734  S=573  E=571  
-J=2735  S=574  E=571  
-J=2736  S=575  E=571  
-J=2737  S=576  E=571  
-J=2738  S=577  E=571  
-J=2739  S=578  E=571  
-J=2740  S=579  E=571  
-J=2741  S=580  E=571  
-J=2742  S=581  E=571  
-J=2743  S=582  E=571  
-J=2744  S=583  E=571  
-J=2745  S=584  E=571  
-J=2746  S=585  E=571  
-J=2747  S=586  E=571  
-J=2748  S=587  E=571  
-J=2749  S=588  E=571  
-J=2750  S=589  E=571  
-J=2751  S=590  E=571  
-J=2752  S=591  E=571  
-J=2753  S=592  E=571  
-J=2754  S=593  E=571  
-J=2755  S=594  E=571  
-J=2756  S=595  E=571  
-J=2757  S=596  E=571  
-J=2758  S=597  E=571  
-J=2759  S=598  E=571  
-J=2760  S=599  E=571  
-J=2761  S=600  E=571  
-J=2762  S=601  E=571  
-J=2763  S=602  E=571  
-J=2764  S=603  E=571  
-J=2765  S=604  E=571  
-J=2766  S=605  E=571  
-J=2767  S=606  E=571  
-J=2768  S=607  E=571  
-J=2769  S=608  E=571  
-J=2770  S=609  E=571  
-J=2771  S=610  E=571  
-J=2772  S=611  E=571  
-J=2773  S=612  E=571  
-J=2774  S=613  E=571  
-J=2775  S=614  E=571  
-J=2776  S=615  E=571  
-J=2777  S=616  E=571  
-J=2778  S=617  E=571  
-J=2779  S=618  E=571  
-J=2780  S=619  E=571  
-J=2781  S=620  E=571  
-J=2782  S=621  E=571  
-J=2783  S=622  E=571  
-J=2784  S=623  E=571  
-J=2785  S=624  E=571  
-J=2786  S=625  E=571  
-J=2787  S=626  E=571  
-J=2788  S=627  E=571  
-J=2789  S=628  E=571  
-J=2790  S=629  E=571  
-J=2791  S=630  E=571  
-J=2792  S=631  E=571  
-J=2793  S=632  E=571  
-J=2794  S=633  E=571  
-J=2795  S=634  E=571  
-J=2796  S=635  E=571  
-J=2797  S=636  E=571  
-J=2798  S=637  E=571  
-J=2799  S=638  E=571  
-J=2800  S=639  E=571  
-J=2801  S=640  E=571  
-J=2802  S=641  E=571  
-J=2803  S=642  E=571  
-J=2804  S=643  E=571  
-J=2805  S=644  E=571  
-J=2806  S=645  E=571  
-J=2807  S=646  E=571  
-J=2808  S=647  E=571  
-J=2809  S=648  E=571  
-J=2810  S=649  E=571  
-J=2811  S=650  E=571  
-J=2812  S=651  E=571  
-J=2813  S=652  E=571  
-J=2814  S=653  E=571  
-J=2815  S=654  E=571  
-J=2816  S=655  E=571  
-J=2817  S=656  E=571  
-J=2818  S=657  E=571  
-J=2819  S=658  E=571  
-J=2820  S=659  E=571  
-J=2821  S=660  E=571  
-J=2822  S=661  E=571  
-J=2823  S=662  E=571  
-J=2824  S=663  E=571  
-J=2825  S=664  E=571  
-J=2826  S=665  E=571  
-J=2827  S=666  E=571  
-J=2828  S=667  E=571  
-J=2829  S=668  E=571  
-J=2830  S=669  E=571  
-J=2831  S=670  E=571  
-J=2832  S=671  E=571  
-J=2833  S=672  E=571  
-J=2834  S=673  E=571  
-J=2835  S=674  E=571  
-J=2836  S=675  E=571  
-J=2837  S=676  E=571  
-J=2838  S=677  E=571  
-J=2839  S=678  E=571  
-J=2840  S=679  E=571  
-J=2841  S=680  E=571  
-J=2842  S=681  E=571  
-J=2843  S=682  E=571  
-J=2844  S=683  E=571  
-J=2845  S=684  E=571  
-J=2846  S=685  E=571  
-J=2847  S=686  E=571  
-J=2848  S=687  E=571  
-J=2849  S=688  E=571  
-J=2850  S=689  E=571  
-J=2851  S=690  E=571  
-J=2852  S=691  E=571  
-J=2853  S=692  E=571  
-J=2854  S=693  E=571  
-J=2855  S=694  E=571  
-J=2856  S=695  E=571  
-J=2857  S=696  E=571  
-J=2858  S=697  E=571  
-J=2859  S=698  E=571  
-J=2860  S=699  E=571  
-J=2861  S=700  E=571  
-J=2862  S=701  E=571  
-J=2863  S=702  E=571  
-J=2864  S=703  E=571  
-J=2865  S=704  E=571  
-J=2866  S=705  E=571  
-J=2867  S=706  E=571  
-J=2868  S=707  E=571  
-J=2869  S=708  E=571  
-J=2870  S=709  E=571  
-J=2871  S=710  E=571  
-J=2872  S=711  E=571  
-J=2873  S=712  E=571  
-J=2874  S=713  E=571  
-J=2875  S=714  E=571  
-J=2876  S=715  E=571  
-J=2877  S=716  E=571  
-J=2878  S=717  E=571  
-J=2879  S=718  E=572  
-J=2880  S=720  E=572  
-J=2881  S=764  E=572  
-J=2882  S=766  E=572  
-J=2883  S=718  E=573  
-J=2884  S=720  E=573  
-J=2885  S=764  E=573  
-J=2886  S=766  E=573  
-J=2887  S=718  E=574  
-J=2888  S=720  E=574  
-J=2889  S=764  E=574  
-J=2890  S=766  E=574  
-J=2891  S=718  E=575  
-J=2892  S=720  E=575  
-J=2893  S=764  E=575  
-J=2894  S=766  E=575  
-J=2895  S=718  E=576  
-J=2896  S=720  E=576  
-J=2897  S=764  E=576  
-J=2898  S=766  E=576  
-J=2899  S=718  E=577  
-J=2900  S=720  E=577  
-J=2901  S=764  E=577  
-J=2902  S=766  E=577  
-J=2903  S=718  E=578  
-J=2904  S=720  E=578  
-J=2905  S=764  E=578  
-J=2906  S=766  E=578  
-J=2907  S=718  E=579  
-J=2908  S=720  E=579  
-J=2909  S=764  E=579  
-J=2910  S=766  E=579  
-J=2911  S=718  E=580  
-J=2912  S=720  E=580  
-J=2913  S=764  E=580  
-J=2914  S=766  E=580  
-J=2915  S=718  E=581  
-J=2916  S=720  E=581  
-J=2917  S=764  E=581  
-J=2918  S=766  E=581  
-J=2919  S=718  E=582  
-J=2920  S=720  E=582  
-J=2921  S=764  E=582  
-J=2922  S=766  E=582  
-J=2923  S=718  E=583  
-J=2924  S=720  E=583  
-J=2925  S=764  E=583  
-J=2926  S=766  E=583  
-J=2927  S=718  E=584  
-J=2928  S=720  E=584  
-J=2929  S=764  E=584  
-J=2930  S=766  E=584  
-J=2931  S=718  E=585  
-J=2932  S=720  E=585  
-J=2933  S=764  E=585  
-J=2934  S=766  E=585  
-J=2935  S=718  E=586  
-J=2936  S=720  E=586  
-J=2937  S=764  E=586  
-J=2938  S=766  E=586  
-J=2939  S=718  E=587  
-J=2940  S=720  E=587  
-J=2941  S=764  E=587  
-J=2942  S=766  E=587  
-J=2943  S=718  E=588  
-J=2944  S=720  E=588  
-J=2945  S=764  E=588  
-J=2946  S=766  E=588  
-J=2947  S=718  E=589  
-J=2948  S=720  E=589  
-J=2949  S=764  E=589  
-J=2950  S=766  E=589  
-J=2951  S=718  E=590  
-J=2952  S=720  E=590  
-J=2953  S=764  E=590  
-J=2954  S=766  E=590  
-J=2955  S=718  E=591  
-J=2956  S=720  E=591  
-J=2957  S=764  E=591  
-J=2958  S=766  E=591  
-J=2959  S=718  E=592  
-J=2960  S=720  E=592  
-J=2961  S=764  E=592  
-J=2962  S=766  E=592  
-J=2963  S=718  E=593  
-J=2964  S=720  E=593  
-J=2965  S=764  E=593  
-J=2966  S=766  E=593  
-J=2967  S=718  E=594  
-J=2968  S=720  E=594  
-J=2969  S=764  E=594  
-J=2970  S=766  E=594  
-J=2971  S=718  E=595  
-J=2972  S=720  E=595  
-J=2973  S=764  E=595  
-J=2974  S=766  E=595  
-J=2975  S=718  E=596  
-J=2976  S=720  E=596  
-J=2977  S=764  E=596  
-J=2978  S=766  E=596  
-J=2979  S=718  E=597  
-J=2980  S=720  E=597  
-J=2981  S=764  E=597  
-J=2982  S=766  E=597  
-J=2983  S=718  E=598  
-J=2984  S=720  E=598  
-J=2985  S=764  E=598  
-J=2986  S=766  E=598  
-J=2987  S=718  E=599  
-J=2988  S=720  E=599  
-J=2989  S=764  E=599  
-J=2990  S=766  E=599  
-J=2991  S=718  E=600  
-J=2992  S=720  E=600  
-J=2993  S=764  E=600  
-J=2994  S=766  E=600  
-J=2995  S=718  E=601  
-J=2996  S=720  E=601  
-J=2997  S=764  E=601  
-J=2998  S=766  E=601  
-J=2999  S=718  E=602  
-J=3000  S=720  E=602  
-J=3001  S=764  E=602  
-J=3002  S=766  E=602  
-J=3003  S=718  E=603  
-J=3004  S=720  E=603  
-J=3005  S=764  E=603  
-J=3006  S=766  E=603  
-J=3007  S=718  E=604  
-J=3008  S=720  E=604  
-J=3009  S=764  E=604  
-J=3010  S=766  E=604  
-J=3011  S=718  E=605  
-J=3012  S=720  E=605  
-J=3013  S=764  E=605  
-J=3014  S=766  E=605  
-J=3015  S=718  E=606  
-J=3016  S=720  E=606  
-J=3017  S=764  E=606  
-J=3018  S=766  E=606  
-J=3019  S=718  E=607  
-J=3020  S=720  E=607  
-J=3021  S=764  E=607  
-J=3022  S=766  E=607  
-J=3023  S=718  E=608  
-J=3024  S=720  E=608  
-J=3025  S=764  E=608  
-J=3026  S=766  E=608  
-J=3027  S=718  E=609  
-J=3028  S=720  E=609  
-J=3029  S=764  E=609  
-J=3030  S=766  E=609  
-J=3031  S=718  E=610  
-J=3032  S=720  E=610  
-J=3033  S=764  E=610  
-J=3034  S=766  E=610  
-J=3035  S=718  E=611  
-J=3036  S=720  E=611  
-J=3037  S=764  E=611  
-J=3038  S=766  E=611  
-J=3039  S=718  E=612  
-J=3040  S=720  E=612  
-J=3041  S=764  E=612  
-J=3042  S=766  E=612  
-J=3043  S=718  E=613  
-J=3044  S=720  E=613  
-J=3045  S=764  E=613  
-J=3046  S=766  E=613  
-J=3047  S=718  E=614  
-J=3048  S=720  E=614  
-J=3049  S=764  E=614  
-J=3050  S=766  E=614  
-J=3051  S=718  E=615  
-J=3052  S=720  E=615  
-J=3053  S=764  E=615  
-J=3054  S=766  E=615  
-J=3055  S=718  E=616  
-J=3056  S=720  E=616  
-J=3057  S=764  E=616  
-J=3058  S=766  E=616  
-J=3059  S=718  E=617  
-J=3060  S=720  E=617  
-J=3061  S=764  E=617  
-J=3062  S=766  E=617  
-J=3063  S=718  E=618  
-J=3064  S=720  E=618  
-J=3065  S=764  E=618  
-J=3066  S=766  E=618  
-J=3067  S=718  E=619  
-J=3068  S=720  E=619  
-J=3069  S=764  E=619  
-J=3070  S=766  E=619  
-J=3071  S=718  E=620  
-J=3072  S=720  E=620  
-J=3073  S=764  E=620  
-J=3074  S=766  E=620  
-J=3075  S=718  E=621  
-J=3076  S=720  E=621  
-J=3077  S=764  E=621  
-J=3078  S=766  E=621  
-J=3079  S=718  E=622  
-J=3080  S=720  E=622  
-J=3081  S=764  E=622  
-J=3082  S=766  E=622  
-J=3083  S=718  E=623  
-J=3084  S=720  E=623  
-J=3085  S=764  E=623  
-J=3086  S=766  E=623  
-J=3087  S=718  E=624  
-J=3088  S=720  E=624  
-J=3089  S=764  E=624  
-J=3090  S=766  E=624  
-J=3091  S=718  E=625  
-J=3092  S=720  E=625  
-J=3093  S=764  E=625  
-J=3094  S=766  E=625  
-J=3095  S=718  E=626  
-J=3096  S=720  E=626  
-J=3097  S=764  E=626  
-J=3098  S=766  E=626  
-J=3099  S=718  E=627  
-J=3100  S=720  E=627  
-J=3101  S=764  E=627  
-J=3102  S=766  E=627  
-J=3103  S=718  E=628  
-J=3104  S=720  E=628  
-J=3105  S=764  E=628  
-J=3106  S=766  E=628  
-J=3107  S=718  E=629  
-J=3108  S=720  E=629  
-J=3109  S=764  E=629  
-J=3110  S=766  E=629  
-J=3111  S=718  E=630  
-J=3112  S=720  E=630  
-J=3113  S=764  E=630  
-J=3114  S=766  E=630  
-J=3115  S=718  E=631  
-J=3116  S=720  E=631  
-J=3117  S=764  E=631  
-J=3118  S=766  E=631  
-J=3119  S=718  E=632  
-J=3120  S=720  E=632  
-J=3121  S=764  E=632  
-J=3122  S=766  E=632  
-J=3123  S=718  E=633  
-J=3124  S=720  E=633  
-J=3125  S=764  E=633  
-J=3126  S=766  E=633  
-J=3127  S=718  E=634  
-J=3128  S=720  E=634  
-J=3129  S=764  E=634  
-J=3130  S=766  E=634  
-J=3131  S=718  E=635  
-J=3132  S=720  E=635  
-J=3133  S=764  E=635  
-J=3134  S=766  E=635  
-J=3135  S=718  E=636  
-J=3136  S=720  E=636  
-J=3137  S=764  E=636  
-J=3138  S=766  E=636  
-J=3139  S=718  E=637  
-J=3140  S=720  E=637  
-J=3141  S=764  E=637  
-J=3142  S=766  E=637  
-J=3143  S=718  E=638  
-J=3144  S=720  E=638  
-J=3145  S=764  E=638  
-J=3146  S=766  E=638  
-J=3147  S=718  E=639  
-J=3148  S=720  E=639  
-J=3149  S=764  E=639  
-J=3150  S=766  E=639  
-J=3151  S=718  E=640  
-J=3152  S=720  E=640  
-J=3153  S=764  E=640  
-J=3154  S=766  E=640  
-J=3155  S=718  E=641  
-J=3156  S=720  E=641  
-J=3157  S=764  E=641  
-J=3158  S=766  E=641  
-J=3159  S=718  E=642  
-J=3160  S=720  E=642  
-J=3161  S=764  E=642  
-J=3162  S=766  E=642  
-J=3163  S=718  E=643  
-J=3164  S=720  E=643  
-J=3165  S=764  E=643  
-J=3166  S=766  E=643  
-J=3167  S=718  E=644  
-J=3168  S=720  E=644  
-J=3169  S=764  E=644  
-J=3170  S=766  E=644  
-J=3171  S=718  E=645  
-J=3172  S=720  E=645  
-J=3173  S=764  E=645  
-J=3174  S=766  E=645  
-J=3175  S=718  E=646  
-J=3176  S=720  E=646  
-J=3177  S=764  E=646  
-J=3178  S=766  E=646  
-J=3179  S=718  E=647  
-J=3180  S=720  E=647  
-J=3181  S=764  E=647  
-J=3182  S=766  E=647  
-J=3183  S=718  E=648  
-J=3184  S=720  E=648  
-J=3185  S=764  E=648  
-J=3186  S=766  E=648  
-J=3187  S=718  E=649  
-J=3188  S=720  E=649  
-J=3189  S=764  E=649  
-J=3190  S=766  E=649  
-J=3191  S=718  E=650  
-J=3192  S=720  E=650  
-J=3193  S=764  E=650  
-J=3194  S=766  E=650  
-J=3195  S=718  E=651  
-J=3196  S=720  E=651  
-J=3197  S=764  E=651  
-J=3198  S=766  E=651  
-J=3199  S=718  E=652  
-J=3200  S=720  E=652  
-J=3201  S=764  E=652  
-J=3202  S=766  E=652  
-J=3203  S=718  E=653  
-J=3204  S=720  E=653  
-J=3205  S=764  E=653  
-J=3206  S=766  E=653  
-J=3207  S=718  E=654  
-J=3208  S=720  E=654  
-J=3209  S=764  E=654  
-J=3210  S=766  E=654  
-J=3211  S=718  E=655  
-J=3212  S=720  E=655  
-J=3213  S=764  E=655  
-J=3214  S=766  E=655  
-J=3215  S=718  E=656  
-J=3216  S=720  E=656  
-J=3217  S=764  E=656  
-J=3218  S=766  E=656  
-J=3219  S=718  E=657  
-J=3220  S=720  E=657  
-J=3221  S=764  E=657  
-J=3222  S=766  E=657  
-J=3223  S=718  E=658  
-J=3224  S=720  E=658  
-J=3225  S=764  E=658  
-J=3226  S=766  E=658  
-J=3227  S=718  E=659  
-J=3228  S=720  E=659  
-J=3229  S=764  E=659  
-J=3230  S=766  E=659  
-J=3231  S=718  E=660  
-J=3232  S=720  E=660  
-J=3233  S=764  E=660  
-J=3234  S=766  E=660  
-J=3235  S=718  E=661  
-J=3236  S=720  E=661  
-J=3237  S=764  E=661  
-J=3238  S=766  E=661  
-J=3239  S=718  E=662  
-J=3240  S=720  E=662  
-J=3241  S=764  E=662  
-J=3242  S=766  E=662  
-J=3243  S=718  E=663  
-J=3244  S=720  E=663  
-J=3245  S=764  E=663  
-J=3246  S=766  E=663  
-J=3247  S=718  E=664  
-J=3248  S=720  E=664  
-J=3249  S=764  E=664  
-J=3250  S=766  E=664  
-J=3251  S=718  E=665  
-J=3252  S=720  E=665  
-J=3253  S=764  E=665  
-J=3254  S=766  E=665  
-J=3255  S=718  E=666  
-J=3256  S=720  E=666  
-J=3257  S=764  E=666  
-J=3258  S=766  E=666  
-J=3259  S=718  E=667  
-J=3260  S=720  E=667  
-J=3261  S=764  E=667  
-J=3262  S=766  E=667  
-J=3263  S=718  E=668  
-J=3264  S=720  E=668  
-J=3265  S=764  E=668  
-J=3266  S=766  E=668  
-J=3267  S=718  E=669  
-J=3268  S=720  E=669  
-J=3269  S=764  E=669  
-J=3270  S=766  E=669  
-J=3271  S=718  E=670  
-J=3272  S=720  E=670  
-J=3273  S=764  E=670  
-J=3274  S=766  E=670  
-J=3275  S=718  E=671  
-J=3276  S=720  E=671  
-J=3277  S=764  E=671  
-J=3278  S=766  E=671  
-J=3279  S=718  E=672  
-J=3280  S=720  E=672  
-J=3281  S=764  E=672  
-J=3282  S=766  E=672  
-J=3283  S=718  E=673  
-J=3284  S=720  E=673  
-J=3285  S=764  E=673  
-J=3286  S=766  E=673  
-J=3287  S=718  E=674  
-J=3288  S=720  E=674  
-J=3289  S=764  E=674  
-J=3290  S=766  E=674  
-J=3291  S=718  E=675  
-J=3292  S=720  E=675  
-J=3293  S=764  E=675  
-J=3294  S=766  E=675  
-J=3295  S=718  E=676  
-J=3296  S=720  E=676  
-J=3297  S=764  E=676  
-J=3298  S=766  E=676  
-J=3299  S=718  E=677  
-J=3300  S=720  E=677  
-J=3301  S=764  E=677  
-J=3302  S=766  E=677  
-J=3303  S=718  E=678  
-J=3304  S=720  E=678  
-J=3305  S=764  E=678  
-J=3306  S=766  E=678  
-J=3307  S=718  E=679  
-J=3308  S=720  E=679  
-J=3309  S=764  E=679  
-J=3310  S=766  E=679  
-J=3311  S=718  E=680  
-J=3312  S=720  E=680  
-J=3313  S=764  E=680  
-J=3314  S=766  E=680  
-J=3315  S=718  E=681  
-J=3316  S=720  E=681  
-J=3317  S=764  E=681  
-J=3318  S=766  E=681  
-J=3319  S=718  E=682  
-J=3320  S=720  E=682  
-J=3321  S=764  E=682  
-J=3322  S=766  E=682  
-J=3323  S=718  E=683  
-J=3324  S=720  E=683  
-J=3325  S=764  E=683  
-J=3326  S=766  E=683  
-J=3327  S=718  E=684  
-J=3328  S=720  E=684  
-J=3329  S=764  E=684  
-J=3330  S=766  E=684  
-J=3331  S=718  E=685  
-J=3332  S=720  E=685  
-J=3333  S=764  E=685  
-J=3334  S=766  E=685  
-J=3335  S=718  E=686  
-J=3336  S=720  E=686  
-J=3337  S=764  E=686  
-J=3338  S=766  E=686  
-J=3339  S=718  E=687  
-J=3340  S=720  E=687  
-J=3341  S=764  E=687  
-J=3342  S=766  E=687  
-J=3343  S=718  E=688  
-J=3344  S=720  E=688  
-J=3345  S=764  E=688  
-J=3346  S=766  E=688  
-J=3347  S=718  E=689  
-J=3348  S=720  E=689  
-J=3349  S=764  E=689  
-J=3350  S=766  E=689  
-J=3351  S=718  E=690  
-J=3352  S=720  E=690  
-J=3353  S=764  E=690  
-J=3354  S=766  E=690  
-J=3355  S=718  E=691  
-J=3356  S=720  E=691  
-J=3357  S=764  E=691  
-J=3358  S=766  E=691  
-J=3359  S=718  E=692  
-J=3360  S=720  E=692  
-J=3361  S=764  E=692  
-J=3362  S=766  E=692  
-J=3363  S=718  E=693  
-J=3364  S=720  E=693  
-J=3365  S=764  E=693  
-J=3366  S=766  E=693  
-J=3367  S=718  E=694  
-J=3368  S=720  E=694  
-J=3369  S=764  E=694  
-J=3370  S=766  E=694  
-J=3371  S=718  E=695  
-J=3372  S=720  E=695  
-J=3373  S=764  E=695  
-J=3374  S=766  E=695  
-J=3375  S=718  E=696  
-J=3376  S=720  E=696  
-J=3377  S=764  E=696  
-J=3378  S=766  E=696  
-J=3379  S=718  E=697  
-J=3380  S=720  E=697  
-J=3381  S=764  E=697  
-J=3382  S=766  E=697  
-J=3383  S=718  E=698  
-J=3384  S=720  E=698  
-J=3385  S=764  E=698  
-J=3386  S=766  E=698  
-J=3387  S=718  E=699  
-J=3388  S=720  E=699  
-J=3389  S=764  E=699  
-J=3390  S=766  E=699  
-J=3391  S=718  E=700  
-J=3392  S=720  E=700  
-J=3393  S=764  E=700  
-J=3394  S=766  E=700  
-J=3395  S=718  E=701  
-J=3396  S=720  E=701  
-J=3397  S=764  E=701  
-J=3398  S=766  E=701  
-J=3399  S=718  E=702  
-J=3400  S=720  E=702  
-J=3401  S=764  E=702  
-J=3402  S=766  E=702  
-J=3403  S=718  E=703  
-J=3404  S=720  E=703  
-J=3405  S=764  E=703  
-J=3406  S=766  E=703  
-J=3407  S=718  E=704  
-J=3408  S=720  E=704  
-J=3409  S=764  E=704  
-J=3410  S=766  E=704  
-J=3411  S=718  E=705  
-J=3412  S=720  E=705  
-J=3413  S=764  E=705  
-J=3414  S=766  E=705  
-J=3415  S=718  E=706  
-J=3416  S=720  E=706  
-J=3417  S=764  E=706  
-J=3418  S=766  E=706  
-J=3419  S=718  E=707  
-J=3420  S=720  E=707  
-J=3421  S=764  E=707  
-J=3422  S=766  E=707  
-J=3423  S=718  E=708  
-J=3424  S=720  E=708  
-J=3425  S=764  E=708  
-J=3426  S=766  E=708  
-J=3427  S=718  E=709  
-J=3428  S=720  E=709  
-J=3429  S=764  E=709  
-J=3430  S=766  E=709  
-J=3431  S=718  E=710  
-J=3432  S=720  E=710  
-J=3433  S=764  E=710  
-J=3434  S=766  E=710  
-J=3435  S=718  E=711  
-J=3436  S=720  E=711  
-J=3437  S=764  E=711  
-J=3438  S=766  E=711  
-J=3439  S=718  E=712  
-J=3440  S=720  E=712  
-J=3441  S=764  E=712  
-J=3442  S=766  E=712  
-J=3443  S=718  E=713  
-J=3444  S=720  E=713  
-J=3445  S=764  E=713  
-J=3446  S=766  E=713  
-J=3447  S=718  E=714  
-J=3448  S=720  E=714  
-J=3449  S=764  E=714  
-J=3450  S=766  E=714  
-J=3451  S=718  E=715  
-J=3452  S=720  E=715  
-J=3453  S=764  E=715  
-J=3454  S=766  E=715  
-J=3455  S=718  E=716  
-J=3456  S=720  E=716  
-J=3457  S=764  E=716  
-J=3458  S=766  E=716  
-J=3459  S=718  E=717  
-J=3460  S=720  E=717  
-J=3461  S=764  E=717  
-J=3462  S=766  E=717  
-J=3463  S=718  E=718  
-J=3464  S=720  E=718  
-J=3465  S=764  E=718  
-J=3466  S=766  E=718  
-J=3467  S=720  E=719  
-J=3468  S=764  E=719  
-J=3469  S=766  E=719  
-J=3470  S=719  E=720  
-J=3471  S=721  E=720  
-J=3472  S=722  E=720  
-J=3473  S=723  E=720  
-J=3474  S=724  E=720  
-J=3475  S=725  E=720  
-J=3476  S=726  E=720  
-J=3477  S=727  E=720  
-J=3478  S=728  E=720  
-J=3479  S=729  E=720  
-J=3480  S=730  E=720  
-J=3481  S=731  E=720  
-J=3482  S=732  E=720  
-J=3483  S=733  E=720  
-J=3484  S=734  E=720  
-J=3485  S=735  E=720  
-J=3486  S=736  E=720  
-J=3487  S=737  E=720  
-J=3488  S=738  E=720  
-J=3489  S=739  E=720  
-J=3490  S=740  E=720  
-J=3491  S=741  E=720  
-J=3492  S=742  E=720  
-J=3493  S=743  E=720  
-J=3494  S=744  E=720  
-J=3495  S=745  E=720  
-J=3496  S=746  E=720  
-J=3497  S=747  E=720  
-J=3498  S=748  E=720  
-J=3499  S=749  E=720  
-J=3500  S=750  E=720  
-J=3501  S=751  E=720  
-J=3502  S=752  E=720  
-J=3503  S=753  E=720  
-J=3504  S=754  E=720  
-J=3505  S=755  E=720  
-J=3506  S=756  E=720  
-J=3507  S=757  E=720  
-J=3508  S=758  E=720  
-J=3509  S=759  E=720  
-J=3510  S=760  E=720  
-J=3511  S=761  E=720  
-J=3512  S=762  E=720  
-J=3513  S=763  E=720  
-J=3514  S=764  E=721  
-J=3515  S=766  E=721  
-J=3516  S=764  E=722  
-J=3517  S=766  E=722  
-J=3518  S=764  E=723  
-J=3519  S=766  E=723  
-J=3520  S=764  E=724  
-J=3521  S=766  E=724  
-J=3522  S=764  E=725  
-J=3523  S=766  E=725  
-J=3524  S=764  E=726  
-J=3525  S=766  E=726  
-J=3526  S=764  E=727  
-J=3527  S=766  E=727  
-J=3528  S=764  E=728  
-J=3529  S=766  E=728  
-J=3530  S=764  E=729  
-J=3531  S=766  E=729  
-J=3532  S=764  E=730  
-J=3533  S=766  E=730  
-J=3534  S=764  E=731  
-J=3535  S=766  E=731  
-J=3536  S=764  E=732  
-J=3537  S=766  E=732  
-J=3538  S=764  E=733  
-J=3539  S=766  E=733  
-J=3540  S=764  E=734  
-J=3541  S=766  E=734  
-J=3542  S=764  E=735  
-J=3543  S=766  E=735  
-J=3544  S=764  E=736  
-J=3545  S=766  E=736  
-J=3546  S=764  E=737  
-J=3547  S=766  E=737  
-J=3548  S=764  E=738  
-J=3549  S=766  E=738  
-J=3550  S=764  E=739  
-J=3551  S=766  E=739  
-J=3552  S=764  E=740  
-J=3553  S=766  E=740  
-J=3554  S=764  E=741  
-J=3555  S=766  E=741  
-J=3556  S=764  E=742  
-J=3557  S=766  E=742  
-J=3558  S=764  E=743  
-J=3559  S=766  E=743  
-J=3560  S=764  E=744  
-J=3561  S=766  E=744  
-J=3562  S=764  E=745  
-J=3563  S=766  E=745  
-J=3564  S=764  E=746  
-J=3565  S=766  E=746  
-J=3566  S=764  E=747  
-J=3567  S=766  E=747  
-J=3568  S=764  E=748  
-J=3569  S=766  E=748  
-J=3570  S=764  E=749  
-J=3571  S=766  E=749  
-J=3572  S=764  E=750  
-J=3573  S=766  E=750  
-J=3574  S=764  E=751  
-J=3575  S=766  E=751  
-J=3576  S=764  E=752  
-J=3577  S=766  E=752  
-J=3578  S=764  E=753  
-J=3579  S=766  E=753  
-J=3580  S=764  E=754  
-J=3581  S=766  E=754  
-J=3582  S=764  E=755  
-J=3583  S=766  E=755  
-J=3584  S=764  E=756  
-J=3585  S=766  E=756  
-J=3586  S=764  E=757  
-J=3587  S=766  E=757  
-J=3588  S=764  E=758  
-J=3589  S=766  E=758  
-J=3590  S=764  E=759  
-J=3591  S=766  E=759  
-J=3592  S=764  E=760  
-J=3593  S=766  E=760  
-J=3594  S=764  E=761  
-J=3595  S=766  E=761  
-J=3596  S=764  E=762  
-J=3597  S=766  E=762  
-J=3598  S=764  E=763  
-J=3599  S=766  E=763  
-J=3600  S=764  E=764  
-J=3601  S=766  E=764  
-J=3602  S=766  E=765  
-J=3603  S=765  E=766  
-J=3604  S=768  E=766  
-J=3605  S=0    E=767  
-J=3606  S=2    E=767  
-J=3607  S=46   E=767  
-J=3608  S=48   E=767  
+N=563  L=1114 
+I=0    W=yang                
+I=1    W=!NULL               
+I=2    W=ya                  
+I=3    W=untuk               
+I=4    W=tentang             
+I=5    W=sih                 
+I=6    W=tapi                
+I=7    W=sepertinya          
+I=8    W=selain              
+I=9    W=sejak               
+I=10   W=secara              
+I=11   W=sambil              
+I=12   W=oke                 
+I=13   W=ok                  
+I=14   W=nih                 
+I=15   W=mana                
+I=16   W=kenapa              
+I=17   W=ke                  
+I=18   W=karena              
+I=19   W=kapan               
+I=20   W=kalo                
+I=21   W=kalau               
+I=22   W=kah                 
+I=23   W=iya                 
+I=24   W=itu                 
+I=25   W=ini                 
+I=26   W=halo                
+I=27   W=hai                 
+I=28   W=gimana              
+I=29   W=em                  
+I=30   W=eh                  
+I=31   W=eeh                 
+I=32   W=doang               
+I=33   W=deh                 
+I=34   W=di                  
+I=35   W=dari                
+I=36   W=dan                 
+I=37   W=biar                
+I=38   W=berapa              
+I=39   W=atau                
+I=40   W=apalagi             
+I=41   W=apakah              
+I=42   W=apa                 
+I=43   W=balurin             
+I=44   W=yang                
+I=45   W=!NULL               
+I=46   W=ya                  
+I=47   W=untuk               
+I=48   W=tentang             
+I=49   W=sih                 
+I=50   W=tapi                
+I=51   W=sepertinya          
+I=52   W=selain              
+I=53   W=sejak               
+I=54   W=secara              
+I=55   W=sambil              
+I=56   W=oke                 
+I=57   W=ok                  
+I=58   W=nih                 
+I=59   W=mana                
+I=60   W=kenapa              
+I=61   W=ke                  
+I=62   W=karena              
+I=63   W=kapan               
+I=64   W=kalo                
+I=65   W=kalau               
+I=66   W=kah                 
+I=67   W=iya                 
+I=68   W=itu                 
+I=69   W=ini                 
+I=70   W=halo                
+I=71   W=hai                 
+I=72   W=gimana              
+I=73   W=em                  
+I=74   W=eh                  
+I=75   W=eeh                 
+I=76   W=doang               
+I=77   W=deh                 
+I=78   W=di                  
+I=79   W=dari                
+I=80   W=dan                 
+I=81   W=biar                
+I=82   W=berapa              
+I=83   W=atau                
+I=84   W=apalagi             
+I=85   W=apakah              
+I=86   W=apa                 
+I=87   W=balurin             
+I=88   W=wajar               
+I=89   W=untung              
+I=90   W=umum                
+I=91   W=udah                
+I=92   W=tua                 
+I=93   W=tiap                
+I=94   W=tertentu            
+I=95   W=terlalu             
+I=96   W=tinggi              
+I=97   W=tepat               
+I=98   W=tegang              
+I=99   W=tegak               
+I=100  W=susah               
+I=101  W=sulit               
+I=102  W=sesering            
+I=103  W=seringnya           
+I=104  W=sering              
+I=105  W=sendiri             
+I=106  W=senang              
+I=107  W=semoga              
+I=108  W=selamat             
+I=109  W=selama              
+I=110  W=sekali              
+I=111  W=sejauh              
+I=112  W=segera              
+I=113  W=sedikit             
+I=114  W=sebenernya          
+I=115  W=sebelumnya          
+I=116  W=sebelum             
+I=117  W=sama                
+I=118  W=salah               
+I=119  W=saja                
+I=120  W=sadarnya            
+I=121  W=perlu               
+I=122  W=perihnya            
+I=123  W=pernah              
+I=124  W=sakitnya            
+I=125  W=sakit               
+I=126  W=perih               
+I=127  W=penuh               
+I=128  W=pembengkakannya     
+I=129  W=pembengkakan        
+I=130  W=nyeri               
+I=131  W=ngga                
+I=132  W=mungkin             
+I=133  W=muda                
+I=134  W=masih               
+I=135  W=malah               
+I=136  W=lemes               
+I=137  W=lekas               
+I=138  W=lebih               
+I=139  W=laper               
+I=140  W=lama                
+I=141  W=lain                
+I=142  W=lagi                
+I=143  W=mual                
+I=144  W=kram                
+I=145  W=kesumbat            
+I=146  W=kenyang             
+I=147  W=kemungkinan         
+I=148  W=kayanya             
+I=149  W=kaya                
+I=150  W=kadang              
+I=151  W=juga                
+I=152  W=jarang              
+I=153  W=hangat              
+I=154  W=gaenak              
+I=155  W=enak                
+I=156  W=demam               
+I=157  W=cuma                
+I=158  W=cukup               
+I=159  W=capek               
+I=160  W=burem               
+I=161  W=biasa               
+I=162  W=berat               
+I=163  W=bengkak             
+I=164  W=banyak              
+I=165  W=baik                
+I=166  W=bagus               
+I=167  W=aneh                
+I=168  W=akan                
+I=169  W=saya                
+I=170  W=!NULL               
+I=171  W=kita                
+I=172  W=kamu                
+I=173  W=waktu               
+I=174  W=umur                
+I=175  W=tulisin             
+I=176  W=terakhir            
+I=177  W=tanda               
+I=178  W=suhu                
+I=179  W=sudah               
+I=180  W=stroke              
+I=181  W=sma                 
+I=182  W=serangan            
+I=183  W=semisal             
+I=184  W=sekitar             
+I=185  W=seharian            
+I=186  W=sehari              
+I=187  W=sebentar            
+I=188  W=satu                
+I=189  W=riwayat             
+I=190  W=rasanya             
+I=191  W=rasa                
+I=192  W=posisinya           
+I=193  W=pilek               
+I=194  W=pereda              
+I=195  W=penglihatanmu       
+I=196  W=pedas               
+I=197  W=pandangannya        
+I=198  W=pandangan           
+I=199  W=pagi                
+I=200  W=pak                 
+I=201  W=paracetamol         
+I=202  W=ototmu              
+I=203  W=putih               
+I=204  W=perutnya            
+I=205  W=perut               
+I=206  W=pernafasan          
+I=207  W=punggung            
+I=208  W=rumah               
+I=209  W=sembilan            
+I=210  W=tenggorokan         
+I=211  W=ubin                
+I=212  W=penyakit            
+I=213  W=normal              
+I=214  W=natural             
+I=215  W=nanti               
+I=216  W=nafsu               
+I=217  W=misal               
+I=218  W=minggu              
+I=219  W=mimpi               
+I=220  W=merah               
+I=221  W=masalah             
+I=222  W=malem               
+I=223  W=malam               
+I=224  W=maksudnya           
+I=225  W=makanan             
+I=226  W=lokal               
+I=227  W=lukanya             
+I=228  W=lambung             
+I=229  W=kesehatan           
+I=230  W=list                
+I=231  W=layar               
+I=232  W=kopi                
+I=233  W=koma                
+I=234  W=kiri                
+I=235  W=kemarin             
+I=236  W=keluhannya          
+I=237  W=keluhan             
+I=238  W=keluarga            
+I=239  W=kasih               
+I=240  W=kanan               
+I=241  W=jantungnya          
+I=242  W=insomnia            
+I=243  W=ibuprofen           
+I=244  W=ibu                 
+I=245  W=hal                 
+I=246  W=hijau               
+I=247  W=hari                
+I=248  W=gelas               
+I=249  W=gejalanya           
+I=250  W=gejala              
+I=251  W=form                
+I=252  W=flu                 
+I=253  W=empat               
+I=254  W=dulu                
+I=255  W=enam                
+I=256  W=donor               
+I=257  W=kaki                
+I=258  W=jam                 
+I=259  W=kepala              
+I=260  W=lima                
+I=261  W=sayurannya          
+I=262  W=sayuran             
+I=263  W=sepuluh             
+I=264  W=tiga                
+I=265  W=tujuh               
+I=266  W=dua                 
+I=267  W=obatnya             
+I=268  W=kayu                
+I=269  W=minyak              
+I=270  W=minuman             
+I=271  W=obat                
+I=272  W=obatan              
+I=273  W=otot                
+I=274  W=orang               
+I=275  W=pepaya              
+I=276  W=pisang              
+I=277  W=sendi               
+I=278  W=wajah               
+I=279  W=jantung             
+I=280  W=gastritis           
+I=281  W=garam               
+I=282  W=dokter              
+I=283  W=dok                 
+I=284  W=derajat             
+I=285  W=depan               
+I=286  W=darahnya            
+I=287  W=darah               
+I=288  W=dada                
+I=289  W=ct                  
+I=290  W=celcius             
+I=291  W=bulan               
+I=292  W=buah                
+I=293  W=bu                  
+I=294  W=bius                
+I=295  W=berpengaruh         
+I=296  W=belakangan          
+I=297  W=batuk               
+I=298  W=bapak               
+I=299  W=balik               
+I=300  W=bagian              
+I=301  W=badan               
+I=302  W=ayah                
+I=303  W=awal                
+I=304  W=arteri              
+I=305  W=apotek              
+I=306  W=apel                
+I=307  W=anu                 
+I=308  W=antidepressan       
+I=309  W=angka               
+I=310  W=alkohol             
+I=311  W=alergi              
+I=312  W=aja                 
+I=313  W=air                 
+I=314  W=ahmad               
+I=315  W=acetaminofen        
+I=316  W=tusuk               
+I=317  W=!NULL               
+I=318  W=turun               
+I=319  W=terima              
+I=320  W=terasa              
+I=321  W=terapi              
+I=322  W=tolong              
+I=323  W=tidurnya            
+I=324  W=tidur               
+I=325  W=terus               
+I=326  W=tertusuk            
+I=327  W=tahu                
+I=328  W=situ                
+I=329  W=sini                
+I=330  W=silakan             
+I=331  W=silahkan            
+I=332  W=setahu              
+I=333  W=sempet              
+I=334  W=sempat              
+I=335  W=sembuhnya           
+I=336  W=sembuh              
+I=337  W=sampai              
+I=338  W=rada                
+I=339  W=pusing              
+I=340  W=pulang              
+I=341  W=sarannya            
+I=342  W=sarankan            
+I=343  W=saran               
+I=344  W=scan                
+I=345  W=rileks              
+I=346  W=rebahan             
+I=347  W=perhatian           
+I=348  W=perbanyak           
+I=349  W=pecah               
+I=350  W=parah               
+I=351  W=paling              
+I=352  W=nyangkut            
+I=353  W=ntar                
+I=354  W=naik                
+I=355  W=muncul              
+I=356  W=merasa              
+I=357  W=menurun             
+I=358  W=lembur              
+I=359  W=makan               
+I=360  W=langsung            
+I=361  W=minum               
+I=362  W=ngurangin           
+I=363  W=ngerokok            
+I=364  W=periksa             
+I=365  W=pijat               
+I=366  W=kurang              
+I=367  W=kesini              
+I=368  W=kerja               
+I=369  W=kerasanya           
+I=370  W=kerasa              
+I=371  W=kepecah             
+I=372  W=kelihatannya        
+I=373  W=keliatan            
+I=374  W=kejadian            
+I=375  W=kebangun            
+I=376  W=jangan              
+I=377  W=jahit               
+I=378  W=jadi                
+I=379  W=isi                 
+I=380  W=ilang               
+I=381  W=ikut                
+I=382  W=habis               
+I=383  W=gitu                
+I=384  W=gini                
+I=385  W=gerak               
+I=386  W=gatau               
+I=387  W=tanya               
+I=388  W=tambah              
+I=389  W=membantu            
+I=390  W=melemaskan          
+I=391  W=kurangi             
+I=392  W=jalan               
+I=393  W=istirahat           
+I=394  W=duduk               
+I=395  W=mau                 
+I=396  W=masuk               
+I=397  W=ditusuk             
+I=398  W=diperjelas          
+I=399  W=diminum             
+I=400  W=diambil             
+I=401  W=coba                
+I=402  W=cepat               
+I=403  W=cek                 
+I=404  W=cari                
+I=405  W=buat                
+I=406  W=boleh               
+I=407  W=bisa                
+I=408  W=bilang              
+I=409  W=biasanya            
+I=410  W=berminyak           
+I=411  W=bantu               
+I=412  W=bangun              
+I=413  W=ada                 
+I=414  W=saya                
+I=415  W=!NULL               
+I=416  W=kita                
+I=417  W=kamu                
+I=418  W=waktu               
+I=419  W=umur                
+I=420  W=tulisin             
+I=421  W=terakhir            
+I=422  W=tanda               
+I=423  W=suhu                
+I=424  W=sudah               
+I=425  W=stroke              
+I=426  W=sma                 
+I=427  W=serangan            
+I=428  W=semisal             
+I=429  W=sekitar             
+I=430  W=seharian            
+I=431  W=sehari              
+I=432  W=sebentar            
+I=433  W=satu                
+I=434  W=riwayat             
+I=435  W=rasanya             
+I=436  W=rasa                
+I=437  W=posisinya           
+I=438  W=pilek               
+I=439  W=pereda              
+I=440  W=penglihatanmu       
+I=441  W=pedas               
+I=442  W=pandangannya        
+I=443  W=pandangan           
+I=444  W=pagi                
+I=445  W=pak                 
+I=446  W=paracetamol         
+I=447  W=ototmu              
+I=448  W=putih               
+I=449  W=perutnya            
+I=450  W=perut               
+I=451  W=pernafasan          
+I=452  W=punggung            
+I=453  W=rumah               
+I=454  W=sembilan            
+I=455  W=tenggorokan         
+I=456  W=ubin                
+I=457  W=penyakit            
+I=458  W=normal              
+I=459  W=natural             
+I=460  W=nanti               
+I=461  W=nafsu               
+I=462  W=misal               
+I=463  W=minggu              
+I=464  W=mimpi               
+I=465  W=merah               
+I=466  W=masalah             
+I=467  W=malem               
+I=468  W=malam               
+I=469  W=maksudnya           
+I=470  W=makanan             
+I=471  W=lokal               
+I=472  W=lukanya             
+I=473  W=lambung             
+I=474  W=kesehatan           
+I=475  W=list                
+I=476  W=layar               
+I=477  W=kopi                
+I=478  W=koma                
+I=479  W=kiri                
+I=480  W=kemarin             
+I=481  W=keluhannya          
+I=482  W=keluhan             
+I=483  W=keluarga            
+I=484  W=kasih               
+I=485  W=kanan               
+I=486  W=jantungnya          
+I=487  W=insomnia            
+I=488  W=ibuprofen           
+I=489  W=ibu                 
+I=490  W=hal                 
+I=491  W=hijau               
+I=492  W=hari                
+I=493  W=gelas               
+I=494  W=gejalanya           
+I=495  W=gejala              
+I=496  W=form                
+I=497  W=flu                 
+I=498  W=empat               
+I=499  W=dulu                
+I=500  W=enam                
+I=501  W=donor               
+I=502  W=kaki                
+I=503  W=jam                 
+I=504  W=kepala              
+I=505  W=lima                
+I=506  W=sayurannya          
+I=507  W=sayuran             
+I=508  W=sepuluh             
+I=509  W=tiga                
+I=510  W=tujuh               
+I=511  W=dua                 
+I=512  W=obatnya             
+I=513  W=kayu                
+I=514  W=minyak              
+I=515  W=minuman             
+I=516  W=obat                
+I=517  W=obatan              
+I=518  W=otot                
+I=519  W=orang               
+I=520  W=pepaya              
+I=521  W=pisang              
+I=522  W=sendi               
+I=523  W=wajah               
+I=524  W=jantung             
+I=525  W=gastritis           
+I=526  W=garam               
+I=527  W=dokter              
+I=528  W=dok                 
+I=529  W=derajat             
+I=530  W=depan               
+I=531  W=darahnya            
+I=532  W=darah               
+I=533  W=dada                
+I=534  W=ct                  
+I=535  W=celcius             
+I=536  W=bulan               
+I=537  W=buah                
+I=538  W=bu                  
+I=539  W=bius                
+I=540  W=berpengaruh         
+I=541  W=belakangan          
+I=542  W=batuk               
+I=543  W=bapak               
+I=544  W=balik               
+I=545  W=bagian              
+I=546  W=badan               
+I=547  W=ayah                
+I=548  W=awal                
+I=549  W=arteri              
+I=550  W=apotek              
+I=551  W=apel                
+I=552  W=anu                 
+I=553  W=antidepressan       
+I=554  W=angka               
+I=555  W=alkohol             
+I=556  W=alergi              
+I=557  W=aja                 
+I=558  W=air                 
+I=559  W=ahmad               
+I=560  W=acetaminofen        
+I=561  W=!NULL               
+I=562  W=!NULL               
+J=0     S=45   E=0    
+J=1     S=0    E=1    
+J=2     S=2    E=1    
+J=3     S=3    E=1    
+J=4     S=4    E=1    
+J=5     S=5    E=1    
+J=6     S=6    E=1    
+J=7     S=7    E=1    
+J=8     S=8    E=1    
+J=9     S=9    E=1    
+J=10    S=10   E=1    
+J=11    S=11   E=1    
+J=12    S=12   E=1    
+J=13    S=13   E=1    
+J=14    S=14   E=1    
+J=15    S=15   E=1    
+J=16    S=16   E=1    
+J=17    S=17   E=1    
+J=18    S=18   E=1    
+J=19    S=19   E=1    
+J=20    S=20   E=1    
+J=21    S=21   E=1    
+J=22    S=22   E=1    
+J=23    S=23   E=1    
+J=24    S=24   E=1    
+J=25    S=25   E=1    
+J=26    S=26   E=1    
+J=27    S=27   E=1    
+J=28    S=28   E=1    
+J=29    S=29   E=1    
+J=30    S=30   E=1    
+J=31    S=31   E=1    
+J=32    S=32   E=1    
+J=33    S=33   E=1    
+J=34    S=34   E=1    
+J=35    S=35   E=1    
+J=36    S=36   E=1    
+J=37    S=37   E=1    
+J=38    S=38   E=1    
+J=39    S=39   E=1    
+J=40    S=40   E=1    
+J=41    S=41   E=1    
+J=42    S=42   E=1    
+J=43    S=43   E=1    
+J=44    S=45   E=2    
+J=45    S=45   E=3    
+J=46    S=45   E=4    
+J=47    S=45   E=5    
+J=48    S=45   E=6    
+J=49    S=45   E=7    
+J=50    S=45   E=8    
+J=51    S=45   E=9    
+J=52    S=45   E=10   
+J=53    S=45   E=11   
+J=54    S=45   E=12   
+J=55    S=45   E=13   
+J=56    S=45   E=14   
+J=57    S=45   E=15   
+J=58    S=45   E=16   
+J=59    S=45   E=17   
+J=60    S=45   E=18   
+J=61    S=45   E=19   
+J=62    S=45   E=20   
+J=63    S=45   E=21   
+J=64    S=45   E=22   
+J=65    S=45   E=23   
+J=66    S=45   E=24   
+J=67    S=45   E=25   
+J=68    S=45   E=26   
+J=69    S=45   E=27   
+J=70    S=45   E=28   
+J=71    S=45   E=29   
+J=72    S=45   E=30   
+J=73    S=45   E=31   
+J=74    S=45   E=32   
+J=75    S=45   E=33   
+J=76    S=45   E=34   
+J=77    S=45   E=35   
+J=78    S=45   E=36   
+J=79    S=45   E=37   
+J=80    S=45   E=38   
+J=81    S=45   E=39   
+J=82    S=45   E=40   
+J=83    S=45   E=41   
+J=84    S=45   E=42   
+J=85    S=45   E=43   
+J=86    S=170  E=44   
+J=87    S=44   E=45   
+J=88    S=46   E=45   
+J=89    S=47   E=45   
+J=90    S=48   E=45   
+J=91    S=49   E=45   
+J=92    S=50   E=45   
+J=93    S=51   E=45   
+J=94    S=52   E=45   
+J=95    S=53   E=45   
+J=96    S=54   E=45   
+J=97    S=55   E=45   
+J=98    S=56   E=45   
+J=99    S=57   E=45   
+J=100   S=58   E=45   
+J=101   S=59   E=45   
+J=102   S=60   E=45   
+J=103   S=61   E=45   
+J=104   S=62   E=45   
+J=105   S=63   E=45   
+J=106   S=64   E=45   
+J=107   S=65   E=45   
+J=108   S=66   E=45   
+J=109   S=67   E=45   
+J=110   S=68   E=45   
+J=111   S=69   E=45   
+J=112   S=70   E=45   
+J=113   S=71   E=45   
+J=114   S=72   E=45   
+J=115   S=73   E=45   
+J=116   S=74   E=45   
+J=117   S=75   E=45   
+J=118   S=76   E=45   
+J=119   S=77   E=45   
+J=120   S=78   E=45   
+J=121   S=79   E=45   
+J=122   S=80   E=45   
+J=123   S=81   E=45   
+J=124   S=82   E=45   
+J=125   S=83   E=45   
+J=126   S=84   E=45   
+J=127   S=85   E=45   
+J=128   S=86   E=45   
+J=129   S=87   E=45   
+J=130   S=88   E=45   
+J=131   S=89   E=45   
+J=132   S=90   E=45   
+J=133   S=91   E=45   
+J=134   S=92   E=45   
+J=135   S=93   E=45   
+J=136   S=94   E=45   
+J=137   S=95   E=45   
+J=138   S=96   E=45   
+J=139   S=97   E=45   
+J=140   S=98   E=45   
+J=141   S=99   E=45   
+J=142   S=100  E=45   
+J=143   S=101  E=45   
+J=144   S=102  E=45   
+J=145   S=103  E=45   
+J=146   S=104  E=45   
+J=147   S=105  E=45   
+J=148   S=106  E=45   
+J=149   S=107  E=45   
+J=150   S=108  E=45   
+J=151   S=109  E=45   
+J=152   S=110  E=45   
+J=153   S=111  E=45   
+J=154   S=112  E=45   
+J=155   S=113  E=45   
+J=156   S=114  E=45   
+J=157   S=115  E=45   
+J=158   S=116  E=45   
+J=159   S=117  E=45   
+J=160   S=118  E=45   
+J=161   S=119  E=45   
+J=162   S=120  E=45   
+J=163   S=121  E=45   
+J=164   S=122  E=45   
+J=165   S=123  E=45   
+J=166   S=124  E=45   
+J=167   S=125  E=45   
+J=168   S=126  E=45   
+J=169   S=127  E=45   
+J=170   S=128  E=45   
+J=171   S=129  E=45   
+J=172   S=130  E=45   
+J=173   S=131  E=45   
+J=174   S=132  E=45   
+J=175   S=133  E=45   
+J=176   S=134  E=45   
+J=177   S=135  E=45   
+J=178   S=136  E=45   
+J=179   S=137  E=45   
+J=180   S=138  E=45   
+J=181   S=139  E=45   
+J=182   S=140  E=45   
+J=183   S=141  E=45   
+J=184   S=142  E=45   
+J=185   S=143  E=45   
+J=186   S=144  E=45   
+J=187   S=145  E=45   
+J=188   S=146  E=45   
+J=189   S=147  E=45   
+J=190   S=148  E=45   
+J=191   S=149  E=45   
+J=192   S=150  E=45   
+J=193   S=151  E=45   
+J=194   S=152  E=45   
+J=195   S=153  E=45   
+J=196   S=154  E=45   
+J=197   S=155  E=45   
+J=198   S=156  E=45   
+J=199   S=157  E=45   
+J=200   S=158  E=45   
+J=201   S=159  E=45   
+J=202   S=160  E=45   
+J=203   S=161  E=45   
+J=204   S=162  E=45   
+J=205   S=163  E=45   
+J=206   S=164  E=45   
+J=207   S=165  E=45   
+J=208   S=166  E=45   
+J=209   S=167  E=45   
+J=210   S=168  E=45   
+J=211   S=170  E=46   
+J=212   S=170  E=47   
+J=213   S=170  E=48   
+J=214   S=170  E=49   
+J=215   S=170  E=50   
+J=216   S=170  E=51   
+J=217   S=170  E=52   
+J=218   S=170  E=53   
+J=219   S=170  E=54   
+J=220   S=170  E=55   
+J=221   S=170  E=56   
+J=222   S=170  E=57   
+J=223   S=170  E=58   
+J=224   S=170  E=59   
+J=225   S=170  E=60   
+J=226   S=170  E=61   
+J=227   S=170  E=62   
+J=228   S=170  E=63   
+J=229   S=170  E=64   
+J=230   S=170  E=65   
+J=231   S=170  E=66   
+J=232   S=170  E=67   
+J=233   S=170  E=68   
+J=234   S=170  E=69   
+J=235   S=170  E=70   
+J=236   S=170  E=71   
+J=237   S=170  E=72   
+J=238   S=170  E=73   
+J=239   S=170  E=74   
+J=240   S=170  E=75   
+J=241   S=170  E=76   
+J=242   S=170  E=77   
+J=243   S=170  E=78   
+J=244   S=170  E=79   
+J=245   S=170  E=80   
+J=246   S=170  E=81   
+J=247   S=170  E=82   
+J=248   S=170  E=83   
+J=249   S=170  E=84   
+J=250   S=170  E=85   
+J=251   S=170  E=86   
+J=252   S=170  E=87   
+J=253   S=170  E=88   
+J=254   S=170  E=89   
+J=255   S=170  E=90   
+J=256   S=170  E=91   
+J=257   S=170  E=92   
+J=258   S=170  E=93   
+J=259   S=170  E=94   
+J=260   S=170  E=95   
+J=261   S=170  E=96   
+J=262   S=170  E=97   
+J=263   S=170  E=98   
+J=264   S=170  E=99   
+J=265   S=170  E=100  
+J=266   S=170  E=101  
+J=267   S=170  E=102  
+J=268   S=170  E=103  
+J=269   S=170  E=104  
+J=270   S=170  E=105  
+J=271   S=170  E=106  
+J=272   S=170  E=107  
+J=273   S=170  E=108  
+J=274   S=170  E=109  
+J=275   S=170  E=110  
+J=276   S=170  E=111  
+J=277   S=170  E=112  
+J=278   S=170  E=113  
+J=279   S=170  E=114  
+J=280   S=170  E=115  
+J=281   S=170  E=116  
+J=282   S=170  E=117  
+J=283   S=170  E=118  
+J=284   S=170  E=119  
+J=285   S=170  E=120  
+J=286   S=170  E=121  
+J=287   S=170  E=122  
+J=288   S=170  E=123  
+J=289   S=170  E=124  
+J=290   S=170  E=125  
+J=291   S=170  E=126  
+J=292   S=170  E=127  
+J=293   S=170  E=128  
+J=294   S=170  E=129  
+J=295   S=170  E=130  
+J=296   S=170  E=131  
+J=297   S=170  E=132  
+J=298   S=170  E=133  
+J=299   S=170  E=134  
+J=300   S=170  E=135  
+J=301   S=170  E=136  
+J=302   S=170  E=137  
+J=303   S=170  E=138  
+J=304   S=170  E=139  
+J=305   S=170  E=140  
+J=306   S=170  E=141  
+J=307   S=170  E=142  
+J=308   S=170  E=143  
+J=309   S=170  E=144  
+J=310   S=170  E=145  
+J=311   S=170  E=146  
+J=312   S=170  E=147  
+J=313   S=170  E=148  
+J=314   S=170  E=149  
+J=315   S=170  E=150  
+J=316   S=170  E=151  
+J=317   S=170  E=152  
+J=318   S=170  E=153  
+J=319   S=170  E=154  
+J=320   S=170  E=155  
+J=321   S=170  E=156  
+J=322   S=170  E=157  
+J=323   S=170  E=158  
+J=324   S=170  E=159  
+J=325   S=170  E=160  
+J=326   S=170  E=161  
+J=327   S=170  E=162  
+J=328   S=170  E=163  
+J=329   S=170  E=164  
+J=330   S=170  E=165  
+J=331   S=170  E=166  
+J=332   S=170  E=167  
+J=333   S=170  E=168  
+J=334   S=317  E=169  
+J=335   S=169  E=170  
+J=336   S=171  E=170  
+J=337   S=172  E=170  
+J=338   S=173  E=170  
+J=339   S=174  E=170  
+J=340   S=175  E=170  
+J=341   S=176  E=170  
+J=342   S=177  E=170  
+J=343   S=178  E=170  
+J=344   S=179  E=170  
+J=345   S=180  E=170  
+J=346   S=181  E=170  
+J=347   S=182  E=170  
+J=348   S=183  E=170  
+J=349   S=184  E=170  
+J=350   S=185  E=170  
+J=351   S=186  E=170  
+J=352   S=187  E=170  
+J=353   S=188  E=170  
+J=354   S=189  E=170  
+J=355   S=190  E=170  
+J=356   S=191  E=170  
+J=357   S=192  E=170  
+J=358   S=193  E=170  
+J=359   S=194  E=170  
+J=360   S=195  E=170  
+J=361   S=196  E=170  
+J=362   S=197  E=170  
+J=363   S=198  E=170  
+J=364   S=199  E=170  
+J=365   S=200  E=170  
+J=366   S=201  E=170  
+J=367   S=202  E=170  
+J=368   S=203  E=170  
+J=369   S=204  E=170  
+J=370   S=205  E=170  
+J=371   S=206  E=170  
+J=372   S=207  E=170  
+J=373   S=208  E=170  
+J=374   S=209  E=170  
+J=375   S=210  E=170  
+J=376   S=211  E=170  
+J=377   S=212  E=170  
+J=378   S=213  E=170  
+J=379   S=214  E=170  
+J=380   S=215  E=170  
+J=381   S=216  E=170  
+J=382   S=217  E=170  
+J=383   S=218  E=170  
+J=384   S=219  E=170  
+J=385   S=220  E=170  
+J=386   S=221  E=170  
+J=387   S=222  E=170  
+J=388   S=223  E=170  
+J=389   S=224  E=170  
+J=390   S=225  E=170  
+J=391   S=226  E=170  
+J=392   S=227  E=170  
+J=393   S=228  E=170  
+J=394   S=229  E=170  
+J=395   S=230  E=170  
+J=396   S=231  E=170  
+J=397   S=232  E=170  
+J=398   S=233  E=170  
+J=399   S=234  E=170  
+J=400   S=235  E=170  
+J=401   S=236  E=170  
+J=402   S=237  E=170  
+J=403   S=238  E=170  
+J=404   S=239  E=170  
+J=405   S=240  E=170  
+J=406   S=241  E=170  
+J=407   S=242  E=170  
+J=408   S=243  E=170  
+J=409   S=244  E=170  
+J=410   S=245  E=170  
+J=411   S=246  E=170  
+J=412   S=247  E=170  
+J=413   S=248  E=170  
+J=414   S=249  E=170  
+J=415   S=250  E=170  
+J=416   S=251  E=170  
+J=417   S=252  E=170  
+J=418   S=253  E=170  
+J=419   S=254  E=170  
+J=420   S=255  E=170  
+J=421   S=256  E=170  
+J=422   S=257  E=170  
+J=423   S=258  E=170  
+J=424   S=259  E=170  
+J=425   S=260  E=170  
+J=426   S=261  E=170  
+J=427   S=262  E=170  
+J=428   S=263  E=170  
+J=429   S=264  E=170  
+J=430   S=265  E=170  
+J=431   S=266  E=170  
+J=432   S=267  E=170  
+J=433   S=268  E=170  
+J=434   S=269  E=170  
+J=435   S=270  E=170  
+J=436   S=271  E=170  
+J=437   S=272  E=170  
+J=438   S=273  E=170  
+J=439   S=274  E=170  
+J=440   S=275  E=170  
+J=441   S=276  E=170  
+J=442   S=277  E=170  
+J=443   S=278  E=170  
+J=444   S=279  E=170  
+J=445   S=280  E=170  
+J=446   S=281  E=170  
+J=447   S=282  E=170  
+J=448   S=283  E=170  
+J=449   S=284  E=170  
+J=450   S=285  E=170  
+J=451   S=286  E=170  
+J=452   S=287  E=170  
+J=453   S=288  E=170  
+J=454   S=289  E=170  
+J=455   S=290  E=170  
+J=456   S=291  E=170  
+J=457   S=292  E=170  
+J=458   S=293  E=170  
+J=459   S=294  E=170  
+J=460   S=295  E=170  
+J=461   S=296  E=170  
+J=462   S=297  E=170  
+J=463   S=298  E=170  
+J=464   S=299  E=170  
+J=465   S=300  E=170  
+J=466   S=301  E=170  
+J=467   S=302  E=170  
+J=468   S=303  E=170  
+J=469   S=304  E=170  
+J=470   S=305  E=170  
+J=471   S=306  E=170  
+J=472   S=307  E=170  
+J=473   S=308  E=170  
+J=474   S=309  E=170  
+J=475   S=310  E=170  
+J=476   S=311  E=170  
+J=477   S=312  E=170  
+J=478   S=313  E=170  
+J=479   S=314  E=170  
+J=480   S=315  E=170  
+J=481   S=317  E=171  
+J=482   S=317  E=172  
+J=483   S=317  E=173  
+J=484   S=317  E=174  
+J=485   S=317  E=175  
+J=486   S=317  E=176  
+J=487   S=317  E=177  
+J=488   S=317  E=178  
+J=489   S=317  E=179  
+J=490   S=317  E=180  
+J=491   S=317  E=181  
+J=492   S=317  E=182  
+J=493   S=317  E=183  
+J=494   S=317  E=184  
+J=495   S=317  E=185  
+J=496   S=317  E=186  
+J=497   S=317  E=187  
+J=498   S=317  E=188  
+J=499   S=317  E=189  
+J=500   S=317  E=190  
+J=501   S=317  E=191  
+J=502   S=317  E=192  
+J=503   S=317  E=193  
+J=504   S=317  E=194  
+J=505   S=317  E=195  
+J=506   S=317  E=196  
+J=507   S=317  E=197  
+J=508   S=317  E=198  
+J=509   S=317  E=199  
+J=510   S=317  E=200  
+J=511   S=317  E=201  
+J=512   S=317  E=202  
+J=513   S=317  E=203  
+J=514   S=317  E=204  
+J=515   S=317  E=205  
+J=516   S=317  E=206  
+J=517   S=317  E=207  
+J=518   S=317  E=208  
+J=519   S=317  E=209  
+J=520   S=317  E=210  
+J=521   S=317  E=211  
+J=522   S=317  E=212  
+J=523   S=317  E=213  
+J=524   S=317  E=214  
+J=525   S=317  E=215  
+J=526   S=317  E=216  
+J=527   S=317  E=217  
+J=528   S=317  E=218  
+J=529   S=317  E=219  
+J=530   S=317  E=220  
+J=531   S=317  E=221  
+J=532   S=317  E=222  
+J=533   S=317  E=223  
+J=534   S=317  E=224  
+J=535   S=317  E=225  
+J=536   S=317  E=226  
+J=537   S=317  E=227  
+J=538   S=317  E=228  
+J=539   S=317  E=229  
+J=540   S=317  E=230  
+J=541   S=317  E=231  
+J=542   S=317  E=232  
+J=543   S=317  E=233  
+J=544   S=317  E=234  
+J=545   S=317  E=235  
+J=546   S=317  E=236  
+J=547   S=317  E=237  
+J=548   S=317  E=238  
+J=549   S=317  E=239  
+J=550   S=317  E=240  
+J=551   S=317  E=241  
+J=552   S=317  E=242  
+J=553   S=317  E=243  
+J=554   S=317  E=244  
+J=555   S=317  E=245  
+J=556   S=317  E=246  
+J=557   S=317  E=247  
+J=558   S=317  E=248  
+J=559   S=317  E=249  
+J=560   S=317  E=250  
+J=561   S=317  E=251  
+J=562   S=317  E=252  
+J=563   S=317  E=253  
+J=564   S=317  E=254  
+J=565   S=317  E=255  
+J=566   S=317  E=256  
+J=567   S=317  E=257  
+J=568   S=317  E=258  
+J=569   S=317  E=259  
+J=570   S=317  E=260  
+J=571   S=317  E=261  
+J=572   S=317  E=262  
+J=573   S=317  E=263  
+J=574   S=317  E=264  
+J=575   S=317  E=265  
+J=576   S=317  E=266  
+J=577   S=317  E=267  
+J=578   S=317  E=268  
+J=579   S=317  E=269  
+J=580   S=317  E=270  
+J=581   S=317  E=271  
+J=582   S=317  E=272  
+J=583   S=317  E=273  
+J=584   S=317  E=274  
+J=585   S=317  E=275  
+J=586   S=317  E=276  
+J=587   S=317  E=277  
+J=588   S=317  E=278  
+J=589   S=317  E=279  
+J=590   S=317  E=280  
+J=591   S=317  E=281  
+J=592   S=317  E=282  
+J=593   S=317  E=283  
+J=594   S=317  E=284  
+J=595   S=317  E=285  
+J=596   S=317  E=286  
+J=597   S=317  E=287  
+J=598   S=317  E=288  
+J=599   S=317  E=289  
+J=600   S=317  E=290  
+J=601   S=317  E=291  
+J=602   S=317  E=292  
+J=603   S=317  E=293  
+J=604   S=317  E=294  
+J=605   S=317  E=295  
+J=606   S=317  E=296  
+J=607   S=317  E=297  
+J=608   S=317  E=298  
+J=609   S=317  E=299  
+J=610   S=317  E=300  
+J=611   S=317  E=301  
+J=612   S=317  E=302  
+J=613   S=317  E=303  
+J=614   S=317  E=304  
+J=615   S=317  E=305  
+J=616   S=317  E=306  
+J=617   S=317  E=307  
+J=618   S=317  E=308  
+J=619   S=317  E=309  
+J=620   S=317  E=310  
+J=621   S=317  E=311  
+J=622   S=317  E=312  
+J=623   S=317  E=313  
+J=624   S=317  E=314  
+J=625   S=317  E=315  
+J=626   S=415  E=316  
+J=627   S=316  E=317  
+J=628   S=318  E=317  
+J=629   S=319  E=317  
+J=630   S=320  E=317  
+J=631   S=321  E=317  
+J=632   S=322  E=317  
+J=633   S=323  E=317  
+J=634   S=324  E=317  
+J=635   S=325  E=317  
+J=636   S=326  E=317  
+J=637   S=327  E=317  
+J=638   S=328  E=317  
+J=639   S=329  E=317  
+J=640   S=330  E=317  
+J=641   S=331  E=317  
+J=642   S=332  E=317  
+J=643   S=333  E=317  
+J=644   S=334  E=317  
+J=645   S=335  E=317  
+J=646   S=336  E=317  
+J=647   S=337  E=317  
+J=648   S=338  E=317  
+J=649   S=339  E=317  
+J=650   S=340  E=317  
+J=651   S=341  E=317  
+J=652   S=342  E=317  
+J=653   S=343  E=317  
+J=654   S=344  E=317  
+J=655   S=345  E=317  
+J=656   S=346  E=317  
+J=657   S=347  E=317  
+J=658   S=348  E=317  
+J=659   S=349  E=317  
+J=660   S=350  E=317  
+J=661   S=351  E=317  
+J=662   S=352  E=317  
+J=663   S=353  E=317  
+J=664   S=354  E=317  
+J=665   S=355  E=317  
+J=666   S=356  E=317  
+J=667   S=357  E=317  
+J=668   S=358  E=317  
+J=669   S=359  E=317  
+J=670   S=360  E=317  
+J=671   S=361  E=317  
+J=672   S=362  E=317  
+J=673   S=363  E=317  
+J=674   S=364  E=317  
+J=675   S=365  E=317  
+J=676   S=366  E=317  
+J=677   S=367  E=317  
+J=678   S=368  E=317  
+J=679   S=369  E=317  
+J=680   S=370  E=317  
+J=681   S=371  E=317  
+J=682   S=372  E=317  
+J=683   S=373  E=317  
+J=684   S=374  E=317  
+J=685   S=375  E=317  
+J=686   S=376  E=317  
+J=687   S=377  E=317  
+J=688   S=378  E=317  
+J=689   S=379  E=317  
+J=690   S=380  E=317  
+J=691   S=381  E=317  
+J=692   S=382  E=317  
+J=693   S=383  E=317  
+J=694   S=384  E=317  
+J=695   S=385  E=317  
+J=696   S=386  E=317  
+J=697   S=387  E=317  
+J=698   S=388  E=317  
+J=699   S=389  E=317  
+J=700   S=390  E=317  
+J=701   S=391  E=317  
+J=702   S=392  E=317  
+J=703   S=393  E=317  
+J=704   S=394  E=317  
+J=705   S=395  E=317  
+J=706   S=396  E=317  
+J=707   S=397  E=317  
+J=708   S=398  E=317  
+J=709   S=399  E=317  
+J=710   S=400  E=317  
+J=711   S=401  E=317  
+J=712   S=402  E=317  
+J=713   S=403  E=317  
+J=714   S=404  E=317  
+J=715   S=405  E=317  
+J=716   S=406  E=317  
+J=717   S=407  E=317  
+J=718   S=408  E=317  
+J=719   S=409  E=317  
+J=720   S=410  E=317  
+J=721   S=411  E=317  
+J=722   S=412  E=317  
+J=723   S=413  E=317  
+J=724   S=415  E=318  
+J=725   S=415  E=319  
+J=726   S=415  E=320  
+J=727   S=415  E=321  
+J=728   S=415  E=322  
+J=729   S=415  E=323  
+J=730   S=415  E=324  
+J=731   S=415  E=325  
+J=732   S=415  E=326  
+J=733   S=415  E=327  
+J=734   S=415  E=328  
+J=735   S=415  E=329  
+J=736   S=415  E=330  
+J=737   S=415  E=331  
+J=738   S=415  E=332  
+J=739   S=415  E=333  
+J=740   S=415  E=334  
+J=741   S=415  E=335  
+J=742   S=415  E=336  
+J=743   S=415  E=337  
+J=744   S=415  E=338  
+J=745   S=415  E=339  
+J=746   S=415  E=340  
+J=747   S=415  E=341  
+J=748   S=415  E=342  
+J=749   S=415  E=343  
+J=750   S=415  E=344  
+J=751   S=415  E=345  
+J=752   S=415  E=346  
+J=753   S=415  E=347  
+J=754   S=415  E=348  
+J=755   S=415  E=349  
+J=756   S=415  E=350  
+J=757   S=415  E=351  
+J=758   S=415  E=352  
+J=759   S=415  E=353  
+J=760   S=415  E=354  
+J=761   S=415  E=355  
+J=762   S=415  E=356  
+J=763   S=415  E=357  
+J=764   S=415  E=358  
+J=765   S=415  E=359  
+J=766   S=415  E=360  
+J=767   S=415  E=361  
+J=768   S=415  E=362  
+J=769   S=415  E=363  
+J=770   S=415  E=364  
+J=771   S=415  E=365  
+J=772   S=415  E=366  
+J=773   S=415  E=367  
+J=774   S=415  E=368  
+J=775   S=415  E=369  
+J=776   S=415  E=370  
+J=777   S=415  E=371  
+J=778   S=415  E=372  
+J=779   S=415  E=373  
+J=780   S=415  E=374  
+J=781   S=415  E=375  
+J=782   S=415  E=376  
+J=783   S=415  E=377  
+J=784   S=415  E=378  
+J=785   S=415  E=379  
+J=786   S=415  E=380  
+J=787   S=415  E=381  
+J=788   S=415  E=382  
+J=789   S=415  E=383  
+J=790   S=415  E=384  
+J=791   S=415  E=385  
+J=792   S=415  E=386  
+J=793   S=415  E=387  
+J=794   S=415  E=388  
+J=795   S=415  E=389  
+J=796   S=415  E=390  
+J=797   S=415  E=391  
+J=798   S=415  E=392  
+J=799   S=415  E=393  
+J=800   S=415  E=394  
+J=801   S=415  E=395  
+J=802   S=415  E=396  
+J=803   S=415  E=397  
+J=804   S=415  E=398  
+J=805   S=415  E=399  
+J=806   S=415  E=400  
+J=807   S=415  E=401  
+J=808   S=415  E=402  
+J=809   S=415  E=403  
+J=810   S=415  E=404  
+J=811   S=415  E=405  
+J=812   S=415  E=406  
+J=813   S=415  E=407  
+J=814   S=415  E=408  
+J=815   S=415  E=409  
+J=816   S=415  E=410  
+J=817   S=415  E=411  
+J=818   S=415  E=412  
+J=819   S=415  E=413  
+J=820   S=562  E=414  
+J=821   S=414  E=415  
+J=822   S=416  E=415  
+J=823   S=417  E=415  
+J=824   S=418  E=415  
+J=825   S=419  E=415  
+J=826   S=420  E=415  
+J=827   S=421  E=415  
+J=828   S=422  E=415  
+J=829   S=423  E=415  
+J=830   S=424  E=415  
+J=831   S=425  E=415  
+J=832   S=426  E=415  
+J=833   S=427  E=415  
+J=834   S=428  E=415  
+J=835   S=429  E=415  
+J=836   S=430  E=415  
+J=837   S=431  E=415  
+J=838   S=432  E=415  
+J=839   S=433  E=415  
+J=840   S=434  E=415  
+J=841   S=435  E=415  
+J=842   S=436  E=415  
+J=843   S=437  E=415  
+J=844   S=438  E=415  
+J=845   S=439  E=415  
+J=846   S=440  E=415  
+J=847   S=441  E=415  
+J=848   S=442  E=415  
+J=849   S=443  E=415  
+J=850   S=444  E=415  
+J=851   S=445  E=415  
+J=852   S=446  E=415  
+J=853   S=447  E=415  
+J=854   S=448  E=415  
+J=855   S=449  E=415  
+J=856   S=450  E=415  
+J=857   S=451  E=415  
+J=858   S=452  E=415  
+J=859   S=453  E=415  
+J=860   S=454  E=415  
+J=861   S=455  E=415  
+J=862   S=456  E=415  
+J=863   S=457  E=415  
+J=864   S=458  E=415  
+J=865   S=459  E=415  
+J=866   S=460  E=415  
+J=867   S=461  E=415  
+J=868   S=462  E=415  
+J=869   S=463  E=415  
+J=870   S=464  E=415  
+J=871   S=465  E=415  
+J=872   S=466  E=415  
+J=873   S=467  E=415  
+J=874   S=468  E=415  
+J=875   S=469  E=415  
+J=876   S=470  E=415  
+J=877   S=471  E=415  
+J=878   S=472  E=415  
+J=879   S=473  E=415  
+J=880   S=474  E=415  
+J=881   S=475  E=415  
+J=882   S=476  E=415  
+J=883   S=477  E=415  
+J=884   S=478  E=415  
+J=885   S=479  E=415  
+J=886   S=480  E=415  
+J=887   S=481  E=415  
+J=888   S=482  E=415  
+J=889   S=483  E=415  
+J=890   S=484  E=415  
+J=891   S=485  E=415  
+J=892   S=486  E=415  
+J=893   S=487  E=415  
+J=894   S=488  E=415  
+J=895   S=489  E=415  
+J=896   S=490  E=415  
+J=897   S=491  E=415  
+J=898   S=492  E=415  
+J=899   S=493  E=415  
+J=900   S=494  E=415  
+J=901   S=495  E=415  
+J=902   S=496  E=415  
+J=903   S=497  E=415  
+J=904   S=498  E=415  
+J=905   S=499  E=415  
+J=906   S=500  E=415  
+J=907   S=501  E=415  
+J=908   S=502  E=415  
+J=909   S=503  E=415  
+J=910   S=504  E=415  
+J=911   S=505  E=415  
+J=912   S=506  E=415  
+J=913   S=507  E=415  
+J=914   S=508  E=415  
+J=915   S=509  E=415  
+J=916   S=510  E=415  
+J=917   S=511  E=415  
+J=918   S=512  E=415  
+J=919   S=513  E=415  
+J=920   S=514  E=415  
+J=921   S=515  E=415  
+J=922   S=516  E=415  
+J=923   S=517  E=415  
+J=924   S=518  E=415  
+J=925   S=519  E=415  
+J=926   S=520  E=415  
+J=927   S=521  E=415  
+J=928   S=522  E=415  
+J=929   S=523  E=415  
+J=930   S=524  E=415  
+J=931   S=525  E=415  
+J=932   S=526  E=415  
+J=933   S=527  E=415  
+J=934   S=528  E=415  
+J=935   S=529  E=415  
+J=936   S=530  E=415  
+J=937   S=531  E=415  
+J=938   S=532  E=415  
+J=939   S=533  E=415  
+J=940   S=534  E=415  
+J=941   S=535  E=415  
+J=942   S=536  E=415  
+J=943   S=537  E=415  
+J=944   S=538  E=415  
+J=945   S=539  E=415  
+J=946   S=540  E=415  
+J=947   S=541  E=415  
+J=948   S=542  E=415  
+J=949   S=543  E=415  
+J=950   S=544  E=415  
+J=951   S=545  E=415  
+J=952   S=546  E=415  
+J=953   S=547  E=415  
+J=954   S=548  E=415  
+J=955   S=549  E=415  
+J=956   S=550  E=415  
+J=957   S=551  E=415  
+J=958   S=552  E=415  
+J=959   S=553  E=415  
+J=960   S=554  E=415  
+J=961   S=555  E=415  
+J=962   S=556  E=415  
+J=963   S=557  E=415  
+J=964   S=558  E=415  
+J=965   S=559  E=415  
+J=966   S=560  E=415  
+J=967   S=562  E=416  
+J=968   S=562  E=417  
+J=969   S=562  E=418  
+J=970   S=562  E=419  
+J=971   S=562  E=420  
+J=972   S=562  E=421  
+J=973   S=562  E=422  
+J=974   S=562  E=423  
+J=975   S=562  E=424  
+J=976   S=562  E=425  
+J=977   S=562  E=426  
+J=978   S=562  E=427  
+J=979   S=562  E=428  
+J=980   S=562  E=429  
+J=981   S=562  E=430  
+J=982   S=562  E=431  
+J=983   S=562  E=432  
+J=984   S=562  E=433  
+J=985   S=562  E=434  
+J=986   S=562  E=435  
+J=987   S=562  E=436  
+J=988   S=562  E=437  
+J=989   S=562  E=438  
+J=990   S=562  E=439  
+J=991   S=562  E=440  
+J=992   S=562  E=441  
+J=993   S=562  E=442  
+J=994   S=562  E=443  
+J=995   S=562  E=444  
+J=996   S=562  E=445  
+J=997   S=562  E=446  
+J=998   S=562  E=447  
+J=999   S=562  E=448  
+J=1000  S=562  E=449  
+J=1001  S=562  E=450  
+J=1002  S=562  E=451  
+J=1003  S=562  E=452  
+J=1004  S=562  E=453  
+J=1005  S=562  E=454  
+J=1006  S=562  E=455  
+J=1007  S=562  E=456  
+J=1008  S=562  E=457  
+J=1009  S=562  E=458  
+J=1010  S=562  E=459  
+J=1011  S=562  E=460  
+J=1012  S=562  E=461  
+J=1013  S=562  E=462  
+J=1014  S=562  E=463  
+J=1015  S=562  E=464  
+J=1016  S=562  E=465  
+J=1017  S=562  E=466  
+J=1018  S=562  E=467  
+J=1019  S=562  E=468  
+J=1020  S=562  E=469  
+J=1021  S=562  E=470  
+J=1022  S=562  E=471  
+J=1023  S=562  E=472  
+J=1024  S=562  E=473  
+J=1025  S=562  E=474  
+J=1026  S=562  E=475  
+J=1027  S=562  E=476  
+J=1028  S=562  E=477  
+J=1029  S=562  E=478  
+J=1030  S=562  E=479  
+J=1031  S=562  E=480  
+J=1032  S=562  E=481  
+J=1033  S=562  E=482  
+J=1034  S=562  E=483  
+J=1035  S=562  E=484  
+J=1036  S=562  E=485  
+J=1037  S=562  E=486  
+J=1038  S=562  E=487  
+J=1039  S=562  E=488  
+J=1040  S=562  E=489  
+J=1041  S=562  E=490  
+J=1042  S=562  E=491  
+J=1043  S=562  E=492  
+J=1044  S=562  E=493  
+J=1045  S=562  E=494  
+J=1046  S=562  E=495  
+J=1047  S=562  E=496  
+J=1048  S=562  E=497  
+J=1049  S=562  E=498  
+J=1050  S=562  E=499  
+J=1051  S=562  E=500  
+J=1052  S=562  E=501  
+J=1053  S=562  E=502  
+J=1054  S=562  E=503  
+J=1055  S=562  E=504  
+J=1056  S=562  E=505  
+J=1057  S=562  E=506  
+J=1058  S=562  E=507  
+J=1059  S=562  E=508  
+J=1060  S=562  E=509  
+J=1061  S=562  E=510  
+J=1062  S=562  E=511  
+J=1063  S=562  E=512  
+J=1064  S=562  E=513  
+J=1065  S=562  E=514  
+J=1066  S=562  E=515  
+J=1067  S=562  E=516  
+J=1068  S=562  E=517  
+J=1069  S=562  E=518  
+J=1070  S=562  E=519  
+J=1071  S=562  E=520  
+J=1072  S=562  E=521  
+J=1073  S=562  E=522  
+J=1074  S=562  E=523  
+J=1075  S=562  E=524  
+J=1076  S=562  E=525  
+J=1077  S=562  E=526  
+J=1078  S=562  E=527  
+J=1079  S=562  E=528  
+J=1080  S=562  E=529  
+J=1081  S=562  E=530  
+J=1082  S=562  E=531  
+J=1083  S=562  E=532  
+J=1084  S=562  E=533  
+J=1085  S=562  E=534  
+J=1086  S=562  E=535  
+J=1087  S=562  E=536  
+J=1088  S=562  E=537  
+J=1089  S=562  E=538  
+J=1090  S=562  E=539  
+J=1091  S=562  E=540  
+J=1092  S=562  E=541  
+J=1093  S=562  E=542  
+J=1094  S=562  E=543  
+J=1095  S=562  E=544  
+J=1096  S=562  E=545  
+J=1097  S=562  E=546  
+J=1098  S=562  E=547  
+J=1099  S=562  E=548  
+J=1100  S=562  E=549  
+J=1101  S=562  E=550  
+J=1102  S=562  E=551  
+J=1103  S=562  E=552  
+J=1104  S=562  E=553  
+J=1105  S=562  E=554  
+J=1106  S=562  E=555  
+J=1107  S=562  E=556  
+J=1108  S=562  E=557  
+J=1109  S=562  E=558  
+J=1110  S=562  E=559  
+J=1111  S=562  E=560  
+J=1112  S=1    E=561  
+J=1113  S=45   E=561  
