@@ -6,7 +6,6 @@ alergi |
 alkohol | 
 angka | 
 antidepressan | 
-anu | 
 apel | 
 apotek | 
 arteri | 
@@ -335,11 +334,7 @@ biar |
 dan | 
 dari | 
 di | 
-deh | 
 doang | 
-eeh | 
-eh | 
-em | 
 gimana | 
 hai | 
 halo | 
@@ -354,7 +349,6 @@ karena |
 ke | 
 kenapa | 
 mana | 
-nih | 
 ok | 
 oke | 
 sambil | 
@@ -363,7 +357,6 @@ sejak |
 selain | 
 sepertinya | 
 tapi | 
-sih | 
 tentang | 
 untuk | 
 ya | 
@@ -376,7 +369,7 @@ sejam |
 seminggu | 
 semua;
 
-( 
+(  
         ( $kataBenda ) 
         ( $kataKerja ) 
         ( $kataBenda ) 
